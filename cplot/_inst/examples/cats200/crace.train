@@ -1,0 +1,655 @@
+# Command line:
+  BATCH FILE: /home/ysxiao/race/experiments/profile-mpi 
+  BINDIR: /home/ysxiao/race/dev_crace/dev-versions/dev-ins 
+  EXECDIR: /home/ysxiao/race/experiments/crace-25.10/time/cats200/ins/p32n2/exp-01 
+  JOBNAME: ins.cats232-01 
+  MACHINE NAME: Epyc7452
+  START TIME: 2025-10-16 22:23:17
+#------------------------------------------------------------------------------
+# Arguments: ['--exec-dir', '/home/ysxiao/race/experiments/crace-25.10/time/cats200/ins/p32n2/exp-01', '--parallel', '31', '--seed', '6289080', '--mpi', 'True', '--scenario', '/home/ysxiao/race/experiments/crace-25.10/time/cats200/scenario.txt', '--num-configurations', '62', '--bound-max-dev', '17.3']
+# Reading crace options..
+# Reading scenario file /home/ysxiao/race/experiments/crace-25.10/time/cats200/scenario.txt
+#------------------------------------------------------------------------------
+# crace: An implementation in python of a continuous Racing
+# Version: dev-2510-ins
+# Copyright (C) 2020
+# Leslie Pérez Cáceres     <leslie.perez@pucv.cl>
+# Franco Ardiles
+# Jonas Kuckling
+# Pablo Contreras
+# Yunshuang Xiao
+# Thomas Stützle
+#
+# This is free software, and you are welcome to redistribute it under certain
+# conditions.  See the GNU General Public License for details. There is NO
+# WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#
+# installed at: /home/ysxiao/race/dev_crace/dev-versions/dev-ins
+# called with: --exec-dir /home/ysxiao/race/experiments/crace-25.10/time/cats200/ins/p32n2/exp-01 --parallel 31 --seed 6289080 --mpi True --scenario /home/ysxiao/race/experiments/crace-25.10/time/cats200/scenario.txt --num-configurations 62 --bound-max-dev 17.3
+#------------------------------------------------------------------------------
+# Scenario options:
+#   seed: 6289080
+#   debugLevel: 0
+#   logLevel: 0
+#   execDir: /home/ysxiao/race/experiments/crace-25.10/time/cats200/ins/p32n2/exp-01
+#   scenarioFile: /home/ysxiao/race/experiments/crace-25.10/time/cats200/scenario.txt
+#   parameterFile: /home/ysxiao/tuning/crace/scenario_cplex/cplex12-22parameters.txt
+#   configurationsFile: /home/ysxiao/tuning/crace/scenario_cplex/cplex12-22default-noNA.txt
+#   trainInstancesFile: /home/ysxiao/race/instances/mip/cats/training-cats200.txt
+#   sampleInstances: True
+#   testInstancesFile: /home/ysxiao/race/instances/mip/cats/testing-cats200.txt
+#   testNbElites: 1
+#   testType: None
+#   domType: adaptive-dom
+#   eachTest: 1
+#   firstTest: 1
+#   testExperimentSize: 0
+#   confidence: 0.95
+#   targetRunner: /home/ysxiao/tuning/crace/scenario_cplex/target-runner-boundMax
+#   targetRunnerRetries: 3
+#   maxExperiments: 100000
+#   maxTime: 172800
+#   digits: 4
+#   parallel: 31
+#   mpi: True
+#   nbConfigurations: 62
+#   maxNbElites: 6
+#   elitist: True
+#   globalModel: False
+#   modelUpdateByStep: 16
+#   sampleInsStrict: False
+#   sampleInsFrequency: 1
+#   softRestart: True
+#   capping: True
+#   boundMax: 300.0
+#   boundDigits: 5
+#   boundAsTimeout: True
+#------------------------------------------------------------------------------
+# Creating log with log_level 0, debug_level 0 50
+# Running crace configuration procedure
+
+
+# 2025-10-16 22:23:37 CEST: Slice 1 of 17
+# expectSliceBugdet: 10165
+# nbInitialConfigurations:  62
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
+# Each task:
+    Instances: the number of selected instances for current task (sampled instances)
+    Alive: alive configurations in test (in crace)
+    Best: best configuration in test (in crace)
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|        1(1)|     61(61)|           1(1)|        5.11139|           2|       36|       22|       60|       60| 1
+Update instances stream..
+# Current instances stream: [2]
+Cancel experiments of selected instance [1]: [227, 256, 258, 259, 260, 261, 262, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317]
+Update instances stream..
+# Current instances stream: [3]
+Cancel experiments of selected instance [2]: [570, 573, 574, 576, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604]
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-16 22:39:39 CEST:  Update models 1 of 16
+experimentsTestedSoFar:     726
+budgetUsedSoFar:            10173
+remainingBudget:            162626
+nbNewConfigurations:        480 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 255 
+Elite-so-far configuration: 1                mean value: 13.23713
+
+Description of the elite-so-far configuration 1:
+ barrier_limits_growth 1e+12 barrier_algorithm 0 barrier_crossover 0 barrier_limits_corrections -1 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 0 emphasis_numerical no feasopt_mode 0 lpmethod 0 mip_cuts_cliques 0 mip_cuts_covers 0 mip_cuts_disjunctive 0 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 0 mip_cuts_implied 0 mip_cuts_mcfcut 0 mip_cuts_mircut 0 mip_cuts_pathcut 0 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 3 mip_limits_cutsfactor 4 mip_limits_cutpasses 0 mip_limits_gomorycand 200 mip_limits_gomorypass 0 mip_strategy_variableselect 0 mip_submip_nodelimit 500 mip_ordertype 0 mip_strategy_backtrack 0.9999 mip_strategy_bbinterval 7 mip_strategy_branch 0 mip_strategy_dive 0 mip_strategy_file 1 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 1 mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 2 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator -1 preprocessing_boundstrength -1 preprocessing_coeffreduce 2 preprocessing_dependency -1 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 1 preprocessing_numpass -1 preprocessing_reduce 3 preprocessing_relax -1 preprocessing_repeatpresolve -1 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 0 simplex_crash 1 simplex_dgradient 0 simplex_limits_perturbation 0 simplex_limits_singularity 10 simplex_pgradient 0 simplex_pricing 0 simplex_refactor 0 simplex_tolerances_markowitz 0.01
+
+
+# 2025-10-16 22:39:39 CEST: Slice 2 of 17
+# expectSliceBugdet: 10165
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+Update instances stream..
+# Current instances stream: [4]
+Cancel experiments of selected instance [3]: [824, 826, 838, 848, 853, 855, 857, 859, 861, 862, 863, 865, 867, 869, 871, 872, 873, 875, 877, 878, 879, 880, 881, 883, 884, 885, 886, 887, 888, 890, 891]
+|-|        1(4)|   284(284)|       258(258)|        8.36928|         772|     1062|    10960|      283|      283| 258
+|-|        1(4)|   280(280)|           1(1)|        3.89210|         777|     1069|    11052|      278|      278| 1,258
+|-|        1(5)|     61(61)|           1(1)|        3.89210|        1018|     1407|    15201|      119|       60| 1
+Update instances stream..
+# Current instances stream: [5, 6]
+Cancel experiments of selected instance [4]: [1678, 1680, 1684, 1686, 1688, 1690, 1698, 1704, 1706, 1710, 1712, 1714, 1716, 1718, 1720, 1722, 1724, 1726, 1728, 1730, 1732, 1734, 1736, 1738, 1740, 1742, 1744, 1746, 1748, 1750, 1752, 1754, 1756, 1758, 1760, 1762, 1764, 1766, 1768, 1770, 1772, 1774, 1776, 1778, 1780, 1782, 1784, 1786, 1788, 1790, 1792, 1794, 1796, 1798, 1800, 1802, 1804, 1806, 1808, 1810, 1812]
+Update instances stream..
+# Current instances stream: [6, 7]
+Cancel experiments of selected instance [5]: [2274, 2280, 2282, 2288, 2290, 2292, 2294, 2296, 2298, 2300, 2302, 2304, 2306, 2308, 2310, 2312, 2314, 2316, 2318, 2320, 2322, 2324, 2326, 2328, 2330, 2332, 2334, 2336, 2338, 2340, 2342, 2344, 2346, 2348, 2350, 2352, 2354, 2356, 2358, 2360, 2362, 2364, 2366, 2368, 2370, 2372, 2374, 2376, 2378, 2380, 2382, 2384, 2386, 2388, 2390, 2392, 2394, 2396, 2398, 2400, 2402]
+|-|        1(7)|     61(61)|     1101(1101)|        4.59698|        1674|     1944|    18897|      117|       59| 1101,1
+|-|        1(7)|     61(61)|     1107(1107)|        4.26665|        1678|     1946|    18930|      116|       58| 1107,1101,1
+Update instances stream..
+# Current instances stream: [7, 8]
+Cancel experiments of selected instance [6]: [3092, 3094, 3098, 3100, 3106, 3108, 3110, 3118, 3120, 3122, 3124, 3126, 3128, 3130, 3132, 3134, 3136, 3138, 3140, 3142, 3144, 3146, 3148, 3150, 3152, 3154, 3156, 3158, 3160, 3162, 3164, 3166, 3168, 3170, 3172, 3174, 3176, 3178, 3180, 3182, 3184, 3186, 3188, 3190, 3192, 3194, 3196, 3198, 3200, 3202, 3204, 3206, 3208, 3210, 3212, 3214, 3216, 3218, 3220]
+|-|        1(8)|     61(61)|     1101(1107)|        9.56973|        1936|     2162|    20111|      117|       59| 1107,1101
+|-|        1(8)|     61(61)|     1101(1107)|        9.56973|        1938|     2163|    20144|      116|       58| 1107,1101,1
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-16 22:59:51 CEST:  Update models 2 of 16
+experimentsTestedSoFar:     1950
+budgetUsedSoFar:            20352
+remainingBudget:            152447
+nbNewConfigurations:        942 
+nbNewInstances:             1 
+nbEliminatedConfigurations: 1167 
+Elite-so-far configuration: 1107             mean value: 9.56973
+
+Description of the elite-so-far configuration 1107:
+ barrier_limits_growth 1e+8 barrier_algorithm 1 barrier_crossover 1 barrier_limits_corrections -1 barrier_ordering 0 barrier_startalg 3 emphasis_memory no emphasis_mip 2 emphasis_numerical yes feasopt_mode 2 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers -1 mip_cuts_disjunctive 1 mip_cuts_flowcovers 0 mip_cuts_gomory 1 mip_cuts_gubcovers 0 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 2 mip_cuts_pathcut -1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 2 mip_limits_cutsfactor 4 mip_limits_cutpasses 4 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 2000 mip_ordertype 1 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 0 mip_strategy_branch -1 mip_strategy_dive 1 mip_strategy_file 1 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 80 mip_strategy_lbheur yes mip_strategy_nodeselect 1 mip_strategy_order no mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur -1 mip_strategy_search 2 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 2 simplex_perturbation_switch no preprocessing_aggregator -1 preprocessing_boundstrength -1 preprocessing_coeffreduce 0 preprocessing_dependency -1 preprocessing_dual -1 preprocessing_fill 10 preprocessing_linear 1 preprocessing_numpass 0 preprocessing_reduce 0 preprocessing_relax -1 preprocessing_repeatpresolve 3 preprocessing_symmetry -1 read_scale 1 sifting_algorithm 2 simplex_crash -1 simplex_dgradient 0 simplex_limits_perturbation 64 simplex_limits_singularity 5 simplex_pgradient 3 simplex_pricing 16 simplex_refactor 16 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-16 22:59:51 CEST: Slice 3 of 17
+# expectSliceBugdet: 10164
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|        1(8)|     61(61)|     1101(1107)|        9.56973|        1950|     2173|    20352|      116|       58| 1107,1101,1
+|-|        1(8)|     61(61)|     1532(1532)|       15.78630|        2070|     2336|    22416|      114|       57| 1532,1107,1101,1
+Update instances stream..
+# Current instances stream: [8, 9]
+Cancel experiments of selected instance [7]: [3936, 3938, 3942, 3944, 3946, 3948, 3952, 3954, 3958, 3960, 3962, 3964, 3966, 3968, 3970, 3972, 3974, 3976, 3978, 3980, 3982, 3984, 3986, 3988, 3990, 3992, 3994, 3996, 3998, 4000, 4002, 4004, 4006, 4008, 4010, 4012, 4014, 4016, 4018, 4020, 4022, 4024, 4026, 4028, 4030, 4032, 4034, 4036, 4038, 4040, 4042, 4044, 4046, 4048, 4050, 4052, 4054]
+|-|        1(9)|     61(61)|     1805(1805)|        6.75174|        2351|     2735|    26881|      112|       56| 1805,1532,1107,1101,1
+|-|        1(9)|     61(61)|     2038(2038)|        6.25677|        2594|     2945|    28895|      110|       55| 2038,1805,1532,1107,1101,1
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-16 23:16:01 CEST:  Update models 3 of 16
+experimentsTestedSoFar:     2849
+budgetUsedSoFar:            30518
+remainingBudget:            142281
+nbNewConfigurations:        888 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 888 
+Elite-so-far configuration: 2038             mean value: 6.25677
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-16 23:16:01 CEST: Slice 4 of 17
+# expectSliceBugdet: 10163
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|        1(9)|     61(61)|     2038(2038)|        6.25677|        2849|     3143|    30518|      110|       55| 2038,1805,1532,1107,1101,1
+Update instances stream..
+# Current instances stream: [9, 10]
+Cancel experiments of selected instance [8]: [5010, 5034, 5036, 5040, 5042, 5044, 5048, 5052, 5054, 5056, 5058, 5060, 5062, 5064, 5066, 5068, 5070, 5072, 5074, 5076, 5078, 5080, 5082, 5084, 5086, 5088, 5090, 5092, 5094, 5096, 5098, 5100, 5102, 5104, 5106, 5108, 5110, 5112, 5114, 5116, 5118, 5120, 5122, 5124, 5126, 5128, 5130, 5132, 5134, 5136, 5138, 5140, 5142, 5144, 5146, 5148]
+|-|       1(10)|     61(61)|     2038(2038)|        1.84764|        2850|     3167|    30526|      116|       61| 2038,1,1805,1532,1107,1101
+|-|       1(10)|     61(61)|        1532(1)|        9.82910|        2852|     3172|    30542|      115|       60| 1
+|-|       1(10)|     61(61)|           1(1)|        2.57977|        2854|     3173|    30557|      114|       59| 1,1532
+|-|       1(10)|     61(61)|        2038(1)|        9.74479|        2857|     3174|    30583|      113|       58| 1,1532,2038
+|-|       1(10)|     61(61)|        2038(1)|        9.74479|        2862|     3177|    30626|      112|       57| 1,1532,2038,1805
+|-|       1(10)|     61(61)|        2038(1)|        9.74479|        2867|     3182|    30674|      111|       56| 1,1532,2038,1805,1107
+|-|       1(10)|     61(61)|        2038(1)|        9.74479|        2871|     3186|    30716|      110|       55| 1,1532,2038,1805,1107,1101
+Update instances stream..
+# Current instances stream: [10, 11]
+Cancel experiments of selected instance [9]: [5616, 5628, 5632, 5638, 5640, 5644, 5646, 5650, 5654, 5656, 5658, 5660, 5662, 5664, 5666, 5670, 5672, 5674, 5676, 5678, 5680, 5682, 5684, 5686, 5688, 5690, 5692, 5694, 5696, 5698, 5700, 5702, 5704, 5706, 5708, 5710, 5712, 5714, 5716, 5718, 5720, 5722, 5724, 5726, 5728, 5730, 5732, 5734, 5736, 5738, 5740, 5742, 5744, 5746, 5748, 5750]
+|-|       1(11)|     61(61)|        1532(1)|        9.28245|        3128|     3376|    31725|      114|       59| 1,1532
+|-|       1(11)|     61(61)|        1532(1)|        9.28245|        3133|     3382|    31779|      112|       57| 1,1532,1805,1101
+|-|       1(11)|     61(61)|           1(1)|        4.65908|        3136|     3385|    31815|      111|       56| 1,1532,2038,1805,1101
+|-|       1(11)|     61(61)|        1532(1)|        9.28245|        3143|     3390|    31899|      110|       55| 1,1532,2038,1805,1101,1107
+Update instances stream..
+# Current instances stream: [11, 12]
+Cancel experiments of selected instance [10]: [6238, 6244, 6246, 6252, 6254, 6256, 6260, 6262, 6264, 6268, 6270, 6272, 6274, 6276, 6278, 6280, 6282, 6284, 6288, 6290, 6292, 6294, 6296, 6298, 6300, 6302, 6304, 6306, 6308, 6310, 6312, 6314, 6316, 6318, 6320, 6322, 6324, 6326, 6328, 6330, 6332, 6334, 6336, 6338, 6340, 6342, 6344, 6346, 6348, 6350, 6352, 6354, 6356, 6358, 6360, 6362]
+|-|       1(12)|     61(61)|           1(1)|        4.65908|        3408|     3670|    34471|      115|       60| 1
+|-|       1(12)|     61(61)|           1(1)|        4.65908|        3410|     3672|    34502|      114|       59| 1,1101
+|-|       1(12)|     61(61)|           1(1)|        4.65908|        3412|     3676|    34524|      113|       58| 1,1532,1101
+|-|       1(12)|     61(61)|           1(1)|        4.65908|        3414|     3679|    34548|      112|       57| 1,1532,2038,1101
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       1(12)|     61(61)|           1(1)|        6.64799|        3417|     3682|    34593|      111|       56| 1,1532,2038,1805,1101
+|-|       1(12)|     61(61)|           1(1)|        4.65908|        3421|     3685|    34675|      110|       55| 1,1532,2038,1805,1101,1107
+Update instances stream..
+# Current instances stream: [12, 13]
+Cancel experiments of selected instance [11]: [6852, 6854, 6856, 6858, 6862, 6864, 6866, 6868, 6870, 6872, 6874, 6876, 6878, 6880, 6882, 6884, 6886, 6888, 6890, 6892, 6894, 6896, 6898, 6900, 6902, 6904, 6906, 6908, 6910, 6912, 6914, 6916, 6918, 6920, 6922, 6924, 6926, 6928, 6930, 6932, 6934, 6936, 6938, 6940, 6942, 6944, 6946, 6948, 6950, 6952, 6954, 6956, 6958, 6960, 6962, 6964]
+|-|       1(13)|     61(61)|           1(1)|        6.64799|        3684|     3919|    36353|      115|       60| 1
+|-|       1(13)|     61(61)|           1(1)|        6.64799|        3692|     3924|    36440|      114|       59| 1,1532
+|-|       1(13)|     61(61)|           1(1)|        6.64799|        3694|     3926|    36460|      113|       58| 1,1532,2038
+|-|       1(13)|     61(61)|           1(1)|        6.64799|        3698|     3927|    36503|      112|       57| 1,1532,2038,1805
+|-|       1(13)|     61(61)|           1(1)|        6.64799|        3707|     3932|    36631|      110|       55| 1,1532,2038,1805,1101,1107
+Update instances stream..
+# Current instances stream: [13, 14]
+Cancel experiments of selected instance [12]: [7430, 7444, 7446, 7452, 7458, 7462, 7464, 7466, 7468, 7470, 7472, 7474, 7476, 7478, 7480, 7482, 7484, 7486, 7488, 7492, 7494, 7496, 7498, 7500, 7502, 7504, 7506, 7508, 7510, 7512, 7514, 7516, 7518, 7520, 7522, 7524, 7526, 7528, 7530, 7532, 7534, 7536, 7538, 7540, 7542, 7544, 7546, 7548, 7550, 7552, 7554, 7556, 7558, 7560, 7562, 7564]
+|-|       1(14)|     61(61)|           1(1)|        5.80563|        3958|     4176|    38546|      116|       61| 1,1532,1805,2038,1101,1107
+|-|       1(14)|     61(61)|           1(1)|        5.80563|        3967|     4189|    38663|      115|       61| 1,1532,1805,2038,1101,3398
+|-|       1(14)|     61(61)|        1805(1)|        8.81235|        3969|     4191|    38693|      114|       60| 1
+|-|       1(14)|     61(61)|           1(1)|        5.80563|        3985|     4201|    38911|      110|       56| 1,1532,1805,1101,1107
+|-|       1(14)|     61(61)|           1(1)|        5.80563|        3987|     4205|    38941|      109|       55| 1,1532,1805,2038,1101,1107
+|-|       1(15)|     61(61)|        1101(1)|        9.41861|        4038|     4262|    39520|      164|       60| 1
+|-|       2(15)|     61(61)|     1532(1532)|       12.56316|        4042|     4265|    39573|      163|       58| 1532,1101,1107
+|-|       1(15)|     61(61)|     1532(1532)|        7.82631|        4045|     4270|    39613|      161|       57| 1532,2038,1101,1107
+|-|       3(15)|     61(61)|           1(1)|       13.46854|        4048|     4274|    39654|      162|       57| 1,1532,2038,1107
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       1(16)|     61(61)|           1(1)|        5.80563|        4055|     4279|    39735|      221|       61| 1,1532,1805,2038,1107
+|-|       1(16)|     61(61)|     1532(1532)|        7.82631|        4080|     4302|    39967|      211|       59| 1532,1107
+|-|       1(16)|     61(61)|     1532(1805)|       10.67949|        4084|     4304|    40015|      208|       58| 1805,1532,1107
+|-|       1(16)|     61(61)|     1532(1805)|       10.67949|        4088|     4307|    40041|      207|       57| 1805,2038,1532,1107
+|-|       2(17)|     61(61)|     2038(1107)|       12.75045|        4118|     4338|    40285|      283|       60| 1107
+|-|       5(17)|     61(61)|     2038(2038)|       11.29908|        4131|     4344|    40455|      289|       58| 2038,1532,1805
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-16 23:36:29 CEST:  Update models 4 of 16
+experimentsTestedSoFar:     4153
+budgetUsedSoFar:            40681
+remainingBudget:            132118
+nbNewConfigurations:        1239 
+nbNewInstances:             4 
+nbEliminatedConfigurations: 1239 
+Elite-so-far configuration: 2038             mean value: 9.07211
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-16 23:36:29 CEST: Slice 5 of 17
+# expectSliceBugdet: 10163
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       1(18)|     61(61)|     1532(2038)|        9.07211|        4153|     4372|    40681|      350|       61| 2038,1532,1805
+|-|       1(18)|     61(61)|     2038(2038)|        6.12958|        4163|     4384|    40836|      347|       59| 2038,1805
+|-|       7(19)|     61(61)|     2038(2038)|       11.76174|        4192|     4417|    41245|      407|       60| 2038
+|-|       1(19)|     61(61)|     3557(3557)|        7.22547|        4291|     4519|    42340|      413|       59| 3557,2038
+Update instances stream..
+# Current instances stream: [14, 15, 16, 17, 18, 19, 20]
+Cancel experiments of selected instance [13]: [10695, 10702, 10716, 10723, 10730, 10737, 10744, 10751, 10758, 10765, 10772, 10779, 10786, 10793, 10800, 10807, 10814, 10821, 10828, 10835, 10842, 10849, 10856, 10863, 10870, 10877, 10884, 10891, 10898, 10905, 10912, 10919, 10926, 10933, 10940, 10947, 10954, 10961, 10968, 10975, 10982, 10989, 10996, 11003, 11010, 11017, 11024, 11031, 11038, 11045, 11052, 11059, 11066, 11073, 11080, 11087, 11094, 11101, 11108, 11115]
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-16 23:52:11 CEST:  Update models 5 of 16
+experimentsTestedSoFar:     4927
+budgetUsedSoFar:            50861
+remainingBudget:            121938
+nbNewConfigurations:        484 
+nbNewInstances:             1 
+nbEliminatedConfigurations: 484 
+Elite-so-far configuration: 2038             mean value: 10.29676
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-16 23:52:11 CEST: Slice 6 of 17
+# expectSliceBugdet: 10162
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     3557(3557)|       13.73142|        4927|     5314|    50861|      389|       59| 3557,2038
+|-|       3(20)|     60(60)|     4087(4087)|       13.55147|        5176|     5652|    55110|      367|       57| 4087,3557,2038
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 00:05:19 CEST:  Update models 6 of 16
+experimentsTestedSoFar:     5526
+budgetUsedSoFar:            61032
+remainingBudget:            111767
+nbNewConfigurations:        195 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 195 
+Elite-so-far configuration: 2038             mean value: 10.29676
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-17 00:05:19 CEST: Slice 7 of 17
+# expectSliceBugdet: 10161
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     4087(4087)|       13.55147|        5528|     6103|    61075|      373|       58| 4087,3557,2038
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 00:18:51 CEST:  Update models 7 of 16
+experimentsTestedSoFar:     6126
+budgetUsedSoFar:            71206
+remainingBudget:            101593
+nbNewConfigurations:        201 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 201 
+Elite-so-far configuration: 2038             mean value: 10.29676
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-17 00:18:51 CEST: Slice 8 of 17
+# expectSliceBugdet: 10160
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     4087(4087)|       13.55147|        6127|     6915|    71223|      379|       58| 4087,3557,2038
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 00:32:49 CEST:  Update models 8 of 16
+experimentsTestedSoFar:     6739
+budgetUsedSoFar:            81379
+remainingBudget:            91420
+nbNewConfigurations:        202 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 202 
+Elite-so-far configuration: 2038             mean value: 10.29676
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-17 00:32:49 CEST: Slice 9 of 17
+# expectSliceBugdet: 10158
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     4087(4087)|       13.55147|        6739|     7752|    81379|      373|       58| 4087,3557,2038
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 00:46:17 CEST:  Update models 9 of 16
+experimentsTestedSoFar:     7346
+budgetUsedSoFar:            91542
+remainingBudget:            81257
+nbNewConfigurations:        202 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 202 
+Elite-so-far configuration: 2038             mean value: 10.29676
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-17 00:46:17 CEST: Slice 10 of 17
+# expectSliceBugdet: 10158
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     4087(4087)|       13.55147|        7346|     8560|    91542|      374|       58| 4087,3557,2038
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 01:00:22 CEST:  Update models 10 of 16
+experimentsTestedSoFar:     7962
+budgetUsedSoFar:            101703
+remainingBudget:            71096
+nbNewConfigurations:        208 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 208 
+Elite-so-far configuration: 2038             mean value: 10.29676
+
+Description of the elite-so-far configuration 2038:
+ barrier_limits_growth 1e+10 barrier_algorithm 3 barrier_crossover 2 barrier_limits_corrections 0 barrier_ordering 0 barrier_startalg 1 emphasis_memory no emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 5 mip_cuts_cliques 3 mip_cuts_covers 0 mip_cuts_disjunctive 1 mip_cuts_flowcovers 1 mip_cuts_gomory -1 mip_cuts_gubcovers 0 mip_cuts_implied 2 mip_cuts_mcfcut -1 mip_cuts_mircut -1 mip_cuts_pathcut 1 mip_cuts_zerohalfcut 1 mip_limits_aggforcut 0 mip_limits_cutsfactor 2 mip_limits_cutpasses 1 mip_limits_gomorycand 50 mip_limits_gomorypass 1 mip_strategy_variableselect 0 mip_submip_nodelimit 1000 mip_ordertype 2 mip_strategy_backtrack 0.9 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 1 mip_strategy_file 0 mip_strategy_fpheur -1 mip_strategy_heuristicfreq 0 mip_strategy_lbheur no mip_strategy_nodeselect 0 mip_strategy_order yes mip_strategy_presolvenode 0 mip_strategy_probe 0 mip_strategy_rinsheur 80 mip_strategy_search 0 mip_strategy_startalgorithm 0 mip_strategy_subalgorithm 0 network_netfind 1 network_pricing 0 simplex_perturbation_switch no preprocessing_aggregator 64 preprocessing_boundstrength -1 preprocessing_coeffreduce 1 preprocessing_dependency 1 preprocessing_dual -1 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 4 preprocessing_reduce 3 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry -1 read_scale 0 sifting_algorithm 1 simplex_crash 1 simplex_dgradient 3 simplex_limits_perturbation 64 simplex_limits_singularity 2 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 256 simplex_tolerances_markowitz 0.0001
+
+
+# 2025-10-17 01:00:22 CEST: Slice 11 of 17
+# expectSliceBugdet: 10157
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     4087(4087)|       13.55147|        7970|     9413|   101842|      375|       58| 4087,3557,2038
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 01:14:21 CEST:  Update models 11 of 16
+experimentsTestedSoFar:     8579
+budgetUsedSoFar:            111861
+remainingBudget:            60938
+nbNewConfigurations:        204 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 204 
+Elite-so-far configuration: 4087             mean value: 13.55147
+
+Description of the elite-so-far configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# 2025-10-17 01:14:21 CEST: Slice 12 of 17
+# expectSliceBugdet: 10157
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(20)|     61(61)|     4087(4087)|       13.55147|        8580|    10244|   111879|      377|       58| 4087,3557,2038
+|-|       3(21)|     61(61)|     4087(2038)|       10.29676|        8903|    10659|   116938|      445|       60| 2038
+|-|       3(21)|     61(61)|     4087(4087)|       13.55147|        8906|    10662|   116971|      445|       59| 4087,3557
+|-|       3(22)|     61(61)|     4087(3557)|       11.51339|        8929|    10686|   117312|      509|       60| 3557
+|-|       9(22)|     61(61)|     4087(4087)|       10.20587|        8931|    10690|   117335|      519|       60| 4087
+|-|       4(22)|     61(61)|     5376(5376)|       10.91857|        9115|    10909|   120105|      505|       59| 5376,4087
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 01:28:01 CEST:  Update models 12 of 16
+experimentsTestedSoFar:     9237
+budgetUsedSoFar:            122027
+remainingBudget:            50772
+nbNewConfigurations:        225 
+nbNewInstances:             2 
+nbEliminatedConfigurations: 225 
+Elite-so-far configuration: 4087             mean value: 10.20587
+
+Description of the elite-so-far configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# 2025-10-17 01:28:01 CEST: Slice 13 of 17
+# expectSliceBugdet: 10155
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       3(22)|     61(61)|     5376(5376)|       13.12452|        9238|    11064|   122035|      497|       59| 5376,4087
+|-|       2(22)|     51(51)|     5562(5562)|       15.99640|        9635|    11543|   128221|      421|       48| 5562,5376,4087
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 01:41:16 CEST:  Update models 13 of 16
+experimentsTestedSoFar:     9865
+budgetUsedSoFar:            132185
+remainingBudget:            40614
+nbNewConfigurations:        252 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 252 
+Elite-so-far configuration: 4087             mean value: 10.20587
+
+Description of the elite-so-far configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# 2025-10-17 01:41:16 CEST: Slice 14 of 17
+# expectSliceBugdet: 10154
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       2(22)|     61(61)|     5562(5562)|       15.99640|        9865|    11859|   132185|      509|       58| 5562,5376,4087
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 01:53:55 CEST:  Update models 14 of 16
+experimentsTestedSoFar:     10453
+budgetUsedSoFar:            142354
+remainingBudget:            30445
+nbNewConfigurations:        293 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 293 
+Elite-so-far configuration: 5562             mean value: 15.99640
+
+Description of the elite-so-far configuration 5562:
+ barrier_limits_growth 1e+12 barrier_algorithm 3 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 0 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 2 mip_limits_aggforcut 3 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 250 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 2 mip_strategy_startalgorithm 4 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch no preprocessing_aggregator 1 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 5 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 2 preprocessing_relax 1 preprocessing_repeatpresolve 3 preprocessing_symmetry 5 read_scale -1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 0 simplex_pricing 4 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# 2025-10-17 01:53:55 CEST: Slice 15 of 17
+# expectSliceBugdet: 10149
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       2(22)|     61(61)|     5562(5562)|       15.99640|       10454|    12619|   142372|      506|       58| 5562,5376,4087
+|-|       2(22)|     61(61)|     6125(6125)|       15.98420|       10811|    13124|   148574|      495|       57| 6125,5562,5376,4087
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 02:07:31 CEST:  Update models 15 of 16
+experimentsTestedSoFar:     11044
+budgetUsedSoFar:            152515
+remainingBudget:            20284
+nbNewConfigurations:        287 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 287 
+Elite-so-far configuration: 4087             mean value: 10.20587
+
+Description of the elite-so-far configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# 2025-10-17 02:07:31 CEST: Slice 16 of 17
+# expectSliceBugdet: 10143
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       2(22)|     61(61)|     6125(6125)|       15.98420|       11044|    13433|   152515|      495|       57| 6125,5562,5376,4087
+|-|       2(22)|     61(61)|     6252(6252)|       15.84050|       11054|    13443|   152674|      489|       56| 6252,6125,5562,5376,4087
+|-|       2(22)|     61(61)|     6522(6522)|       15.53210|       11623|    14117|   162321|      483|       55| 6522,6252,6125,5562,5376,4087
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 02:19:26 CEST:  Update models 16 of 16
+experimentsTestedSoFar:     11643
+budgetUsedSoFar:            162663
+remainingBudget:            10136
+nbNewConfigurations:        284 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 284 
+Elite-so-far configuration: 4087             mean value: 10.20587
+
+Description of the elite-so-far configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# 2025-10-17 02:19:26 CEST: Slice 17 of 17
+# expectSliceBugdet: 10137
+# Markers:
+    x No test is performed.
+    - The test is performed and some configurations are discarded
+    . All alive configurations are elite and nothing is discarded
+    c Configurations added to the race by sampling
+    i Instances added to the race based on challenge from elimination test
+    e Instances added to the race based on option expecetInstance
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+| |  Instances |      Alive|           Best|      Mean best| Exp so far |  W time |  T time | E queue | C queue | Elites
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+|-|       2(22)|     61(61)|     6522(6522)|       15.53210|       11643|    14149|   162663|      483|       55| 6522,6252,6125,5562,5376,4087
++-+------------+-----------+---------------+---------------+------------+---------+---------+---------+---------+---------
+2025-10-17 02:31:33 CEST:  Update models 16 of 16
+experimentsTestedSoFar:     12226
+budgetUsedSoFar:            172806
+remainingBudget:            -6
+nbNewConfigurations:        292 
+nbNewInstances:             0 
+nbEliminatedConfigurations: 292 
+Elite-so-far configuration: 4087             mean value: 10.20587
+
+Description of the elite-so-far configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+
+# BUDGET IS EXHAUSTED!
+# nbUsedInstances:            22 
+# nbUsedConfigurations:       6940 
+# nbEliminatedConfigurations (elimination test): 6878 
+# final returned elite configurations: 4087 
+# mean value of the final best configuration 4087 on 22 instances: 10.20587
+
+# Description of the final best configuration 4087:
+ barrier_limits_growth 1e+12 barrier_algorithm 2 barrier_crossover 0 barrier_limits_corrections 0 barrier_ordering 3 barrier_startalg 2 emphasis_memory yes emphasis_mip 1 emphasis_numerical no feasopt_mode 1 lpmethod 3 mip_cuts_cliques 2 mip_cuts_covers 2 mip_cuts_disjunctive 2 mip_cuts_flowcovers 0 mip_cuts_gomory 0 mip_cuts_gubcovers 1 mip_cuts_implied 0 mip_cuts_mcfcut -1 mip_cuts_mircut 1 mip_cuts_pathcut 2 mip_cuts_zerohalfcut 0 mip_limits_aggforcut 5 mip_limits_cutsfactor 8 mip_limits_cutpasses 1 mip_limits_gomorycand 800 mip_limits_gomorypass 16 mip_strategy_variableselect 4 mip_submip_nodelimit 125 mip_ordertype 0 mip_strategy_backtrack 0.99999 mip_strategy_bbinterval 7 mip_strategy_branch 1 mip_strategy_dive 3 mip_strategy_file 0 mip_strategy_fpheur 0 mip_strategy_heuristicfreq 80 mip_strategy_lbheur no mip_strategy_nodeselect 2 mip_strategy_presolvenode 2 mip_strategy_probe 0 mip_strategy_rinsheur 0 mip_strategy_search 1 mip_strategy_startalgorithm 6 mip_strategy_subalgorithm 0 network_netfind 3 network_pricing 1 simplex_perturbation_switch yes perturbation_constant 1e-7 preprocessing_aggregator 4 preprocessing_boundstrength 0 preprocessing_coeffreduce 2 preprocessing_dependency 3 preprocessing_dual 0 preprocessing_fill 10 preprocessing_linear 0 preprocessing_numpass 1 preprocessing_reduce 0 preprocessing_relax 1 preprocessing_repeatpresolve 2 preprocessing_symmetry 5 read_scale 1 sifting_algorithm 3 simplex_crash 0 simplex_dgradient 2 simplex_limits_perturbation 0 simplex_limits_singularity 40 simplex_pgradient 2 simplex_pricing 0 simplex_refactor 64 simplex_tolerances_markowitz 0.5
+
+Before closing
+Pool closed
+Master stopped
+Shutdown complete
+
+

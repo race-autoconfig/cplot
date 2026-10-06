@@ -1,0 +1,3 @@
+#!/bin/bash
+DIRCPLOT=$(pip3 show cplot | grep Location | cut -d ' ' -f2)
+python3 "$DIRCPLOT/cplot/_main.py" "$@"

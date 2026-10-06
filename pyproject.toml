@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=70.1", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cplot"
+dynamic = ["version"]
+
+description = "cplot: Visualisation of Data from crace"
+authors = [
+  { name = "Yunshuang Xiao" }
+]
+maintainers = [
+  { name = "crace developers", email = "race.autoconfig@gmail.com" },
+  { name = "Yunshuang Xiao", email = "yunshuang.xiao@ulb.be" }
+]
+readme = { file = "README.md", content-type = "text/markdown" }
+
+license = "MIT"
+license-files = ["LICENSE.md"]
+requires-python = ">=3.8"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education", 
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "pandas>=1.0.5"
+]
+
+[project.urls]
+Homepage = "https://race-autoconfig.github.io/cplot/"
+Source = "https://github.com/race-autoconfig/cplot/"
+Tracker = "https://github.com/race-autoconfig/cplot/issues"
+
+[project.scripts]
+cplot = "cplot._scripts:cplot_run"
+
+[tool.setuptools]
+packages = { find = {} }
+include-package-data = true
+
+[tool.setuptools.package-data]
+cplot = [
+  "_core/*",
+  "_plot/*",
+  "_inst/*",
+]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+write_to = "cplot/_version.py"
+fallback_version = "0.1.0"
