@@ -3,7 +3,7 @@
 #
 # This workflow builds the source distribution (sdist) and
 # wheel for the project and publishes them to PyPI using
-# Trusted Publishing.
+# a PyPI API token (if available) or Trusted Publishing.
 #
 # Trigger:
 #   - Runs automatically when a GitHub release is published.
