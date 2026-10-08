@@ -3,10 +3,10 @@ requires = ["setuptools>=70.1", "setuptools_scm", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cplot"
+name = "craceplot"
 dynamic = ["version"]
 
-description = "cplot: Visualisation of Data from crace"
+description = "craceplot: Visualisation of Data from crace"
 authors = [
   { name = "Yunshuang Xiao" }
 ]
@@ -43,19 +43,19 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://race-autoconfig.github.io/cplot/"
-Source = "https://github.com/race-autoconfig/cplot/"
-Tracker = "https://github.com/race-autoconfig/cplot/issues"
+Homepage = "https://race-autoconfig.github.io/craceplot/"
+Source = "https://github.com/race-autoconfig/craceplot/"
+Tracker = "https://github.com/race-autoconfig/craceplot/issues"
 
 [project.scripts]
-cplot = "cplot._scripts:cplot_run"
+craceplot = "craceplot._scripts:start_cplot"
 
 [tool.setuptools]
 packages = { find = {} }
 include-package-data = true
 
 [tool.setuptools.package-data]
-cplot = [
+craceplot = [
   "_core/*",
   "_plot/*",
   "_inst/*",
@@ -63,5 +63,5 @@ cplot = [
 
 [tool.setuptools_scm]
 version_scheme = "post-release"
-write_to = "cplot/_version.py"
+write_to = "craceplot/_version.py"
 fallback_version = "0.1.0"

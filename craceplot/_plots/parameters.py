@@ -1,4 +1,4 @@
-# cplot._plot.parameters.py
+# craceplot._plot.parameters.py
 
 from __future__ import annotations
 
@@ -17,9 +17,9 @@ from types import SimpleNamespace
 from matplotlib.colors import Colormap
 from typing import TYPE_CHECKING, Union, Literal, Callable, TypeVar, ParamSpec, Optional
 
-from cplot._plots._core import *
-from cplot._utils._base import *
-from cplot._containers._core import bold, underline, reset, CplotOptions, Errors as CE
+from craceplot._plots._core import *
+from craceplot._utils._base import *
+from craceplot._containers._core import bold, underline, reset, CplotOptions, Errors as CE
 
 P = ParamSpec("P")
 R = TypeVar("R")

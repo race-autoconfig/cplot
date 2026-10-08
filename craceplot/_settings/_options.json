@@ -8,7 +8,7 @@
         "section": "Utility options",
         "critical": 1,
         "description": "Show this help.",
-        "vignettes": "Show the list of command-line options of \u001b[1mcplot\u001b[0m"
+        "vignettes": "Show the list of command-line options of \u001b[1mcraceplot\u001b[0m"
     },
     {
         "name": ".man",
@@ -31,7 +31,7 @@
         "section": "Utility options",
         "critical": 1,
         "description": "Show the version of crace-plot.",
-        "vignettes": "Show the version of \u001b[1mcplot\u001b[0m."
+        "vignettes": "Show the version of \u001b[1mcraceplot\u001b[0m."
     },
     {
         "name": ".doc",
@@ -97,7 +97,7 @@
         "section": "General options",
         "critical": 0,
         "description": "Directory where the results are from.",
-        "vignettes": "Directory where the results are from. The default log directory is the current folder.\\begin{xwarningbox}The execution directory must exist before executing \u001b[1mcplot\u001b[0m, it will not be created automatically.\\end{xwarningbox}"
+        "vignettes": "Directory where the results are from. The default log directory is the current folder.\\begin{xwarningbox}The execution directory must exist before executing \u001b[1mcraceplot\u001b[0m, it will not be created automatically.\\end{xwarningbox}"
     },
     {
         "name": "outDir",
@@ -108,7 +108,7 @@
         "section": "General options",
         "critical": 0,
         "description": "Directory where the output files will be storaged.",
-        "vignettes": "Directory where the cplot outputs will be storaged. The default output directory is the current folder. \\begin{xwarningbox}This directory can be created automatically when executing \u001b[1mcplot\u001b[0m. \\end{xwarningbox}"
+        "vignettes": "Directory where the craceplot outputs will be storaged. The default output directory is the current folder. \\begin{xwarningbox}This directory can be created automatically when executing \u001b[1mcraceplot\u001b[0m. \\end{xwarningbox}"
     },
     {
         "name": "title",

@@ -1,4 +1,4 @@
-# cplot._plot.__init__.py
+# craceplot._plot.__init__.py
 
 from .parameters import *
 from .parameters import __all__ as _p_all

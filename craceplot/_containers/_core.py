@@ -8,10 +8,10 @@ from datetime import datetime
 from abc import ABC, abstractmethod
 from typing import Literal, Union, Optional, get_args, get_origin
 
-import cplot._settings._description as info
-from cplot._utils._const import WIDTH
-from cplot._utils._format import format_string
-from cplot._utils._base import check_type, parse_range_list
+import craceplot._settings._description as info
+from craceplot._utils._const import WIDTH
+from craceplot._utils._format import format_string
+from craceplot._utils._base import check_type, parse_range_list
 
 CPLOT_HOME=os.path.dirname(os.path.dirname(__file__))
 
@@ -192,7 +192,7 @@ class Option(ABC):
         """
         for key in Option.general_options:
             if not (key in obj.keys()):
-                raise OptionError(f"All cplot options must define attribute {underline}{key}{reset}")
+                raise OptionError(f"All craceplot options must define attribute {underline}{key}{reset}")
 
     def _set_general_options(self, obj):
         """
@@ -261,7 +261,7 @@ class Option(ABC):
 
 class IntegerOption(Option):
     """
-    class the handles integer cplot options
+    class the handles integer craceplot options
     :ivar domain: domain of the option as a two element list [lower, upper]
     """
     def __init__(self, obj):
@@ -358,7 +358,7 @@ class IntegerOption(Option):
 
 class RealOption(Option):
     """
-    class the handles real valued cplot options
+    class the handles real valued craceplot options
 
     :ivar domain: domain of the option as a two element list [lower, upper]
     """
@@ -452,7 +452,7 @@ class RealOption(Option):
 
 class StringOption(Option):
     """
-    class the handles string cplot options
+    class the handles string craceplot options
 
     :ivar domain: domain of the option as list [value1, value2, value3,...]
     """
@@ -526,7 +526,7 @@ class StringOption(Option):
         """
         if not domain: return None
         d = domain.strip("()").split(",")
-        # TODO: how to validate string cplot option domains when some options do not have domain
+        # TODO: how to validate string craceplot option domains when some options do not have domain
         if d[0] == "":
             return None
         # if d[0]=="":
@@ -540,7 +540,7 @@ class StringOption(Option):
 
 class BooleanOption(Option):
     """
-    class the handles boolean cplot options
+    class the handles boolean craceplot options
 
     """
 
@@ -603,7 +603,7 @@ class BooleanOption(Option):
 
 class FileOption(Option):
     """
-    class the handles file and directory path cplot options
+    class the handles file and directory path craceplot options
 
     """
     def __init__(self, obj):
@@ -736,7 +736,7 @@ class FileOption(Option):
 
 class ExeOption(Option):
     """
-    class the handles executable file path cplot options
+    class the handles executable file path craceplot options
 
     """
     def __init__(self, obj):
@@ -804,7 +804,7 @@ class ExeOption(Option):
 
 class EnablerOption(Option):
     """
-    class the handles cplot options that signal execution modes (e.g. --help, --onlytest, --check, --version)
+    class the handles craceplot options that signal execution modes (e.g. --help, --onlytest, --check, --version)
 
     """
     def __init__(self, obj):

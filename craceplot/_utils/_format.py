@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 
-from cplot._utils._const import WIDTH
+from craceplot._utils._const import WIDTH
 
 _ESCAPE_RE = re.compile(r'\\([ntrfvab\\])')
 _ESCAPE_MAP = {

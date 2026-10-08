@@ -1,4 +1,4 @@
-# cplot._plot.parameters.py
+# craceplot._plot.parameters.py
 
 from __future__ import annotations
 
@@ -22,9 +22,9 @@ from matplotlib.transforms import Bbox
 from typing import TYPE_CHECKING, Union, Literal, Callable, TypeVar, ParamSpec
 
 
-from cplot._plots._core import *
-from cplot._utils._base import *
-from cplot._containers._core import bold, underline, reset, CplotOptions, Errors as CE
+from craceplot._plots._core import *
+from craceplot._utils._base import *
+from craceplot._containers._core import bold, underline, reset, CplotOptions, Errors as CE
 
 
 P = ParamSpec("P")
@@ -89,7 +89,7 @@ def _check_options(name: str, args: SimpleNamespace):
     file_name:  str=None,
     title:      str=None,
     num:        Literal['all', 'final', 'elites', None] = None,
-    source:     Literal['training', 'test', None] = None,
+    source:     Literal['training', 'test', 'testing', None] = None,
     _console:   bool=True,
     # optional parameters
     showfliers: bool=False,
@@ -105,7 +105,7 @@ def _check_options(name: str, args: SimpleNamespace):
     onlytest = args.data.options.onlytest.value
     if onlytest:
         print(f"# The provided crace log files only has results for test part")
-        args.source = 'test'
+        args.source = 'testing'
         args.num = 'final'
 
     # ====================================================================================
@@ -144,13 +144,13 @@ def _check_options(name: str, args: SimpleNamespace):
         args.source = args.options.source.value
 
     if not args.source and not args.options.source.value:
-        print(f"# WARNING: no data source provided, {bold}test{reset} data is "
+        print(f"# WARNING: no data source provided, {bold}testing{reset} data is "
               f"selected as default when plotting for {bold}experiments{reset}.")
-        args.source = 'test'
+        args.source = 'testing'
 
-    if args.source == 'test' or args.options.source.value == 'test':
+    if args.source in ('test', 'testing') or args.options.source.value  in ('test', 'testing'):
         if args.num != 'final' or args.options.numConfigurations.value != 'final':
-            print(f"# WARNING: when {bold}test{reset} results selected as source, only {bold}final{reset} can be selected for {underline}num / numConfigurations{reset}")
+            print(f"# WARNING: when {bold}testing{reset} results selected as source, only {bold}final{reset} can be selected for {underline}num / numConfigurations{reset}")
             args.num = 'final'
 
 
@@ -195,7 +195,7 @@ def _load_data(name: str, args: SimpleNamespace):
     if args.source == 'training':
         src_quality = args.data.training.data.dropna()
     # load test results
-    elif args.source == 'test':
+    elif args.source in ('test', 'testing'):
         src_quality = args.data.testing.data.dropna()
     else:
         raise CE.OptionError(f"No {underline}source{reset} data provided plotting for {bold}experiments{reset}.")
@@ -277,7 +277,7 @@ def qual_boxplot(
     file_name:      str=None,
     title:          str=None,
     num:            Literal['all', 'final', 'elites', None] = None,
-    source:         Literal['training', 'test', None] = None,
+    source:         Literal['training', 'test', 'testing', None] = None,
     _console:       bool=True,
     # optional parameters
     showfliers:     bool=False,
@@ -306,7 +306,7 @@ def qual_boxplot(
     :param file_name: File name of the generated figure.
     :param title: Optional title of the figure.
     :param num: Selects the configurations to include in the plot: 'all', 'final', or 'elites'.
-    :param source: Selects the source of the results, either 'training' or 'test'.
+    :param source: Selects the source of the results, either 'training' or 'test'/'testing'.
     :param showfliers: Whether to display outliers in the boxplots.
     :param showmeans: Whether to display the mean value.
     :param stest: Whether to perform statistical tests between the compared groups.
@@ -334,7 +334,7 @@ def _boxplot(
     file_name:      str=None,
     title:          str=None,
     num:            Literal['all', 'final', 'elites', None] = None,
-    source:         Literal['training', 'test', None] = None,
+    source:         Literal['training', 'test', 'testing', None] = None,
     _console:       bool=True,
     # optional parameters
     showfliers:     bool=False,
@@ -417,7 +417,7 @@ def _boxplot(
         # ====================================================================================
         # update x-labels for 'training' results
         x_labels = elite_ids_sorted.copy()
-        if args.source != 'test' and check_elites:
+        if args.source not in ('test', 'testing') and check_elites:
             key_name = "-%(num)s-" % {"num": int(best_found)}
             for i, x in enumerate(elite_ids_sorted):
                 if int(x) == int(best_final):
@@ -731,7 +731,7 @@ def qual_scatter(
     file_name:      str=None,
     title:          str=None,
     num:            Literal['all', 'final', 'elites', None] = None,
-    source:         Literal['training', 'test', None] = None,
+    source:         Literal['training', 'test', 'testing', None] = None,
     _console:       bool=True,
     # optional parameters
     showfliers:     bool=False,
@@ -759,7 +759,7 @@ def qual_scatter(
     :param file_name: File name of the generated figure.
     :param title: Optional title of the figure.
     :param num: Selects the configurations to include in the plot: 'all', 'final', or 'elites'.
-    :param source: Selects the source of the results, either 'training' or 'test'.
+    :param source: Selects the source of the results, either 'training' or 'test'/'testing'.
     :param showfliers: Whether to display outliers in the scatter plot.
     :param showmeans: Whether to display the mean value.
     :param stest: Whether to perform statistical tests between the compared groups.
@@ -790,7 +790,7 @@ def _scatter(
     file_name:      str=None,
     title:          str=None,
     num:            Literal['all', 'final', 'elites', None] = None,
-    source:         Literal['training', 'test', None] = None,
+    source:         Literal['training', 'test', 'testing', None] = None,
     _console:       bool=True,
     # optional parameters
     showfliers:     bool=False,
@@ -983,7 +983,7 @@ def qual_heatmap(
     file_name:      str=None,
     title:          str=None,
     num:            Literal['all', 'final', 'elites', None] = None,
-    source:         Literal['training', 'test', None] = None,
+    source:         Literal['training', 'test', 'testing', None] = None,
     _console:       bool=True,
     # optional parameters
     showfliers:     bool=False,
@@ -1007,7 +1007,7 @@ def qual_heatmap(
     :param file_name: File name of the generated figure.
     :param title: Title of the heatmap.
     :param num: Optional. Specifies the configurations included in the heatmap. Supported values are 'all', 'final', and 'elites'.
-    :param source: Optional. Specifies the source of the quality data. Supported values are 'training' and 'test'.
+    :param source: Optional. Specifies the source of the quality data. Supported values are 'training' and 'test'/'testing'.
     :param showfliers: Boolean used to enable/disable showing outliers.
     :param showmeans: Boolean used to enable/disable showing mean values.
     :param stest: Boolean used to enable/disable statistical testing.
@@ -1036,7 +1036,7 @@ def _heatmap(
     file_name:      str=None,
     title:          str=None,
     num:            Literal['all', 'final', 'elites', None] = None,
-    source:         Literal['training', 'test', None] = None,
+    source:         Literal['training', 'test', 'testing', None] = None,
     _console:       bool=True,
     # optional parameters
     showfliers:     bool=False,

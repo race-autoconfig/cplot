@@ -3,8 +3,8 @@ def cplot_guide():
     import pathlib
     import webbrowser
     try:
-        import cplot
-        dir_cplot = pathlib.Path(cplot.__file__).resolve().parent
+        import craceplot
+        dir_cplot = pathlib.Path(craceplot.__file__).resolve().parent
     except:
         dir_cplot = pathlib.Path(__file__).resolve().parent.parent
 
@@ -24,8 +24,8 @@ def cplot_examples(destname):
     import subprocess
 
     try:
-        import cplot
-        dir_cplot = pathlib.Path(cplot.__file__).resolve().parent
+        import craceplot
+        dir_cplot = pathlib.Path(craceplot.__file__).resolve().parent
     except:
         dir_cplot = pathlib.Path(__file__).resolve().parent.parent
 
@@ -47,3 +47,20 @@ def cplot_examples(destname):
             subprocess.run(["xdg-open", destpath])
     else:
         sys.exit(1)
+
+def cplot_run():
+    import sys
+
+    from craceplot._scripts._main import start_cplot
+
+    if len(sys.argv) > 1:
+
+        if sys.argv[1] == "doc":
+            cplot_guide()
+            return
+
+        if sys.argv[1].lower() in ("examples", "templates", "which", "where"):
+            cplot_examples(sys.argv[1].lower())
+            return
+
+    start_cplot(arguments=sys.argv[1:], console=False)

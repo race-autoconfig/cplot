@@ -74,7 +74,8 @@ jobs:
         run: |
           VERSION=$(python -m setuptools_scm)
 
-          if pip index versions cplot | grep "$VERSION"; then
+          if pip index versions craceplot | grep "$VERSION"; then
+          
             echo "❌ Version already exists on PyPI"
             exit 1
           fi

@@ -3,7 +3,7 @@ import textwrap
 
 # === load description ===
 csd = {}
-with open("cplot/_settings/_description.py") as f:
+with open("craceplot/_settings/_description.py") as f:
     exec(f.read(), csd)
 
 # === extract ===
@@ -131,14 +131,14 @@ dependencies = {deps_block}
 {urls_block}
 
 [project.scripts]
-cplot = "cplot._scripts:cplot_run"
+craceplot = "craceplot._scripts:start_cplot"
 
 [tool.setuptools]
 packages = {{ find = {{}} }}
 include-package-data = true
 
 [tool.setuptools.package-data]
-cplot = [
+craceplot = [
   "_core/*",
   "_plot/*",
   "_inst/*",
@@ -146,7 +146,7 @@ cplot = [
 
 [tool.setuptools_scm]
 version_scheme = "post-release"
-write_to = "cplot/_version.py"
+write_to = "craceplot/_version.py"
 fallback_version = "{csd['_VERSION']}"
 
 """

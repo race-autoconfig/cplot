@@ -47,8 +47,6 @@ tag:
 
 
 clean:
-# 	rm -rf build _build dist *.egg-info cplot/_version.py
 	find . -type d \( -name "__pycache__" -o -name "build" -o -name "_build" -o -name "dist" -o -name "*.egg-info" \) -exec rm -rf {} +
-# 	find . -type d -name "__pycache__" -exec rm -rf {} +
 	find . -type f \( -name "*.py[cod]" -o -name "_version.py" -o -name ".DS_Store" \) -delete
 	@echo "Cleaned up extra files/directories."

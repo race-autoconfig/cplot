@@ -1,5 +1,5 @@
 # Book settings
-title: cplot
+title: craceplot
 authors: Yunshuang Xiao
 
 # Execution settings
@@ -14,25 +14,25 @@ html:
 
 # Repository information
 repository:
-  url: https://github.com/auto-configurator/cplot
+  url: https://github.com/auto-configurator/craceplot
   path_to_book: .
   branch: main
 
 sphinx:
   config:
-    project: "cplot"
+    project: "craceplot"
 
     include_patterns:
       - "**"
       - "../README.md"
 
     html_extra_path:
-      - '../cplot/_vignettes/guide.ipynb'
-      - '../cplot/_inst/examples'
+      - '../craceplot/_vignettes/guide.ipynb'
+      - '../craceplot/_inst/examples'
 
     html_context:
       github_user: auto-configurator
-      github_repo: cplot
+      github_repo: craceplot
       github_version: main
       doc_path: docs
       # metatags: |

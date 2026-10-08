@@ -5,9 +5,9 @@ import sys
 import inspect
 import traceback
 
-from cplot._containers._core import CplotOptions, ParseOptions, Errors as CE
-from cplot._plots.parameters import plot_parameters
-from cplot._plots.quality import plot_experiments
+from craceplot._containers._core import CplotOptions, ParseOptions, Errors as CE
+from craceplot._plots.parameters import plot_parameters
+from craceplot._plots.quality import plot_experiments
 
 from typing import TYPE_CHECKING
 
@@ -16,7 +16,7 @@ if TYPE_CHECKING:
 
 def load_options(*kargs, arguments: list=None, _console: bool=True, _add: bool=True):
     """
-    Load options for cplot: directly called by users
+    Load options for craceplot: directly called by users
     """
     if arguments is not None and kargs:
         raise TypeError(
@@ -60,7 +60,7 @@ def load_results(options: CplotOptions, data_home=None):
     elif options.logDir.value:
         log_path = options.logDir.value
 
-    from cplot._utils._crace import get_crace
+    from craceplot._utils._crace import get_crace
     crace = get_crace()
     results = crace.run(f'--read, {log_path}, --readlogs-in-cplot, 2')
 

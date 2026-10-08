@@ -19,7 +19,7 @@
 #   7. Deploy the artifact to GitHub Pages.
 #
 # The deployed documentation will be available at:
-#   https://race-autoconfig.github.io/cplot/
+#   https://race-autoconfig.github.io/craceplot/
 #
 # ============================================================
 
@@ -31,7 +31,7 @@ on:
     paths:
       - "docs/**"
       - "README.md"
-      - "cplot/_vignettes/guide.ipynb"
+      - "craceplot/_vignettes/guide.ipynb"
   workflow_dispatch:
 
 permissions:
@@ -107,7 +107,7 @@ jobs:
             --template lab \
             --output guide.html \
             --output-dir docs/_build/html \
-            cplot/_vignettes/guide.ipynb
+            craceplot/_vignettes/guide.ipynb
 
       # - name: Add Google Verification HTML
       #   if: steps.changes.outputs.changed == 'true'

@@ -1,4 +1,4 @@
-# cplot._core._utils.py
+# craceplot._core._utils.py
 
 import re
 import copy
