@@ -8,13 +8,15 @@ def cplot_guide():
     except:
         dir_cplot = pathlib.Path(__file__).resolve().parent.parent
 
-    guide = pathlib.Path(os.path.join(dir_cplot, '_vignettes/guide.ipynb'))
+    guide = pathlib.Path(os.path.join(dir_cplot, 'vignettes/guide.ipynb'))
+    guide_online = "https://race-autoconfig.github.io/craceplot/user%20guide/index.html#"
 
     # not support system without GUI
     if guide.exists():
         print(guide)
         webbrowser.open(guide.as_uri())
     else:
+        webbrowser.open(guide_online)
         sys.exit(1)
 
 def cplot_examples(destname):
@@ -22,6 +24,7 @@ def cplot_examples(destname):
     import pathlib
     import platform
     import subprocess
+    from craceplot.utils.format import ConditionalReturn
 
     try:
         import craceplot
@@ -31,10 +34,12 @@ def cplot_examples(destname):
 
     if destname in ("which", "where"):
         destpath = pathlib.Path(dir_cplot)
-        print(destpath)
+        # print(destpath)
+        return ConditionalReturn(path=destpath)
     else:
-        destpath = pathlib.Path(dir_cplot / '_inst/' / destname)
-        print(destpath)
+        destpath = pathlib.Path(dir_cplot / 'inst/' / destname)
+        # print(destpath)
+        return ConditionalReturn(path=destpath)
 
     # not support system without GUI
     system = platform.system()

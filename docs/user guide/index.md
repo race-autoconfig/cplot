@@ -135,8 +135,9 @@ In the following, we provide two examples how the functions implemented in this 
 import os
 from pathlib import Path
 
-import importlib.util
-cplot_home = Path(importlib.util.find_spec('craceplot').submodule_search_locations[0])
+import craceplot as cplot
+
+cplot_home = cplot.where().path
 
 p = Path(os.path.join(cplot_home, 'inst', 'examples', 'acotsp'))
 path_to_acotsp = os.path.relpath(p, Path.cwd())
@@ -147,9 +148,6 @@ path_to_cats200 = os.path.relpath(p, Path.cwd())
 
 
 ```{code-cell} python
-import crace
-import craceplot as cplot
-
 results1, options1 = cplot.run('-l', path_to_acotsp)
 results2, options2 = cplot.run('-l', path_to_cats200)
 ```
@@ -162,7 +160,7 @@ craceplot provides several ways to draw plots for configurations, especially for
 
 #### function param_parallelcoord
 
-The plot produced by `Parcoords` from model **plotly.graph_objects** can help you to both the distribution of the parameter values of a set of configurations and the common associations between these values. 
+The plot produced by `Parcoords` from model **plotly.graph_objects** can help you view both the distribution of the parameter values of a set of configurations and the common associations between these values. 
 
 By default, the plot colors the lines using `slice_sampled` in which slice the configuration is sampled for all configurations in the racing. You can use the `colorby` argument to choose the parameter for coloring the lines. You can do this with the `param_parallelcoord` method:
 
@@ -170,11 +168,7 @@ By default, the plot colors the lines using `slice_sampled` in which slice the c
 cplot.param_parallelcoord(data=results1, options=options1, as_html=True)
 ```
 
-You can draw more flexible parallel coord plots via providing parameters `configs`, `parameters`, `colorby`, `showscale`, `shownan`, `colorscale`. To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_parallelcoord)
-```
+You can draw more flexible parallel coord plots via providing parameters `configs`, `parameters`, `colorby`, `showscale`, `shownan`, `colorscale`. 
 
 ```{code-cell} python
 cplot.param_parallelcoord(data=results1, options=options1, configs='final', colorby='configuration_id',
@@ -197,11 +191,7 @@ You can use the `palette` argument to color the plot. You can do this with the `
 cplot.param_sunburst(data=results2, options=options2, as_html=True)
 ```
 
-You can draw more flexible plots via providing parameters `configs`, `parameters`, `palette`,  `shownan`, `branchvalues`, `count`, `insidetextorientation` and `textinfo`. To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_sunburst)
-```
+You can draw more flexible plots via providing parameters `configs`, `parameters`, `palette`,  `shownan`, `branchvalues`, `count`, `insidetextorientation` and `textinfo`. 
 
 ```{code-cell} python
 cplot.param_sunburst(data=results1, options=options1, configs='elites',
@@ -231,12 +221,7 @@ You can plot heatmap with the `param_heatmap` method:
 cplot.param_heatmap(data=results1, options=options1, parameters='algorithm')
 ```
 
-You can draw more flexible heatmap plots via providing parameters `configs`, `parameters`, `colormap`,  `shownan` and `nbins`.
-The argument `nbins` is used to split the domain of continouos paramters. To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_heatmap)
-```
+You can draw more flexible heatmap plots via providing parameters `configs`, `parameters`, `colormap`,  `shownan` and `nbins`. The argument `nbins` is used to split the domain of continouos paramters. 
 
 ```{code-cell} python
 cplot.param_heatmap(data=results1, options=options1, 
@@ -259,11 +244,7 @@ You can plot with the `param_boxplot` method:
 cplot.param_boxplot(data=results1, options=options1, parameters=['algorithm', 'alpha'])
 ```
 
-In order to draw more flexible plots, you can provide parameters `configs`, `parameters`, `y`,  `shownan`, `showfliers`, `showmeans`, `palette` and `monochrome`. To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_boxplot)
-```
+In order to draw more flexible plots, you can provide parameters `configs`, `parameters`, `y`,  `shownan`, `showfliers`, `showmeans`, `palette` and `monochrome`. 
 
 ```{code-cell} python
 import random
@@ -285,11 +266,7 @@ You must provide two continuous parameters using the `parameters` argument, and 
 cplot.param_jointplot(data=results1, options=options1, parameters=['alpha', 'beta'])
 ```
 
-Also, you can draw more flexible joint plots via providing parameters `hue`, `configs`, `parameters`, `palette`,  `shownan` and `kind`. To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_jointplot)
-```
+Also, you can draw more flexible joint plots via providing parameters `hue`, `configs`, `parameters`, `palette`,  `shownan` and `kind`. 
 
 The argument `hue` is the third parameter provided for plotting the distributions of the selected two parameters on it.
 
@@ -314,11 +291,7 @@ You must provide at least two continuous parameters using the `parameters` argum
 cplot.param_pairplot(data=results1, options=options1, parameters=['alpha', 'beta'], hue='localsearch')
 ```
 
-To draw more flexible pair plots you can call this function via providing arguments `configs`, `parameters`, `hue`, `shownan`, `palette` and `kind`. To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_pairplot)
-```
+To draw more flexible pair plots you can call this function via providing arguments `configs`, `parameters`, `hue`, `shownan`, `palette` and `kind`. 
 
 The argument `hue` is the parameter provided to map plot aspects to different colors for the provided at least two parameters.
 
@@ -352,12 +325,6 @@ cplot.param_histplot(data=results1, options=options1)
 In order to draw more flexible plots for the distribution of selected parameters, you can provide arguments `configs`, `parameters`, `shownan`, `stat`, `density`, `sharex` and `sharey`. 
 
 `stat` is a string from provided values ['count', 'frequency', 'probability', 'percent', 'density'] for the type/shape of plots and its default value is 'percent'.
-
-To check details for these arguments, call:
-
-```{code-cell} python
-help(cplot.param_histplot)
-```
 
 ```{code-cell} python
 cplot.param_histplot(data=results2, options=options2,

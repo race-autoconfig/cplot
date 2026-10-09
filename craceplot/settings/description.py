@@ -2,82 +2,12 @@
 
 from datetime import datetime
 
-package_name = "craceplot"
-authors = ['Yunshuang Xiao']
-maintainers = ['Yunshuang Xiao']
-maintainers_email = ['yunshuang.xiao@ulb.be']
-contact = 'crace developers'
-contact_email = 'race.autoconfig@gmail.com'
-
-description = "craceplot: Visualisation of Data from crace"
-long_description = """
-craceplot: Visualisation of Data from crace
-==========================================================================
-
-craceplot provides a set of functions to create plots to visualize the data from the crace package.
-
-The configuration process performed by crace will show at the end of the execution one or more configurations that are the best performing configurations found. This package provides a set of functions that allow to further assess the performance of these configurations and provides support to obtain insights about the details of the configuration process.
-"""
-
-url = "https://race-autoconfig.github.io/craceplot/"
-url_home = url
-url_source = "https://github.com/race-autoconfig/craceplot/"
-url_tracker = "https://github.com/race-autoconfig/craceplot/issues"
-urls = {
-    'Homepage': url_home,
-    'Source': url_source,
-    'Tracker': url_tracker,
-}
-
-_year = datetime.now().year
-copyright = (
-    f"Copyright (c) 2026-{_year} crace developers"
-    if _year > 2026
-    else "Copyright (c) 2026 crace developers"
-)
-
-license = f"""
-This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-craceplot builds as an additional tool for the crace package:
-  crace: Continuous Racing for Automatic Algorithm Configuration
-  {copyright}
-"""
-
-citiation = """
-To cite package 'craceplot' in publications, an appropriate citation is
-
-  Yunshuang Xiao, Leslie Pérez Cáceres, Manuel López-Ibáñez, and Thomas Stützle. 2023. Algorithm Configuration via Continuously Racing: Preliminary Results. In Proceedings of the Companion Conference on Genetic and Evolutionary Computation (GECCO '23 Companion). Association for Computing Machinery, New York, NY, USA, 1744-1752. https://doi.org/10.1145/3583133.3596408
-
-A BibTeX entry for LaTeX users is
-
-@inproceedings{10.1145/3583133.3596408,
-  title = {Algorithm Configuration via Continuously Racing: Preliminary Results},
-  author = {Xiao, Yunshuang and Pérez Cáceres, Leslie and López-Ibáñez, Manuel and Stützle, Thomas},
-  booktitle = {Proceedings of the Companion Conference on Genetic and Evolutionary Computation},
-  pages = {1744-1752},
-  year = {2023},
-}
-"""
-
-_VERSION = "0.1.0"
-update_logs = """
-
-The first release of craceplot, version 0.1.0.
-
-"""
-
-
 def __getattr__(name: str):
     if name == "version":
         ver = _get_version()
         globals()["version"] = ver
         return ver
     raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
-
-
 
 def _get_version():
     """
@@ -166,3 +96,79 @@ def _get_version():
         pass
 
     return _VERSION
+
+
+
+package_name = "craceplot"
+authors = ['Yunshuang Xiao']
+maintainers = ['Yunshuang Xiao']
+maintainers_email = ['yunshuang.xiao@ulb.be']
+contact = 'crace developers'
+contact_email = 'race.autoconfig@gmail.com'
+
+description = "craceplot: Visualisation of Data from crace"
+long_description = """
+craceplot: Visualisation of Data from crace
+==========================================================================
+
+craceplot provides a set of functions to create plots to visualize the data from the crace package.
+
+The configuration process performed by crace will show at the end of the execution one or more configurations that are the best performing configurations found. This package provides a set of functions that allow to further assess the performance of these configurations and provides support to obtain insights about the details of the configuration process.
+"""
+
+url = "https://race-autoconfig.github.io/craceplot/"
+url_home = url
+url_source = "https://github.com/race-autoconfig/craceplot/"
+url_tracker = "https://github.com/race-autoconfig/craceplot/issues"
+urls = {
+    'Homepage': url_home,
+    'Source': url_source,
+    'Tracker': url_tracker,
+}
+
+_year = datetime.now().year
+copyright = (
+    f"Copyright (c) 2026-{_year} crace developers"
+    if _year > 2026
+    else "Copyright (c) 2026 crace developers"
+)
+
+license = f"""
+This is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+craceplot builds as an additional tool for the crace package:
+  crace: Continuous Racing for Automatic Algorithm Configuration
+  {copyright}
+"""
+
+citiation = """
+To cite package 'craceplot' in publications, an appropriate citation is
+
+  Yunshuang Xiao, Leslie Pérez Cáceres, Manuel López-Ibáñez, and Thomas Stützle. 2023. Algorithm Configuration via Continuously Racing: Preliminary Results. In Proceedings of the Companion Conference on Genetic and Evolutionary Computation (GECCO '23 Companion). Association for Computing Machinery, New York, NY, USA, 1744-1752. https://doi.org/10.1145/3583133.3596408
+
+A BibTeX entry for LaTeX users is
+
+@inproceedings{10.1145/3583133.3596408,
+  title = {Algorithm Configuration via Continuously Racing: Preliminary Results},
+  author = {Xiao, Yunshuang and Pérez Cáceres, Leslie and López-Ibáñez, Manuel and Stützle, Thomas},
+  booktitle = {Proceedings of the Companion Conference on Genetic and Evolutionary Computation},
+  pages = {1744-1752},
+  year = {2023},
+}
+"""
+
+_VERSION = "0.1"
+update_logs = """
+
+Improvements:
+
+    - add function 'display' and boolean parameter 'as_html' to show plot in html format for functions:
+            param_parallelcoord, param_sunburst, qual_heatmap
+
+    - modify license from MIT to GPL-3.0
+
+    - improve github pages
+
+"""

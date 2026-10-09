@@ -58,7 +58,7 @@ Source = "https://github.com/race-autoconfig/craceplot/"
 Tracker = "https://github.com/race-autoconfig/craceplot/issues"
 
 [project.scripts]
-craceplot = "craceplot.scripts:start_cplot"
+craceplot = "craceplot.scripts:cplot_run"
 
 [tool.setuptools]
 packages = { find = {} }
@@ -66,9 +66,9 @@ include-package-data = true
 
 [tool.setuptools.package-data]
 craceplot = [
-  "core/*",
-  "plot/*",
-  "inst/*",
+  "core/**",
+  "plot/**",
+  "inst/**",
 ]
 
 [tool.setuptools_scm]

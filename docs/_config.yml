@@ -27,8 +27,8 @@ sphinx:
       - "../README.md"
 
     html_extra_path:
-      - '../craceplot/_vignettes/guide.ipynb'
-      - '../craceplot/_inst/examples'
+    #   - '../craceplot/vignettes/guide.ipynb'
+      - '../craceplot/inst/examples'
 
     html_context:
       github_user: auto-configurator

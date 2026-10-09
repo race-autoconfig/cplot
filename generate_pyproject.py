@@ -150,7 +150,7 @@ dependencies = {deps_block}
 {urls_block}
 
 [project.scripts]
-craceplot = "craceplot.scripts:start_cplot"
+craceplot = "craceplot.scripts:cplot_run"
 
 [tool.setuptools]
 packages = {{ find = {{}} }}
