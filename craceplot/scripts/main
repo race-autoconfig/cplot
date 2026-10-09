@@ -1,0 +1,3 @@
+#!/bin/bash
+DIRCPLOT=$(pip3 show craceplot | grep Location | cut -d ' ' -f2)
+python3 "$DIRCPLOT/craceplot/scripts/main.py" "$@"

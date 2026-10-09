@@ -4,7 +4,7 @@ authors: Yunshuang Xiao
 
 # Execution settings
 execute:
-  execute_notebooks: "off"
+  execute_notebooks: "auto"
 
 # HTML settings
 html:

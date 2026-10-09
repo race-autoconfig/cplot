@@ -1,0 +1,12 @@
+#!/bin/bash
+if ! DIRCPLOT=$(python3 -c "import crace, pathlib; print(pathlib.Path(crace.__file__).resolve().parent)" 2>/dev/null); then
+    DIRCPLOT="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+
+FILE="$DIRCPLOT/vignettes/guide.ipynb"
+
+case "$OSTYPE" in
+  darwin*) open "$FILE" ;;
+  linux*)  xdg-open "$FILE" ;;
+  *)       start "$FILE" ;;
+esac

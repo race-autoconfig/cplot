@@ -1,0 +1,718 @@
+configuration_id,parent_id,model_id,algorithm,localsearch,alpha,beta,rho,ants,q0,rasrank,elitistants,nnls,dlb,cmd,is_alive
+1,0,0,ras,3,4.2664,1.6451,0.7295,47,,55,,42,0, --ras --localsearch 3 --alpha 4.2664 --beta 1.6451 --rho  0.7295 --ants 47 --rasranks 55 --nnls 42 --dlb 0,True
+2,0,0,acs,0,2.8835,8.8999,0.0699,29,0.7224,,,,, --acs --localsearch 0 --alpha 2.8835 --beta 8.8999 --rho  0.0699 --ants 29 --q0 0.7224,True
+3,0,0,ras,3,2.564,3.3205,0.1064,28,,31,,33,1, --ras --localsearch 3 --alpha 2.564 --beta 3.3205 --rho  0.1064 --ants 28 --rasranks 31 --nnls 33 --dlb 1,True
+4,0,0,as,1,1.9585,2.5303,0.5201,66,,,,19,1, --as --localsearch 1 --alpha 1.9585 --beta 2.5303 --rho  0.5201 --ants 66 --nnls 19 --dlb 1,True
+5,0,0,eas,0,1.189,1.6371,0.0368,48,,,26,,, --eas --localsearch 0 --alpha 1.189 --beta 1.6371 --rho  0.0368 --ants 48 --elitistants 26,True
+6,0,0,eas,1,0.6153,9.0681,0.8567,5,,,580,47,0, --eas --localsearch 1 --alpha 0.6153 --beta 9.0681 --rho  0.8567 --ants 5 --elitistants 580 --nnls 47 --dlb 0,True
+7,0,0,ras,2,4.8807,5.8329,0.7041,67,,86,,8,1, --ras --localsearch 2 --alpha 4.8807 --beta 5.8329 --rho  0.7041 --ants 67 --rasranks 86 --nnls 8 --dlb 1,True
+8,0,0,as,1,0.6656,8.6377,0.2359,32,,,,38,0, --as --localsearch 1 --alpha 0.6656 --beta 8.6377 --rho  0.2359 --ants 32 --nnls 38 --dlb 0,True
+9,0,0,eas,3,1.059,7.8327,0.4252,22,,,313,9,0, --eas --localsearch 3 --alpha 1.059 --beta 7.8327 --rho  0.4252 --ants 22 --elitistants 313 --nnls 9 --dlb 0,True
+10,0,0,as,0,3.3994,8.1271,0.554,76,,,,,, --as --localsearch 0 --alpha 3.3994 --beta 8.1271 --rho  0.554 --ants 76,True
+11,0,0,as,2,4.3225,9.795,0.7133,50,,,,9,0, --as --localsearch 2 --alpha 4.3225 --beta 9.795 --rho  0.7133 --ants 50 --nnls 9 --dlb 0,True
+12,0,0,as,3,2.6669,0.2583,0.2205,22,,,,45,1, --as --localsearch 3 --alpha 2.6669 --beta 0.2583 --rho  0.2205 --ants 22 --nnls 45 --dlb 1,True
+13,0,0,mmas,1,3.0575,6.2882,0.6659,50,,,,22,0, --mmas --localsearch 1 --alpha 3.0575 --beta 6.2882 --rho  0.6659 --ants 50 --nnls 22 --dlb 0,True
+14,0,0,mmas,2,0.5627,3.3306,0.3468,91,,,,45,1, --mmas --localsearch 2 --alpha 0.5627 --beta 3.3306 --rho  0.3468 --ants 91 --nnls 45 --dlb 1,True
+15,0,0,eas,1,0.5553,9.4447,0.8328,50,,,162,44,1, --eas --localsearch 1 --alpha 0.5553 --beta 9.4447 --rho  0.8328 --ants 50 --elitistants 162 --nnls 44 --dlb 1,True
+16,0,0,acs,0,0.5285,7.6743,0.3698,30,0.5908,,,,, --acs --localsearch 0 --alpha 0.5285 --beta 7.6743 --rho  0.3698 --ants 30 --q0 0.5908,True
+17,0,0,mmas,2,2.807,1.7081,0.9761,55,,,,14,0, --mmas --localsearch 2 --alpha 2.807 --beta 1.7081 --rho  0.9761 --ants 55 --nnls 14 --dlb 0,True
+18,0,0,ras,2,1.8105,1.467,0.1219,18,,36,,30,1, --ras --localsearch 2 --alpha 1.8105 --beta 1.467 --rho  0.1219 --ants 18 --rasranks 36 --nnls 30 --dlb 1,True
+19,0,0,as,0,3.5122,7.2634,0.1106,95,,,,,, --as --localsearch 0 --alpha 3.5122 --beta 7.2634 --rho  0.1106 --ants 95,True
+20,0,0,as,2,0.3642,5.7485,0.503,16,,,,48,1, --as --localsearch 2 --alpha 0.3642 --beta 5.7485 --rho  0.503 --ants 16 --nnls 48 --dlb 1,True
+21,0,0,ras,1,2.2635,0.5037,0.4949,89,,74,,5,1, --ras --localsearch 1 --alpha 2.2635 --beta 0.5037 --rho  0.4949 --ants 89 --rasranks 74 --nnls 5 --dlb 1,True
+22,0,0,mmas,0,2.5181,9.0773,0.8124,25,,,,,, --mmas --localsearch 0 --alpha 2.5181 --beta 9.0773 --rho  0.8124 --ants 25,True
+23,0,0,eas,3,1.3219,1.5977,0.0279,16,,,38,29,1, --eas --localsearch 3 --alpha 1.3219 --beta 1.5977 --rho  0.0279 --ants 16 --elitistants 38 --nnls 29 --dlb 1,True
+24,0,0,acs,2,0.3318,6.1181,0.3997,66,0.4727,,,40,1, --acs --localsearch 2 --alpha 0.3318 --beta 6.1181 --rho  0.3997 --ants 66 --q0 0.4727 --nnls 40 --dlb 1,True
+25,0,0,mmas,2,3.7357,5.6138,0.4256,82,,,,16,0, --mmas --localsearch 2 --alpha 3.7357 --beta 5.6138 --rho  0.4256 --ants 82 --nnls 16 --dlb 0,True
+26,0,0,acs,3,1.6825,3.6183,0.019,18,0.5933,,,6,1, --acs --localsearch 3 --alpha 1.6825 --beta 3.6183 --rho  0.019 --ants 18 --q0 0.5933 --nnls 6 --dlb 1,True
+27,0,0,acs,0,4.6036,5.7644,0.69,5,0.3261,,,,, --acs --localsearch 0 --alpha 4.6036 --beta 5.7644 --rho  0.69 --ants 5 --q0 0.3261,True
+28,0,0,acs,2,2.6091,1.6939,0.6725,95,0.5176,,,18,1, --acs --localsearch 2 --alpha 2.6091 --beta 1.6939 --rho  0.6725 --ants 95 --q0 0.5176 --nnls 18 --dlb 1,True
+29,0,0,eas,1,0.4811,6.7129,0.9817,63,,,79,37,1, --eas --localsearch 1 --alpha 0.4811 --beta 6.7129 --rho  0.9817 --ants 63 --elitistants 79 --nnls 37 --dlb 1,True
+30,0,0,as,1,3.4227,7.6177,0.4795,65,,,,48,1, --as --localsearch 1 --alpha 3.4227 --beta 7.6177 --rho  0.4795 --ants 65 --nnls 48 --dlb 1,True
+31,0,0,eas,1,1.1249,9.8714,0.4624,15,,,628,37,0, --eas --localsearch 1 --alpha 1.1249 --beta 9.8714 --rho  0.4624 --ants 15 --elitistants 628 --nnls 37 --dlb 0,True
+32,3,0,acs,2,1.4675,7.8224,0.1825,45,0.7823,,,8,0, --acs --localsearch 2 --alpha 1.4675 --beta 7.8224 --rho  0.1825 --ants 45 --q0 0.7823 --nnls 8 --dlb 0,True
+33,4,0,ras,1,2.0513,5.8652,0.495,46,,11,,8,1, --ras --localsearch 1 --alpha 2.0513 --beta 5.8652 --rho  0.495 --ants 46 --rasranks 11 --nnls 8 --dlb 1,True
+34,4,0,eas,2,0.9982,3.3922,0.8908,99,,,365,24,1, --eas --localsearch 2 --alpha 0.9982 --beta 3.3922 --rho  0.8908 --ants 99 --elitistants 365 --nnls 24 --dlb 1,True
+35,4,0,as,0,0.5979,4.6342,0.7137,65,,,,,, --as --localsearch 0 --alpha 0.5979 --beta 4.6342 --rho  0.7137 --ants 65,True
+36,18,0,eas,3,1.0374,0.466,0.3105,17,,,502,10,0, --eas --localsearch 3 --alpha 1.0374 --beta 0.466 --rho  0.3105 --ants 17 --elitistants 502 --nnls 10 --dlb 0,True
+37,18,0,mmas,3,0.0153,1.72,0.2216,12,,,,21,1, --mmas --localsearch 3 --alpha 0.0153 --beta 1.72 --rho  0.2216 --ants 12 --nnls 21 --dlb 1,True
+38,18,0,acs,1,2.4425,3.7419,0.8181,62,0.4523,,,35,0, --acs --localsearch 1 --alpha 2.4425 --beta 3.7419 --rho  0.8181 --ants 62 --q0 0.4523 --nnls 35 --dlb 0,True
+39,12,0,mmas,0,2.0512,6.0776,0.4051,27,,,,,, --mmas --localsearch 0 --alpha 2.0512 --beta 6.0776 --rho  0.4051 --ants 27,True
+40,12,0,eas,2,2.8428,1.388,0.2224,19,,,186,29,0, --eas --localsearch 2 --alpha 2.8428 --beta 1.388 --rho  0.2224 --ants 19 --elitistants 186 --nnls 29 --dlb 0,True
+41,26,0,mmas,0,2.601,2.3245,0.8005,42,,,,,, --mmas --localsearch 0 --alpha 2.601 --beta 2.3245 --rho  0.8005 --ants 42,True
+42,12,0,as,1,0.3612,1.5789,0.1031,21,,,,7,0, --as --localsearch 1 --alpha 0.3612 --beta 1.5789 --rho  0.1031 --ants 21 --nnls 7 --dlb 0,True
+43,12,0,eas,1,1.7995,9.0541,0.405,7,,,372,37,0, --eas --localsearch 1 --alpha 1.7995 --beta 9.0541 --rho  0.405 --ants 7 --elitistants 372 --nnls 37 --dlb 0,True
+44,25,0,as,3,2.1218,8.0463,0.0469,70,,,,10,1, --as --localsearch 3 --alpha 2.1218 --beta 8.0463 --rho  0.0469 --ants 70 --nnls 10 --dlb 1,True
+45,26,0,as,0,0.2295,6.0432,0.8522,38,,,,,, --as --localsearch 0 --alpha 0.2295 --beta 6.0432 --rho  0.8522 --ants 38,True
+46,12,0,ras,3,4.1063,1.7202,0.4357,100,,92,,43,1, --ras --localsearch 3 --alpha 4.1063 --beta 1.7202 --rho  0.4357 --ants 100 --rasranks 92 --nnls 43 --dlb 1,True
+47,25,0,eas,1,0.3348,9.6025,0.0181,71,,,468,13,0, --eas --localsearch 1 --alpha 0.3348 --beta 9.6025 --rho  0.0181 --ants 71 --elitistants 468 --nnls 13 --dlb 0,True
+48,12,0,eas,2,0.4192,7.2077,0.7471,10,,,617,37,0, --eas --localsearch 2 --alpha 0.4192 --beta 7.2077 --rho  0.7471 --ants 10 --elitistants 617 --nnls 37 --dlb 0,True
+49,12,0,acs,2,2.3438,6.2932,0.6647,88,0.1873,,,26,1, --acs --localsearch 2 --alpha 2.3438 --beta 6.2932 --rho  0.6647 --ants 88 --q0 0.1873 --nnls 26 --dlb 1,True
+50,26,0,mmas,3,2.0473,6.3356,0.0361,48,,,,25,1, --mmas --localsearch 3 --alpha 2.0473 --beta 6.3356 --rho  0.0361 --ants 48 --nnls 25 --dlb 1,True
+51,12,0,eas,0,2.1553,3.7784,0.1841,29,,,493,,, --eas --localsearch 0 --alpha 2.1553 --beta 3.7784 --rho  0.1841 --ants 29 --elitistants 493,True
+52,3,0,acs,2,2.0749,3.1296,0.3203,24,0.0475,,,33,1, --acs --localsearch 2 --alpha 2.0749 --beta 3.1296 --rho  0.3203 --ants 24 --q0 0.0475 --nnls 33 --dlb 1,True
+53,26,0,mmas,3,3.3329,8.2022,0.2889,22,,,,36,0, --mmas --localsearch 3 --alpha 3.3329 --beta 8.2022 --rho  0.2889 --ants 22 --nnls 36 --dlb 0,True
+54,26,0,ras,2,3.8485,4.3401,0.1628,28,,42,,26,1, --ras --localsearch 2 --alpha 3.8485 --beta 4.3401 --rho  0.1628 --ants 28 --rasranks 42 --nnls 26 --dlb 1,True
+55,3,0,ras,0,3.463,2.2404,0.1058,30,,53,,,, --ras --localsearch 0 --alpha 3.463 --beta 2.2404 --rho  0.1058 --ants 30 --rasranks 53,True
+56,1,0,acs,1,1.6095,5.6502,0.3756,21,0.7767,,,40,1, --acs --localsearch 1 --alpha 1.6095 --beta 5.6502 --rho  0.3756 --ants 21 --q0 0.7767 --nnls 40 --dlb 1,True
+57,1,0,eas,0,2.5231,2.3596,0.8404,58,,,210,,, --eas --localsearch 0 --alpha 2.5231 --beta 2.3596 --rho  0.8404 --ants 58 --elitistants 210,True
+58,12,0,as,3,0.3353,0.1658,0.7885,20,,,,31,0, --as --localsearch 3 --alpha 0.3353 --beta 0.1658 --rho  0.7885 --ants 20 --nnls 31 --dlb 0,True
+59,25,0,as,1,4.7979,9.2035,0.6154,31,,,,33,1, --as --localsearch 1 --alpha 4.7979 --beta 9.2035 --rho  0.6154 --ants 31 --nnls 33 --dlb 1,True
+60,12,0,ras,1,2.2506,2.2499,0.7691,32,,55,,18,1, --ras --localsearch 1 --alpha 2.2506 --beta 2.2499 --rho  0.7691 --ants 32 --rasranks 55 --nnls 18 --dlb 1,True
+61,3,0,mmas,1,1.2449,2.3061,0.5483,42,,,,14,1, --mmas --localsearch 1 --alpha 1.2449 --beta 2.3061 --rho  0.5483 --ants 42 --nnls 14 --dlb 1,True
+62,1,0,mmas,1,3.564,0.9496,0.8667,44,,,,50,1, --mmas --localsearch 1 --alpha 3.564 --beta 0.9496 --rho  0.8667 --ants 44 --nnls 50 --dlb 1,True
+63,36,0,acs,0,2.2914,2.8702,0.0362,14,0.0442,,,,, --acs --localsearch 0 --alpha 2.2914 --beta 2.8702 --rho  0.0362 --ants 14 --q0 0.0442,True
+64,25,0,mmas,2,4.1705,4.6761,0.4061,65,,,,7,0, --mmas --localsearch 2 --alpha 4.1705 --beta 4.6761 --rho  0.4061 --ants 65 --nnls 7 --dlb 0,True
+65,36,0,ras,1,0.9714,9.762,0.3436,11,,49,,32,0, --ras --localsearch 1 --alpha 0.9714 --beta 9.762 --rho  0.3436 --ants 11 --rasranks 49 --nnls 32 --dlb 0,True
+66,25,0,mmas,2,3.7213,8.8412,0.7072,60,,,,5,1, --mmas --localsearch 2 --alpha 3.7213 --beta 8.8412 --rho  0.7072 --ants 60 --nnls 5 --dlb 1,True
+67,26,0,ras,1,3.3331,3.5829,0.2035,61,,57,,33,0, --ras --localsearch 1 --alpha 3.3331 --beta 3.5829 --rho  0.2035 --ants 61 --rasranks 57 --nnls 33 --dlb 0,True
+68,1,0,as,1,2.6785,1.0394,0.8056,49,,,,28,1, --as --localsearch 1 --alpha 2.6785 --beta 1.0394 --rho  0.8056 --ants 49 --nnls 28 --dlb 1,True
+69,26,0,ras,1,4.799,2.133,0.0262,24,,15,,47,1, --ras --localsearch 1 --alpha 4.799 --beta 2.133 --rho  0.0262 --ants 24 --rasranks 15 --nnls 47 --dlb 1,True
+70,25,0,mmas,2,4.1734,3.0047,0.4695,62,,,,28,0, --mmas --localsearch 2 --alpha 4.1734 --beta 3.0047 --rho  0.4695 --ants 62 --nnls 28 --dlb 0,True
+71,26,0,mmas,0,3.3619,0.3645,0.2326,53,,,,,, --mmas --localsearch 0 --alpha 3.3619 --beta 0.3645 --rho  0.2326 --ants 53,True
+72,12,0,eas,0,3.3939,3.194,0.3693,66,,,472,,, --eas --localsearch 0 --alpha 3.3939 --beta 3.194 --rho  0.3693 --ants 66 --elitistants 472,True
+73,1,0,as,1,3.8183,7.3423,0.9448,30,,,,41,0, --as --localsearch 1 --alpha 3.8183 --beta 7.3423 --rho  0.9448 --ants 30 --nnls 41 --dlb 0,True
+74,26,0,mmas,2,2.6231,4.2343,0.1987,71,,,,45,0, --mmas --localsearch 2 --alpha 2.6231 --beta 4.2343 --rho  0.1987 --ants 71 --nnls 45 --dlb 0,True
+75,1,0,as,3,3.0605,6.7426,0.0878,24,,,,44,0, --as --localsearch 3 --alpha 3.0605 --beta 6.7426 --rho  0.0878 --ants 24 --nnls 44 --dlb 0,True
+76,12,0,ras,1,2.4747,0.092,0.9549,68,,23,,34,0, --ras --localsearch 1 --alpha 2.4747 --beta 0.092 --rho  0.9549 --ants 68 --rasranks 23 --nnls 34 --dlb 0,True
+77,25,0,eas,3,2.5392,3.3545,0.6364,37,,,375,46,0, --eas --localsearch 3 --alpha 2.5392 --beta 3.3545 --rho  0.6364 --ants 37 --elitistants 375 --nnls 46 --dlb 0,True
+78,36,0,mmas,0,0.1308,3.2288,0.3673,63,,,,,, --mmas --localsearch 0 --alpha 0.1308 --beta 3.2288 --rho  0.3673 --ants 63,True
+79,1,0,eas,0,4.4136,6.9752,0.1055,68,,,510,,, --eas --localsearch 0 --alpha 4.4136 --beta 6.9752 --rho  0.1055 --ants 68 --elitistants 510,True
+80,12,0,ras,0,2.0274,1.9755,0.0659,27,,44,,,, --ras --localsearch 0 --alpha 2.0274 --beta 1.9755 --rho  0.0659 --ants 27 --rasranks 44,True
+81,3,0,ras,2,4.8236,7.7188,0.2577,70,,23,,24,1, --ras --localsearch 2 --alpha 4.8236 --beta 7.7188 --rho  0.2577 --ants 70 --rasranks 23 --nnls 24 --dlb 1,True
+82,25,0,ras,1,4.1656,7.4117,0.5959,67,,92,,15,0, --ras --localsearch 1 --alpha 4.1656 --beta 7.4117 --rho  0.5959 --ants 67 --rasranks 92 --nnls 15 --dlb 0,True
+83,52,0,eas,3,2.6298,3.2107,0.3004,49,,,281,38,0, --eas --localsearch 3 --alpha 2.6298 --beta 3.2107 --rho  0.3004 --ants 49 --elitistants 281 --nnls 38 --dlb 0,True
+84,56,0,acs,3,4.2227,1.2718,0.0355,46,0.7871,,,40,0, --acs --localsearch 3 --alpha 4.2227 --beta 1.2718 --rho  0.0355 --ants 46 --q0 0.7871 --nnls 40 --dlb 0,True
+85,56,0,mmas,0,4.3902,2.6619,0.1039,20,,,,,, --mmas --localsearch 0 --alpha 4.3902 --beta 2.6619 --rho  0.1039 --ants 20,True
+86,26,0,eas,1,3.9422,3.2122,0.1461,22,,,148,16,0, --eas --localsearch 1 --alpha 3.9422 --beta 3.2122 --rho  0.1461 --ants 22 --elitistants 148 --nnls 16 --dlb 0,True
+87,26,0,acs,0,1.4807,5.8639,0.0889,21,0.8347,,,,, --acs --localsearch 0 --alpha 1.4807 --beta 5.8639 --rho  0.0889 --ants 21 --q0 0.8347,True
+88,26,0,eas,1,2.2789,2.4031,0.1119,10,,,327,10,1, --eas --localsearch 1 --alpha 2.2789 --beta 2.4031 --rho  0.1119 --ants 10 --elitistants 327 --nnls 10 --dlb 1,True
+89,52,0,as,2,1.8952,3.5382,0.4037,27,,,,27,1, --as --localsearch 2 --alpha 1.8952 --beta 3.5382 --rho  0.4037 --ants 27 --nnls 27 --dlb 1,True
+90,56,0,mmas,2,4.2893,7.5711,0.75,15,,,,46,0, --mmas --localsearch 2 --alpha 4.2893 --beta 7.5711 --rho  0.75 --ants 15 --nnls 46 --dlb 0,True
+91,52,0,mmas,0,0.3413,3.8724,0.1773,51,,,,,, --mmas --localsearch 0 --alpha 0.3413 --beta 3.8724 --rho  0.1773 --ants 51,True
+92,56,0,ras,3,2.4001,0.919,0.4985,30,,74,,50,0, --ras --localsearch 3 --alpha 2.4001 --beta 0.919 --rho  0.4985 --ants 30 --rasranks 74 --nnls 50 --dlb 0,True
+93,56,0,eas,2,1.6342,4.0989,0.0202,37,,,317,6,0, --eas --localsearch 2 --alpha 1.6342 --beta 4.0989 --rho  0.0202 --ants 37 --elitistants 317 --nnls 6 --dlb 0,True
+94,56,0,ras,1,4.6419,6.5556,0.4346,41,,77,,27,1, --ras --localsearch 1 --alpha 4.6419 --beta 6.5556 --rho  0.4346 --ants 41 --rasranks 77 --nnls 27 --dlb 1,True
+95,12,0,mmas,2,3.6699,0.5239,0.4452,52,,,,34,1, --mmas --localsearch 2 --alpha 3.6699 --beta 0.5239 --rho  0.4452 --ants 52 --nnls 34 --dlb 1,True
+96,26,0,acs,2,2.4005,5.7227,0.1091,36,0.4871,,,45,1, --acs --localsearch 2 --alpha 2.4005 --beta 5.7227 --rho  0.1091 --ants 36 --q0 0.4871 --nnls 45 --dlb 1,True
+97,12,6,mmas,0,1.9365,5.9042,0.1657,75,,,,,, --mmas --localsearch 0 --alpha 1.9365 --beta 5.9042 --rho  0.1657 --ants 75,True
+98,56,5,mmas,3,3.2653,8.5342,0.2192,85,,,,38,0, --mmas --localsearch 3 --alpha 3.2653 --beta 8.5342 --rho  0.2192 --ants 85 --nnls 38 --dlb 0,True
+99,12,6,acs,1,2.8671,4.7542,0.044,39,0.7361,,,19,0, --acs --localsearch 1 --alpha 2.8671 --beta 4.7542 --rho  0.044 --ants 39 --q0 0.7361 --nnls 19 --dlb 0,True
+100,25,1,mmas,1,3.9962,9.1252,0.6016,54,,,,14,0, --mmas --localsearch 1 --alpha 3.9962 --beta 9.1252 --rho  0.6016 --ants 54 --nnls 14 --dlb 0,True
+101,52,3,eas,1,1.1158,4.8531,0.3933,28,,,568,26,0, --eas --localsearch 1 --alpha 1.1158 --beta 4.8531 --rho  0.3933 --ants 28 --elitistants 568 --nnls 26 --dlb 0,True
+102,56,5,acs,1,3.2558,6.7146,0.639,18,0.8121,,,24,0, --acs --localsearch 1 --alpha 3.2558 --beta 6.7146 --rho  0.639 --ants 18 --q0 0.8121 --nnls 24 --dlb 0,True
+103,56,5,acs,3,0.8811,0.9362,0.6472,26,0.6892,,,28,1, --acs --localsearch 3 --alpha 0.8811 --beta 0.9362 --rho  0.6472 --ants 26 --q0 0.6892 --nnls 28 --dlb 1,True
+104,12,6,mmas,1,2.9782,1.054,0.5363,25,,,,50,1, --mmas --localsearch 1 --alpha 2.9782 --beta 1.054 --rho  0.5363 --ants 25 --nnls 50 --dlb 1,True
+105,46,4,as,2,4.6839,4.6143,0.5041,96,,,,47,0, --as --localsearch 2 --alpha 4.6839 --beta 4.6143 --rho  0.5041 --ants 96 --nnls 47 --dlb 0,True
+106,25,1,as,1,1.9002,5.8772,0.63,60,,,,5,1, --as --localsearch 1 --alpha 1.9002 --beta 5.8772 --rho  0.63 --ants 60 --nnls 5 --dlb 1,True
+107,52,3,ras,0,2.5877,4.8382,0.243,16,,89,,,, --ras --localsearch 0 --alpha 2.5877 --beta 4.8382 --rho  0.243 --ants 16 --rasranks 89,True
+108,46,4,acs,3,4.7974,0.8554,0.2047,87,0.8906,,,25,0, --acs --localsearch 3 --alpha 4.7974 --beta 0.8554 --rho  0.2047 --ants 87 --q0 0.8906 --nnls 25 --dlb 0,True
+109,25,1,mmas,3,4.7223,6.5278,0.0479,86,,,,27,1, --mmas --localsearch 3 --alpha 4.7223 --beta 6.5278 --rho  0.0479 --ants 86 --nnls 27 --dlb 1,True
+110,52,3,ras,3,2.135,5.1409,0.1731,12,,3,,16,0, --ras --localsearch 3 --alpha 2.135 --beta 5.1409 --rho  0.1731 --ants 12 --rasranks 3 --nnls 16 --dlb 0,True
+111,52,3,acs,1,4.259,1.1596,0.2067,38,0.2846,,,25,0, --acs --localsearch 1 --alpha 4.259 --beta 1.1596 --rho  0.2067 --ants 38 --q0 0.2846 --nnls 25 --dlb 0,True
+112,12,6,mmas,3,0.574,5.0717,0.3325,8,,,,42,0, --mmas --localsearch 3 --alpha 0.574 --beta 5.0717 --rho  0.3325 --ants 8 --nnls 42 --dlb 0,True
+113,12,6,eas,1,2.3618,0.9179,0.3676,54,,,29,29,1, --eas --localsearch 1 --alpha 2.3618 --beta 0.9179 --rho  0.3676 --ants 54 --elitistants 29 --nnls 29 --dlb 1,True
+114,52,3,eas,3,0.5809,2.3418,0.9173,45,,,246,15,1, --eas --localsearch 3 --alpha 0.5809 --beta 2.3418 --rho  0.9173 --ants 45 --elitistants 246 --nnls 15 --dlb 1,True
+115,46,4,as,2,1.1178,6.3136,0.5465,36,,,,36,1, --as --localsearch 2 --alpha 1.1178 --beta 6.3136 --rho  0.5465 --ants 36 --nnls 36 --dlb 1,True
+116,12,6,eas,1,1.8644,1.5782,0.0452,40,,,604,30,1, --eas --localsearch 1 --alpha 1.8644 --beta 1.5782 --rho  0.0452 --ants 40 --elitistants 604 --nnls 30 --dlb 1,True
+117,26,2,acs,1,0.1633,4.2668,0.3296,48,0.5805,,,25,0, --acs --localsearch 1 --alpha 0.1633 --beta 4.2668 --rho  0.3296 --ants 48 --q0 0.5805 --nnls 25 --dlb 0,True
+118,26,2,eas,2,1.9587,3.8927,0.0784,11,,,195,14,1, --eas --localsearch 2 --alpha 1.9587 --beta 3.8927 --rho  0.0784 --ants 11 --elitistants 195 --nnls 14 --dlb 1,True
+119,56,5,eas,2,1.3069,9.3631,0.5203,7,,,250,48,0, --eas --localsearch 2 --alpha 1.3069 --beta 9.3631 --rho  0.5203 --ants 7 --elitistants 250 --nnls 48 --dlb 0,True
+120,52,3,as,3,2.828,4.4078,0.2241,33,,,,15,0, --as --localsearch 3 --alpha 2.828 --beta 4.4078 --rho  0.2241 --ants 33 --nnls 15 --dlb 0,True
+121,25,1,acs,2,1.2311,2.5575,0.058,99,0.5552,,,28,0, --acs --localsearch 2 --alpha 1.2311 --beta 2.5575 --rho  0.058 --ants 99 --q0 0.5552 --nnls 28 --dlb 0,True
+122,25,1,eas,0,4.4512,2.8091,0.2414,73,,,278,,, --eas --localsearch 0 --alpha 4.4512 --beta 2.8091 --rho  0.2414 --ants 73 --elitistants 278,True
+123,52,3,acs,0,1.7545,1.8832,0.4775,48,0.1998,,,,, --acs --localsearch 0 --alpha 1.7545 --beta 1.8832 --rho  0.4775 --ants 48 --q0 0.1998,True
+124,52,3,mmas,3,2.072,1.9232,0.6198,14,,,,27,0, --mmas --localsearch 3 --alpha 2.072 --beta 1.9232 --rho  0.6198 --ants 14 --nnls 27 --dlb 0,True
+125,52,3,as,1,0.3506,3.7055,0.958,11,,,,47,1, --as --localsearch 1 --alpha 0.3506 --beta 3.7055 --rho  0.958 --ants 11 --nnls 47 --dlb 1,True
+126,52,3,acs,3,2.0731,1.0718,0.0544,56,0.5191,,,19,1, --acs --localsearch 3 --alpha 2.0731 --beta 1.0718 --rho  0.0544 --ants 56 --q0 0.5191 --nnls 19 --dlb 1,True
+127,52,3,acs,2,4.2413,2.4756,0.458,59,0.159,,,16,0, --acs --localsearch 2 --alpha 4.2413 --beta 2.4756 --rho  0.458 --ants 59 --q0 0.159 --nnls 16 --dlb 0,True
+128,52,3,eas,0,1.2241,0.1728,0.341,28,,,277,,, --eas --localsearch 0 --alpha 1.2241 --beta 0.1728 --rho  0.341 --ants 28 --elitistants 277,True
+129,96,0,mmas,2,1.7083,9.5503,0.333,22,,,,49,1, --mmas --localsearch 2 --alpha 1.7083 --beta 9.5503 --rho  0.333 --ants 22 --nnls 49 --dlb 1,True
+130,96,0,as,3,4.6053,3.7599,0.7044,33,,,,28,0, --as --localsearch 3 --alpha 4.6053 --beta 3.7599 --rho  0.7044 --ants 33 --nnls 28 --dlb 0,True
+131,52,3,acs,2,2.9355,3.5643,0.4608,8,0.1954,,,34,0, --acs --localsearch 2 --alpha 2.9355 --beta 3.5643 --rho  0.4608 --ants 8 --q0 0.1954 --nnls 34 --dlb 0,True
+132,102,5,as,1,2.6185,8.8719,0.5681,30,,,,6,1, --as --localsearch 1 --alpha 2.6185 --beta 8.8719 --rho  0.5681 --ants 30 --nnls 6 --dlb 1,True
+133,102,5,acs,2,3.1305,5.8944,0.6644,26,0.1731,,,24,1, --acs --localsearch 2 --alpha 3.1305 --beta 5.8944 --rho  0.6644 --ants 26 --q0 0.1731 --nnls 24 --dlb 1,True
+134,96,0,acs,3,3.185,2.8488,0.3926,15,0.1426,,,7,0, --acs --localsearch 3 --alpha 3.185 --beta 2.8488 --rho  0.3926 --ants 15 --q0 0.1426 --nnls 7 --dlb 0,True
+135,102,5,acs,0,4.1035,5.2471,0.5857,52,0.8752,,,,, --acs --localsearch 0 --alpha 4.1035 --beta 5.2471 --rho  0.5857 --ants 52 --q0 0.8752,True
+136,52,3,ras,0,1.5619,2.7658,0.4469,40,,20,,,, --ras --localsearch 0 --alpha 1.5619 --beta 2.7658 --rho  0.4469 --ants 40 --rasranks 20,True
+137,52,3,ras,3,3.1508,1.4297,0.1007,33,,16,,32,1, --ras --localsearch 3 --alpha 3.1508 --beta 1.4297 --rho  0.1007 --ants 33 --rasranks 16 --nnls 32 --dlb 1,True
+138,52,3,acs,3,4.5297,6.138,0.2792,7,0.7047,,,19,0, --acs --localsearch 3 --alpha 4.5297 --beta 6.138 --rho  0.2792 --ants 7 --q0 0.7047 --nnls 19 --dlb 0,True
+139,52,3,acs,0,4.5092,1.7009,0.2763,18,0.4335,,,,, --acs --localsearch 0 --alpha 4.5092 --beta 1.7009 --rho  0.2763 --ants 18 --q0 0.4335,True
+140,52,3,acs,3,1.9443,3.2648,0.5485,16,0.0504,,,29,1, --acs --localsearch 3 --alpha 1.9443 --beta 3.2648 --rho  0.5485 --ants 16 --q0 0.0504 --nnls 29 --dlb 1,True
+141,102,5,acs,2,3.4732,5.9373,0.3579,56,0.5977,,,27,0, --acs --localsearch 2 --alpha 3.4732 --beta 5.9373 --rho  0.3579 --ants 56 --q0 0.5977 --nnls 27 --dlb 0,True
+142,102,5,mmas,1,2.0499,5.4812,0.5321,9,,,,33,1, --mmas --localsearch 1 --alpha 2.0499 --beta 5.4812 --rho  0.5321 --ants 9 --nnls 33 --dlb 1,True
+143,102,5,mmas,1,4.2686,4.759,0.3327,21,,,,26,1, --mmas --localsearch 1 --alpha 4.2686 --beta 4.759 --rho  0.3327 --ants 21 --nnls 26 --dlb 1,True
+144,52,3,ras,1,0.3356,1.8758,0.3169,74,,70,,33,1, --ras --localsearch 1 --alpha 0.3356 --beta 1.8758 --rho  0.3169 --ants 74 --rasranks 70 --nnls 33 --dlb 1,True
+145,102,5,mmas,0,2.6903,6.9969,0.8067,42,,,,,, --mmas --localsearch 0 --alpha 2.6903 --beta 6.9969 --rho  0.8067 --ants 42,True
+146,102,5,as,1,1.9068,3.0658,0.7366,26,,,,22,0, --as --localsearch 1 --alpha 1.9068 --beta 3.0658 --rho  0.7366 --ants 26 --nnls 22 --dlb 0,True
+147,96,0,ras,0,3.0196,0.0167,0.5586,28,,97,,,, --ras --localsearch 0 --alpha 3.0196 --beta 0.0167 --rho  0.5586 --ants 28 --rasranks 97,True
+148,102,5,acs,2,2.9939,4.6319,0.3793,33,0.8868,,,44,0, --acs --localsearch 2 --alpha 2.9939 --beta 4.6319 --rho  0.3793 --ants 33 --q0 0.8868 --nnls 44 --dlb 0,True
+149,52,3,mmas,3,1.8427,0.425,0.4004,7,,,,16,0, --mmas --localsearch 3 --alpha 1.8427 --beta 0.425 --rho  0.4004 --ants 7 --nnls 16 --dlb 0,True
+150,52,3,acs,2,2.9156,3.0797,0.3422,19,0.2389,,,22,0, --acs --localsearch 2 --alpha 2.9156 --beta 3.0797 --rho  0.3422 --ants 19 --q0 0.2389 --nnls 22 --dlb 0,True
+151,102,5,as,3,1.0715,8.3979,0.6949,25,,,,33,1, --as --localsearch 3 --alpha 1.0715 --beta 8.3979 --rho  0.6949 --ants 25 --nnls 33 --dlb 1,True
+152,52,3,ras,3,1.2646,6.8486,0.6666,14,,46,,31,0, --ras --localsearch 3 --alpha 1.2646 --beta 6.8486 --rho  0.6666 --ants 14 --rasranks 46 --nnls 31 --dlb 0,True
+153,52,3,ras,3,3.9476,0.9857,0.7797,26,,13,,43,1, --ras --localsearch 3 --alpha 3.9476 --beta 0.9857 --rho  0.7797 --ants 26 --rasranks 13 --nnls 43 --dlb 1,True
+154,52,3,mmas,2,1.3109,7.1129,0.2342,27,,,,31,0, --mmas --localsearch 2 --alpha 1.3109 --beta 7.1129 --rho  0.2342 --ants 27 --nnls 31 --dlb 0,True
+155,52,3,acs,3,3.717,1.489,0.4513,60,0.6297,,,42,0, --acs --localsearch 3 --alpha 3.717 --beta 1.489 --rho  0.4513 --ants 60 --q0 0.6297 --nnls 42 --dlb 0,True
+156,52,3,eas,3,1.8113,4.5751,0.5028,52,,,601,30,0, --eas --localsearch 3 --alpha 1.8113 --beta 4.5751 --rho  0.5028 --ants 52 --elitistants 601 --nnls 30 --dlb 0,True
+157,96,0,ras,2,3.5711,6.8616,0.341,51,,51,,18,0, --ras --localsearch 2 --alpha 3.5711 --beta 6.8616 --rho  0.341 --ants 51 --rasranks 51 --nnls 18 --dlb 0,True
+158,119,5,ras,1,0.5566,9.0492,0.3619,14,,38,,41,0, --ras --localsearch 1 --alpha 0.5566 --beta 9.0492 --rho  0.3619 --ants 14 --rasranks 38 --nnls 41 --dlb 0,True
+159,102,5,acs,0,1.5007,8.7746,0.9286,51,0.94,,,,, --acs --localsearch 0 --alpha 1.5007 --beta 8.7746 --rho  0.9286 --ants 51 --q0 0.94,True
+160,137,3,mmas,1,3.181,4.5707,0.4716,60,,,,37,0, --mmas --localsearch 1 --alpha 3.181 --beta 4.5707 --rho  0.4716 --ants 60 --nnls 37 --dlb 0,True
+161,127,3,acs,3,4.1463,6.8971,0.3007,91,0.1124,,,15,0, --acs --localsearch 3 --alpha 4.1463 --beta 6.8971 --rho  0.3007 --ants 91 --q0 0.1124 --nnls 15 --dlb 0,True
+162,96,0,as,2,3.6722,7.8935,0.5503,76,,,,47,0, --as --localsearch 2 --alpha 3.6722 --beta 7.8935 --rho  0.5503 --ants 76 --nnls 47 --dlb 0,True
+163,131,3,mmas,3,1.62,6.7554,0.8888,68,,,,32,0, --mmas --localsearch 3 --alpha 1.62 --beta 6.7554 --rho  0.8888 --ants 68 --nnls 32 --dlb 0,True
+164,137,3,eas,2,1.6243,1.0895,0.7138,10,,,119,28,1, --eas --localsearch 2 --alpha 1.6243 --beta 1.0895 --rho  0.7138 --ants 10 --elitistants 119 --nnls 28 --dlb 1,True
+165,131,3,mmas,1,2.0995,3.2009,0.4594,35,,,,30,0, --mmas --localsearch 1 --alpha 2.0995 --beta 3.2009 --rho  0.4594 --ants 35 --nnls 30 --dlb 0,True
+166,102,5,as,3,2.0197,9.2925,0.6565,10,,,,19,0, --as --localsearch 3 --alpha 2.0197 --beta 9.2925 --rho  0.6565 --ants 10 --nnls 19 --dlb 0,True
+167,102,5,eas,1,2.5895,7.3713,0.7481,10,,,522,8,0, --eas --localsearch 1 --alpha 2.5895 --beta 7.3713 --rho  0.7481 --ants 10 --elitistants 522 --nnls 8 --dlb 0,True
+168,102,5,mmas,2,1.9486,8.1662,0.2302,47,,,,17,0, --mmas --localsearch 2 --alpha 1.9486 --beta 8.1662 --rho  0.2302 --ants 47 --nnls 17 --dlb 0,True
+169,131,3,ras,1,4.6235,5.0011,0.9119,44,,9,,41,1, --ras --localsearch 1 --alpha 4.6235 --beta 5.0011 --rho  0.9119 --ants 44 --rasranks 9 --nnls 41 --dlb 1,True
+170,131,3,acs,0,4.6693,2.4114,0.5278,25,0.1493,,,,, --acs --localsearch 0 --alpha 4.6693 --beta 2.4114 --rho  0.5278 --ants 25 --q0 0.1493,True
+171,52,3,eas,1,1.6934,0.1148,0.6966,12,,,277,27,1, --eas --localsearch 1 --alpha 1.6934 --beta 0.1148 --rho  0.6966 --ants 12 --elitistants 277 --nnls 27 --dlb 1,True
+172,96,0,eas,3,1.7527,7.4349,0.9331,70,,,32,8,0, --eas --localsearch 3 --alpha 1.7527 --beta 7.4349 --rho  0.9331 --ants 70 --elitistants 32 --nnls 8 --dlb 0,True
+173,127,3,eas,3,0.2167,1.2915,0.6304,28,,,495,14,1, --eas --localsearch 3 --alpha 0.2167 --beta 1.2915 --rho  0.6304 --ants 28 --elitistants 495 --nnls 14 --dlb 1,True
+174,96,0,eas,1,1.9647,5.163,0.0171,70,,,354,33,1, --eas --localsearch 1 --alpha 1.9647 --beta 5.163 --rho  0.0171 --ants 70 --elitistants 354 --nnls 33 --dlb 1,True
+175,134,0,acs,1,3.3184,2.0777,0.408,56,0.0773,,,8,0, --acs --localsearch 1 --alpha 3.3184 --beta 2.0777 --rho  0.408 --ants 56 --q0 0.0773 --nnls 8 --dlb 0,True
+176,137,3,mmas,2,4.2149,3.3981,0.011,5,,,,29,0, --mmas --localsearch 2 --alpha 4.2149 --beta 3.3981 --rho  0.011 --ants 5 --nnls 29 --dlb 0,True
+177,52,3,as,0,4.5838,1.3166,0.6568,5,,,,,, --as --localsearch 0 --alpha 4.5838 --beta 1.3166 --rho  0.6568 --ants 5,True
+178,137,11,mmas,3,3.2496,0.3726,0.2224,33,,,,27,1, --mmas --localsearch 3 --alpha 3.2496 --beta 0.3726 --rho  0.2224 --ants 33 --nnls 27 --dlb 1,True
+179,52,8,as,2,3.5811,3.6766,0.2861,20,,,,25,1, --as --localsearch 2 --alpha 3.5811 --beta 3.6766 --rho  0.2861 --ants 20 --nnls 25 --dlb 1,True
+180,102,9,ras,1,2.8873,6.7212,0.8029,8,,13,,29,1, --ras --localsearch 1 --alpha 2.8873 --beta 6.7212 --rho  0.8029 --ants 8 --rasranks 13 --nnls 29 --dlb 1,True
+181,102,9,acs,3,4.2424,8.0711,0.7013,29,0.515,,,20,1, --acs --localsearch 3 --alpha 4.2424 --beta 8.0711 --rho  0.7013 --ants 29 --q0 0.515 --nnls 20 --dlb 1,True
+182,127,10,mmas,1,4.59,4.9846,0.6979,53,,,,22,0, --mmas --localsearch 1 --alpha 4.59 --beta 4.9846 --rho  0.6979 --ants 53 --nnls 22 --dlb 0,True
+183,102,9,eas,0,4.6843,6.2314,0.5919,18,,,234,,, --eas --localsearch 0 --alpha 4.6843 --beta 6.2314 --rho  0.5919 --ants 18 --elitistants 234,True
+184,134,12,mmas,3,3.2886,3.7833,0.5955,7,,,,13,1, --mmas --localsearch 3 --alpha 3.2886 --beta 3.7833 --rho  0.5955 --ants 7 --nnls 13 --dlb 1,True
+185,127,10,acs,3,4.6372,0.7387,0.6334,63,0.2785,,,21,0, --acs --localsearch 3 --alpha 4.6372 --beta 0.7387 --rho  0.6334 --ants 63 --q0 0.2785 --nnls 21 --dlb 0,True
+186,134,12,as,3,1.4325,6.0608,0.384,66,,,,15,1, --as --localsearch 3 --alpha 1.4325 --beta 6.0608 --rho  0.384 --ants 66 --nnls 15 --dlb 1,True
+187,127,10,as,0,3.9598,2.0692,0.3077,95,,,,,, --as --localsearch 0 --alpha 3.9598 --beta 2.0692 --rho  0.3077 --ants 95,True
+188,102,9,acs,1,4.2591,7.91,0.495,13,0.5542,,,40,0, --acs --localsearch 1 --alpha 4.2591 --beta 7.91 --rho  0.495 --ants 13 --q0 0.5542 --nnls 40 --dlb 0,True
+189,102,9,acs,1,3.7039,3.4678,0.5129,13,0.7222,,,22,0, --acs --localsearch 1 --alpha 3.7039 --beta 3.4678 --rho  0.5129 --ants 13 --q0 0.7222 --nnls 22 --dlb 0,True
+190,131,3,eas,3,2.0789,4.8326,0.3133,16,,,550,39,0, --eas --localsearch 3 --alpha 2.0789 --beta 4.8326 --rho  0.3133 --ants 16 --elitistants 550 --nnls 39 --dlb 0,True
+191,52,8,as,0,2.3911,2.1718,0.2437,34,,,,,, --as --localsearch 0 --alpha 2.3911 --beta 2.1718 --rho  0.2437 --ants 34,True
+192,127,10,acs,2,3.8572,2.5159,0.398,65,0.1059,,,8,0, --acs --localsearch 2 --alpha 3.8572 --beta 2.5159 --rho  0.398 --ants 65 --q0 0.1059 --nnls 8 --dlb 0,True
+193,96,7,as,2,3.114,5.424,0.472,78,,,,48,1, --as --localsearch 2 --alpha 3.114 --beta 5.424 --rho  0.472 --ants 78 --nnls 48 --dlb 1,True
+194,96,7,acs,2,3.3904,7.0338,0.0376,37,0.4513,,,35,1, --acs --localsearch 2 --alpha 3.3904 --beta 7.0338 --rho  0.0376 --ants 37 --q0 0.4513 --nnls 35 --dlb 1,True
+195,52,8,acs,1,0.6001,4.1702,0.4988,10,0.2278,,,44,1, --acs --localsearch 1 --alpha 0.6001 --beta 4.1702 --rho  0.4988 --ants 10 --q0 0.2278 --nnls 44 --dlb 1,True
+196,134,12,acs,0,2.8856,4.5296,0.721,40,0.2928,,,,, --acs --localsearch 0 --alpha 2.8856 --beta 4.5296 --rho  0.721 --ants 40 --q0 0.2928,True
+197,52,8,mmas,3,2.2256,5.234,0.2735,31,,,,35,1, --mmas --localsearch 3 --alpha 2.2256 --beta 5.234 --rho  0.2735 --ants 31 --nnls 35 --dlb 1,True
+198,127,10,acs,2,4.2343,4.3611,0.1022,72,0.6531,,,19,1, --acs --localsearch 2 --alpha 4.2343 --beta 4.3611 --rho  0.1022 --ants 72 --q0 0.6531 --nnls 19 --dlb 1,True
+199,131,3,eas,2,0.5978,3.5697,0.0429,8,,,486,19,0, --eas --localsearch 2 --alpha 0.5978 --beta 3.5697 --rho  0.0429 --ants 8 --elitistants 486 --nnls 19 --dlb 0,True
+200,52,8,acs,2,4.1269,5.7996,0.2248,36,0.0224,,,28,0, --acs --localsearch 2 --alpha 4.1269 --beta 5.7996 --rho  0.2248 --ants 36 --q0 0.0224 --nnls 28 --dlb 0,True
+201,131,3,acs,2,2.7461,7.7828,0.521,23,0.1693,,,36,1, --acs --localsearch 2 --alpha 2.7461 --beta 7.7828 --rho  0.521 --ants 23 --q0 0.1693 --nnls 36 --dlb 1,True
+202,131,3,acs,3,2.9867,5.249,0.1575,6,0.0195,,,19,0, --acs --localsearch 3 --alpha 2.9867 --beta 5.249 --rho  0.1575 --ants 6 --q0 0.0195 --nnls 19 --dlb 0,True
+203,102,9,eas,3,1.4437,6.0654,0.5972,37,,,482,16,1, --eas --localsearch 3 --alpha 1.4437 --beta 6.0654 --rho  0.5972 --ants 37 --elitistants 482 --nnls 16 --dlb 1,True
+204,52,8,acs,2,2.3822,2.9927,0.4325,19,0.2256,,,18,0, --acs --localsearch 2 --alpha 2.3822 --beta 2.9927 --rho  0.4325 --ants 19 --q0 0.2256 --nnls 18 --dlb 0,True
+205,127,10,mmas,2,4.7928,0.5528,0.2771,67,,,,10,0, --mmas --localsearch 2 --alpha 4.7928 --beta 0.5528 --rho  0.2771 --ants 67 --nnls 10 --dlb 0,True
+206,131,3,as,0,3.2319,2.1563,0.1433,54,,,,,, --as --localsearch 0 --alpha 3.2319 --beta 2.1563 --rho  0.1433 --ants 54,True
+207,153,3,mmas,3,0.4178,4.9693,0.3747,12,,,,37,0, --mmas --localsearch 3 --alpha 0.4178 --beta 4.9693 --rho  0.3747 --ants 12 --nnls 37 --dlb 0,True
+208,52,8,mmas,1,1.6257,6.4518,0.3868,40,,,,34,0, --mmas --localsearch 1 --alpha 1.6257 --beta 6.4518 --rho  0.3868 --ants 40 --nnls 34 --dlb 0,True
+209,134,12,mmas,0,4.9107,4.7668,0.7511,46,,,,,, --mmas --localsearch 0 --alpha 4.9107 --beta 4.7668 --rho  0.7511 --ants 46,True
+210,52,8,mmas,3,3.139,3.3566,0.577,15,,,,29,0, --mmas --localsearch 3 --alpha 3.139 --beta 3.3566 --rho  0.577 --ants 15 --nnls 29 --dlb 0,True
+211,131,3,mmas,1,0.3661,0.0618,0.2115,68,,,,28,1, --mmas --localsearch 1 --alpha 0.3661 --beta 0.0618 --rho  0.2115 --ants 68 --nnls 28 --dlb 1,True
+212,96,7,eas,3,3.1474,5.1482,0.105,47,,,459,30,1, --eas --localsearch 3 --alpha 3.1474 --beta 5.1482 --rho  0.105 --ants 47 --elitistants 459 --nnls 30 --dlb 1,True
+213,134,12,eas,0,3.1683,3.5571,0.4861,42,,,391,,, --eas --localsearch 0 --alpha 3.1683 --beta 3.5571 --rho  0.4861 --ants 42 --elitistants 391,True
+214,52,8,eas,2,1.466,5.0308,0.0703,30,,,261,41,1, --eas --localsearch 2 --alpha 1.466 --beta 5.0308 --rho  0.0703 --ants 30 --elitistants 261 --nnls 41 --dlb 1,True
+215,134,12,eas,1,4.3271,2.592,0.2446,28,,,272,9,0, --eas --localsearch 1 --alpha 4.3271 --beta 2.592 --rho  0.2446 --ants 28 --elitistants 272 --nnls 9 --dlb 0,True
+216,134,12,acs,3,3.4726,0.2051,0.8554,65,0.5728,,,30,1, --acs --localsearch 3 --alpha 3.4726 --beta 0.2051 --rho  0.8554 --ants 65 --q0 0.5728 --nnls 30 --dlb 1,True
+217,134,12,acs,3,3.8278,1.228,0.031,50,0.9165,,,7,1, --acs --localsearch 3 --alpha 3.8278 --beta 1.228 --rho  0.031 --ants 50 --q0 0.9165 --nnls 7 --dlb 1,True
+218,131,3,as,2,4.6809,5.4058,0.4657,32,,,,25,0, --as --localsearch 2 --alpha 4.6809 --beta 5.4058 --rho  0.4657 --ants 32 --nnls 25 --dlb 0,True
+219,96,7,acs,2,1.3577,5.5971,0.407,31,0.8523,,,39,0, --acs --localsearch 2 --alpha 1.3577 --beta 5.5971 --rho  0.407 --ants 31 --q0 0.8523 --nnls 39 --dlb 0,True
+220,52,8,eas,3,1.7655,4.9519,0.3426,25,,,702,27,0, --eas --localsearch 3 --alpha 1.7655 --beta 4.9519 --rho  0.3426 --ants 25 --elitistants 702 --nnls 27 --dlb 0,True
+221,153,3,eas,0,4.9388,6.0889,0.5532,13,,,676,,, --eas --localsearch 0 --alpha 4.9388 --beta 6.0889 --rho  0.5532 --ants 13 --elitistants 676,True
+222,131,3,ras,0,0.728,0.8381,0.5101,45,,40,,,, --ras --localsearch 0 --alpha 0.728 --beta 0.8381 --rho  0.5101 --ants 45 --rasranks 40,True
+223,127,10,as,1,4.6292,0.3703,0.2171,60,,,,24,0, --as --localsearch 1 --alpha 4.6292 --beta 0.3703 --rho  0.2171 --ants 60 --nnls 24 --dlb 0,True
+224,52,8,acs,2,2.8637,2.6103,0.339,19,0.2769,,,38,1, --acs --localsearch 2 --alpha 2.8637 --beta 2.6103 --rho  0.339 --ants 19 --q0 0.2769 --nnls 38 --dlb 1,True
+225,52,8,ras,3,2.4618,2.1272,0.2496,19,,72,,25,1, --ras --localsearch 3 --alpha 2.4618 --beta 2.1272 --rho  0.2496 --ants 19 --rasranks 72 --nnls 25 --dlb 1,True
+226,52,8,acs,2,2.2052,0.675,0.317,14,0.1338,,,20,1, --acs --localsearch 2 --alpha 2.2052 --beta 0.675 --rho  0.317 --ants 14 --q0 0.1338 --nnls 20 --dlb 1,True
+227,52,8,mmas,1,1.1498,0.2856,0.2282,24,,,,24,0, --mmas --localsearch 1 --alpha 1.1498 --beta 0.2856 --rho  0.2282 --ants 24 --nnls 24 --dlb 0,True
+228,131,3,acs,1,3.2135,8.3528,0.3141,40,0.0513,,,26,0, --acs --localsearch 1 --alpha 3.2135 --beta 8.3528 --rho  0.3141 --ants 40 --q0 0.0513 --nnls 26 --dlb 0,True
+229,134,12,as,0,4.1523,5.2591,0.5695,50,,,,,, --as --localsearch 0 --alpha 4.1523 --beta 5.2591 --rho  0.5695 --ants 50,True
+230,153,3,mmas,1,2.8259,1.507,0.6184,12,,,,38,0, --mmas --localsearch 1 --alpha 2.8259 --beta 1.507 --rho  0.6184 --ants 12 --nnls 38 --dlb 0,True
+231,96,7,mmas,2,3.3568,8.8042,0.6416,20,,,,33,1, --mmas --localsearch 2 --alpha 3.3568 --beta 8.8042 --rho  0.6416 --ants 20 --nnls 33 --dlb 1,True
+232,96,7,ras,0,3.0383,4.9037,0.6169,18,,22,,,, --ras --localsearch 0 --alpha 3.0383 --beta 4.9037 --rho  0.6169 --ants 18 --rasranks 22,True
+233,203,9,eas,1,1.9652,8.492,0.5213,41,,,538,26,0, --eas --localsearch 1 --alpha 1.9652 --beta 8.492 --rho  0.5213 --ants 41 --elitistants 538 --nnls 26 --dlb 0,True
+234,153,3,eas,2,2.5933,3.7766,0.5785,19,,,461,31,0, --eas --localsearch 2 --alpha 2.5933 --beta 3.7766 --rho  0.5785 --ants 19 --elitistants 461 --nnls 31 --dlb 0,True
+235,181,9,acs,1,4.6118,7.0035,0.9519,11,0.3699,,,28,0, --acs --localsearch 1 --alpha 4.6118 --beta 7.0035 --rho  0.9519 --ants 11 --q0 0.3699 --nnls 28 --dlb 0,True
+236,181,9,mmas,1,4.0921,6.2625,0.1093,43,,,,26,1, --mmas --localsearch 1 --alpha 4.0921 --beta 6.2625 --rho  0.1093 --ants 43 --nnls 26 --dlb 1,True
+237,181,9,acs,1,4.042,8.2668,0.6824,56,0.652,,,26,1, --acs --localsearch 1 --alpha 4.042 --beta 8.2668 --rho  0.6824 --ants 56 --q0 0.652 --nnls 26 --dlb 1,True
+238,153,3,mmas,3,3.5446,2.4857,0.2938,23,,,,39,0, --mmas --localsearch 3 --alpha 3.5446 --beta 2.4857 --rho  0.2938 --ants 23 --nnls 39 --dlb 0,True
+239,203,9,acs,1,2.998,6.8128,0.3034,50,0.582,,,8,0, --acs --localsearch 1 --alpha 2.998 --beta 6.8128 --rho  0.3034 --ants 50 --q0 0.582 --nnls 8 --dlb 0,True
+240,203,9,ras,1,2.5808,7.3764,0.2818,30,,58,,21,1, --ras --localsearch 1 --alpha 2.5808 --beta 7.3764 --rho  0.2818 --ants 30 --rasranks 58 --nnls 21 --dlb 1,True
+241,181,9,acs,0,3.5597,5.1169,0.7393,30,0.9787,,,,, --acs --localsearch 0 --alpha 3.5597 --beta 5.1169 --rho  0.7393 --ants 30 --q0 0.9787,True
+242,203,9,acs,2,1.9917,5.8243,0.4223,44,0.3675,,,28,1, --acs --localsearch 2 --alpha 1.9917 --beta 5.8243 --rho  0.4223 --ants 44 --q0 0.3675 --nnls 28 --dlb 1,True
+243,181,9,acs,3,3.0826,4.7435,0.2027,31,0.5771,,,24,1, --acs --localsearch 3 --alpha 3.0826 --beta 4.7435 --rho  0.2027 --ants 31 --q0 0.5771 --nnls 24 --dlb 1,True
+244,181,9,mmas,1,4.4802,7.9383,0.5039,8,,,,20,0, --mmas --localsearch 1 --alpha 4.4802 --beta 7.9383 --rho  0.5039 --ants 8 --nnls 20 --dlb 0,True
+245,153,3,as,1,2.604,0.8553,0.7775,64,,,,27,0, --as --localsearch 1 --alpha 2.604 --beta 0.8553 --rho  0.7775 --ants 64 --nnls 27 --dlb 0,True
+246,181,9,eas,3,2.3336,6.9874,0.7023,41,,,423,9,1, --eas --localsearch 3 --alpha 2.3336 --beta 6.9874 --rho  0.7023 --ants 41 --elitistants 423 --nnls 9 --dlb 1,True
+247,153,3,ras,2,2.0367,2.6222,0.9733,99,,28,,17,1, --ras --localsearch 2 --alpha 2.0367 --beta 2.6222 --rho  0.9733 --ants 99 --rasranks 28 --nnls 17 --dlb 1,True
+248,153,3,acs,2,4.2347,0.151,0.8194,37,0.0392,,,37,0, --acs --localsearch 2 --alpha 4.2347 --beta 0.151 --rho  0.8194 --ants 37 --q0 0.0392 --nnls 37 --dlb 0,True
+249,153,3,acs,2,2.5704,4.543,0.7617,57,0.849,,,14,0, --acs --localsearch 2 --alpha 2.5704 --beta 4.543 --rho  0.7617 --ants 57 --q0 0.849 --nnls 14 --dlb 0,True
+250,203,9,ras,0,1.4527,4.7668,0.5553,22,,30,,,, --ras --localsearch 0 --alpha 1.4527 --beta 4.7668 --rho  0.5553 --ants 22 --rasranks 30,True
+251,153,3,eas,0,3.9215,3.522,0.5943,34,,,247,,, --eas --localsearch 0 --alpha 3.9215 --beta 3.522 --rho  0.5943 --ants 34 --elitistants 247,True
+252,181,9,acs,3,4.63,6.0649,0.9825,21,0.6401,,,35,1, --acs --localsearch 3 --alpha 4.63 --beta 6.0649 --rho  0.9825 --ants 21 --q0 0.6401 --nnls 35 --dlb 1,True
+253,181,9,ras,1,3.0307,6.9559,0.865,34,,25,,18,1, --ras --localsearch 1 --alpha 3.0307 --beta 6.9559 --rho  0.865 --ants 34 --rasranks 25 --nnls 18 --dlb 1,True
+254,181,9,acs,1,4.2836,6.7,0.6967,76,0.4934,,,20,0, --acs --localsearch 1 --alpha 4.2836 --beta 6.7 --rho  0.6967 --ants 76 --q0 0.4934 --nnls 20 --dlb 0,True
+255,153,13,ras,3,2.9704,1.2487,0.7285,25,,32,,42,1, --ras --localsearch 3 --alpha 2.9704 --beta 1.2487 --rho  0.7285 --ants 25 --rasranks 32 --nnls 42 --dlb 1,True
+256,203,15,acs,2,1.104,4.9184,0.2929,30,0.6436,,,8,0, --acs --localsearch 2 --alpha 1.104 --beta 4.9184 --rho  0.2929 --ants 30 --q0 0.6436 --nnls 8 --dlb 0,True
+257,153,13,eas,3,4.9324,3.3156,0.7266,41,,,342,35,1, --eas --localsearch 3 --alpha 4.9324 --beta 3.3156 --rho  0.7266 --ants 41 --elitistants 342 --nnls 35 --dlb 1,True
+258,181,14,mmas,1,3.2083,7.4281,0.6838,16,,,,21,1, --mmas --localsearch 1 --alpha 3.2083 --beta 7.4281 --rho  0.6838 --ants 16 --nnls 21 --dlb 1,True
+259,181,14,acs,1,2.8405,9.0049,0.5218,36,0.4774,,,23,0, --acs --localsearch 1 --alpha 2.8405 --beta 9.0049 --rho  0.5218 --ants 36 --q0 0.4774 --nnls 23 --dlb 0,True
+260,153,13,eas,1,2.7915,0.1208,0.8567,15,,,591,48,0, --eas --localsearch 1 --alpha 2.7915 --beta 0.1208 --rho  0.8567 --ants 15 --elitistants 591 --nnls 48 --dlb 0,True
+261,181,14,acs,3,3.2053,8.7559,0.8194,26,0.5032,,,29,1, --acs --localsearch 3 --alpha 3.2053 --beta 8.7559 --rho  0.8194 --ants 26 --q0 0.5032 --nnls 29 --dlb 1,True
+262,235,9,acs,3,2.3852,8.4294,0.6287,13,0.5529,,,49,0, --acs --localsearch 3 --alpha 2.3852 --beta 8.4294 --rho  0.6287 --ants 13 --q0 0.5529 --nnls 49 --dlb 0,True
+263,153,13,acs,1,4.563,2.6194,0.5862,20,0.5677,,,26,0, --acs --localsearch 1 --alpha 4.563 --beta 2.6194 --rho  0.5862 --ants 20 --q0 0.5677 --nnls 26 --dlb 0,True
+264,181,14,ras,1,4.732,8.2738,0.8554,35,,76,,25,1, --ras --localsearch 1 --alpha 4.732 --beta 8.2738 --rho  0.8554 --ants 35 --rasranks 76 --nnls 25 --dlb 1,True
+265,181,14,as,1,4.5004,9.5054,0.6589,21,,,,15,1, --as --localsearch 1 --alpha 4.5004 --beta 9.5054 --rho  0.6589 --ants 21 --nnls 15 --dlb 1,True
+266,203,15,acs,1,1.4282,3.1899,0.741,30,0.269,,,25,1, --acs --localsearch 1 --alpha 1.4282 --beta 3.1899 --rho  0.741 --ants 30 --q0 0.269 --nnls 25 --dlb 1,True
+267,153,13,mmas,0,2.9149,0.5947,0.6939,63,,,,,, --mmas --localsearch 0 --alpha 2.9149 --beta 0.5947 --rho  0.6939 --ants 63,True
+268,153,13,acs,3,4.5677,5.4143,0.6841,12,0.5838,,,43,1, --acs --localsearch 3 --alpha 4.5677 --beta 5.4143 --rho  0.6841 --ants 12 --q0 0.5838 --nnls 43 --dlb 1,True
+269,203,15,mmas,2,0.1931,3.9741,0.5201,59,,,,15,1, --mmas --localsearch 2 --alpha 0.1931 --beta 3.9741 --rho  0.5201 --ants 59 --nnls 15 --dlb 1,True
+270,203,15,acs,3,2.5707,7.3336,0.8282,32,0.5424,,,20,0, --acs --localsearch 3 --alpha 2.5707 --beta 7.3336 --rho  0.8282 --ants 32 --q0 0.5424 --nnls 20 --dlb 0,True
+271,203,15,mmas,3,0.3965,6.5359,0.5125,56,,,,23,0, --mmas --localsearch 3 --alpha 0.3965 --beta 6.5359 --rho  0.5125 --ants 56 --nnls 23 --dlb 0,True
+272,181,14,acs,3,4.2291,6.707,0.7831,35,0.5353,,,14,0, --acs --localsearch 3 --alpha 4.2291 --beta 6.707 --rho  0.7831 --ants 35 --q0 0.5353 --nnls 14 --dlb 0,True
+273,181,14,acs,1,4.1883,7.546,0.8433,74,0.515,,,29,1, --acs --localsearch 1 --alpha 4.1883 --beta 7.546 --rho  0.8433 --ants 74 --q0 0.515 --nnls 29 --dlb 1,True
+274,153,13,ras,3,3.8832,2.8407,0.5413,26,,26,,47,0, --ras --localsearch 3 --alpha 3.8832 --beta 2.8407 --rho  0.5413 --ants 26 --rasranks 26 --nnls 47 --dlb 0,True
+275,153,13,eas,2,4.4608,1.1819,0.6092,13,,,296,31,1, --eas --localsearch 2 --alpha 4.4608 --beta 1.1819 --rho  0.6092 --ants 13 --elitistants 296 --nnls 31 --dlb 1,True
+276,181,14,acs,1,3.0689,8.004,0.9494,31,0.7498,,,16,0, --acs --localsearch 1 --alpha 3.0689 --beta 8.004 --rho  0.9494 --ants 31 --q0 0.7498 --nnls 16 --dlb 0,True
+277,235,9,ras,3,4.1136,9.2972,0.9761,29,,73,,43,1, --ras --localsearch 3 --alpha 4.1136 --beta 9.2972 --rho  0.9761 --ants 29 --rasranks 73 --nnls 43 --dlb 1,True
+278,181,14,eas,3,3.4335,8.1317,0.8374,29,,,328,20,1, --eas --localsearch 3 --alpha 3.4335 --beta 8.1317 --rho  0.8374 --ants 29 --elitistants 328 --nnls 20 --dlb 1,True
+279,203,15,eas,3,2.3316,5.6408,0.5886,7,,,440,27,0, --eas --localsearch 3 --alpha 2.3316 --beta 5.6408 --rho  0.5886 --ants 7 --elitistants 440 --nnls 27 --dlb 0,True
+280,235,9,eas,0,3.8665,8.7525,0.9311,43,,,114,,, --eas --localsearch 0 --alpha 3.8665 --beta 8.7525 --rho  0.9311 --ants 43 --elitistants 114,True
+281,203,15,as,3,1.1747,6.4897,0.7083,35,,,,12,1, --as --localsearch 3 --alpha 1.1747 --beta 6.4897 --rho  0.7083 --ants 35 --nnls 12 --dlb 1,True
+282,243,9,eas,2,1.9793,7.2093,0.3095,9,,,507,15,0, --eas --localsearch 2 --alpha 1.9793 --beta 7.2093 --rho  0.3095 --ants 9 --elitistants 507 --nnls 15 --dlb 0,True
+283,255,13,ras,3,3.6147,1.7734,0.5859,32,,12,,32,1, --ras --localsearch 3 --alpha 3.6147 --beta 1.7734 --rho  0.5859 --ants 32 --rasranks 12 --nnls 32 --dlb 1,True
+284,153,13,ras,3,4.4568,1.498,0.9525,45,,16,,36,0, --ras --localsearch 3 --alpha 4.4568 --beta 1.498 --rho  0.9525 --ants 45 --rasranks 16 --nnls 36 --dlb 0,True
+285,235,9,acs,2,3.8458,5.3403,0.7994,9,0.6888,,,36,1, --acs --localsearch 2 --alpha 3.8458 --beta 5.3403 --rho  0.7994 --ants 9 --q0 0.6888 --nnls 36 --dlb 1,True
+286,255,13,ras,2,1.2203,3.8918,0.7448,39,,30,,40,0, --ras --localsearch 2 --alpha 1.2203 --beta 3.8918 --rho  0.7448 --ants 39 --rasranks 30 --nnls 40 --dlb 0,True
+287,181,14,acs,3,4.7807,8.4402,0.6432,36,0.6365,,,11,1, --acs --localsearch 3 --alpha 4.7807 --beta 8.4402 --rho  0.6432 --ants 36 --q0 0.6365 --nnls 11 --dlb 1,True
+288,181,14,acs,3,3.6635,9.3235,0.7819,55,0.6258,,,31,0, --acs --localsearch 3 --alpha 3.6635 --beta 9.3235 --rho  0.7819 --ants 55 --q0 0.6258 --nnls 31 --dlb 0,True
+289,235,9,acs,3,4.2675,8.2695,0.8898,27,0.4633,,,35,1, --acs --localsearch 3 --alpha 4.2675 --beta 8.2695 --rho  0.8898 --ants 27 --q0 0.4633 --nnls 35 --dlb 1,True
+290,243,9,acs,1,4.9978,4.9257,0.4017,31,0.0973,,,30,0, --acs --localsearch 1 --alpha 4.9978 --beta 4.9257 --rho  0.4017 --ants 31 --q0 0.0973 --nnls 30 --dlb 0,True
+291,243,9,acs,0,3.9279,2.6107,0.5481,39,0.4333,,,,, --acs --localsearch 0 --alpha 3.9279 --beta 2.6107 --rho  0.5481 --ants 39 --q0 0.4333,True
+292,153,13,mmas,0,4.2295,0.2849,0.9867,41,,,,,, --mmas --localsearch 0 --alpha 4.2295 --beta 0.2849 --rho  0.9867 --ants 41,True
+293,235,9,ras,0,3.2098,5.3944,0.8404,8,,47,,,, --ras --localsearch 0 --alpha 3.2098 --beta 5.3944 --rho  0.8404 --ants 8 --rasranks 47,True
+294,203,15,eas,3,1.4315,7.0122,0.6568,28,,,629,14,0, --eas --localsearch 3 --alpha 1.4315 --beta 7.0122 --rho  0.6568 --ants 28 --elitistants 629 --nnls 14 --dlb 0,True
+295,235,9,ras,1,4.3472,8.7949,0.991,27,,58,,38,1, --ras --localsearch 1 --alpha 4.3472 --beta 8.7949 --rho  0.991 --ants 27 --rasranks 58 --nnls 38 --dlb 1,True
+296,235,9,mmas,1,3.5077,6.2391,0.8639,7,,,,24,1, --mmas --localsearch 1 --alpha 3.5077 --beta 6.2391 --rho  0.8639 --ants 7 --nnls 24 --dlb 1,True
+297,153,13,ras,0,3.1704,1.0531,0.9848,24,,12,,,, --ras --localsearch 0 --alpha 3.1704 --beta 1.0531 --rho  0.9848 --ants 24 --rasranks 12,True
+298,243,9,ras,1,3.5102,7.9223,0.2318,75,,48,,9,0, --ras --localsearch 1 --alpha 3.5102 --beta 7.9223 --rho  0.2318 --ants 75 --rasranks 48 --nnls 9 --dlb 0,True
+299,235,9,ras,3,4.7181,2.7587,0.9008,13,,64,,23,1, --ras --localsearch 3 --alpha 4.7181 --beta 2.7587 --rho  0.9008 --ants 13 --rasranks 64 --nnls 23 --dlb 1,True
+300,235,9,as,1,4.0121,4.8612,0.5822,9,,,,31,1, --as --localsearch 1 --alpha 4.0121 --beta 4.8612 --rho  0.5822 --ants 9 --nnls 31 --dlb 1,True
+301,235,9,eas,2,4.4729,7.1132,0.9352,80,,,493,44,0, --eas --localsearch 2 --alpha 4.4729 --beta 7.1132 --rho  0.9352 --ants 80 --elitistants 493 --nnls 44 --dlb 0,True
+302,153,13,ras,0,4.1711,0.0965,0.5777,59,,28,,,, --ras --localsearch 0 --alpha 4.1711 --beta 0.0965 --rho  0.5777 --ants 59 --rasranks 28,True
+303,255,13,acs,3,3.3074,1.0088,0.6687,22,0.6103,,,25,1, --acs --localsearch 3 --alpha 3.3074 --beta 1.0088 --rho  0.6687 --ants 22 --q0 0.6103 --nnls 25 --dlb 1,True
+304,203,15,ras,1,1.162,5.5372,0.5766,61,,81,,20,0, --ras --localsearch 1 --alpha 1.162 --beta 5.5372 --rho  0.5766 --ants 61 --rasranks 81 --nnls 20 --dlb 0,True
+305,235,9,acs,1,4.1873,6.1579,0.92,7,0.0595,,,18,0, --acs --localsearch 1 --alpha 4.1873 --beta 6.1579 --rho  0.92 --ants 7 --q0 0.0595 --nnls 18 --dlb 0,True
+306,181,14,eas,1,4.4247,7.2914,0.9094,23,,,501,21,0, --eas --localsearch 1 --alpha 4.4247 --beta 7.2914 --rho  0.9094 --ants 23 --elitistants 501 --nnls 21 --dlb 0,True
+307,181,14,acs,1,3.8892,6.6436,0.7841,24,0.6304,,,20,1, --acs --localsearch 1 --alpha 3.8892 --beta 6.6436 --rho  0.7841 --ants 24 --q0 0.6304 --nnls 20 --dlb 1,True
+308,203,15,eas,2,1.5859,6.795,0.8189,19,,,382,23,1, --eas --localsearch 2 --alpha 1.5859 --beta 6.795 --rho  0.8189 --ants 19 --elitistants 382 --nnls 23 --dlb 1,True
+309,153,13,mmas,2,3.7743,1.2483,0.7462,54,,,,44,1, --mmas --localsearch 2 --alpha 3.7743 --beta 1.2483 --rho  0.7462 --ants 54 --nnls 44 --dlb 1,True
+310,203,15,eas,0,0.4451,4.0952,0.3868,5,,,611,,, --eas --localsearch 0 --alpha 0.4451 --beta 4.0952 --rho  0.3868 --ants 5 --elitistants 611,True
+311,203,15,eas,3,1.1544,4.9808,0.7391,36,,,657,11,1, --eas --localsearch 3 --alpha 1.1544 --beta 4.9808 --rho  0.7391 --ants 36 --elitistants 657 --nnls 11 --dlb 1,True
+312,203,15,acs,3,1.9224,4.8139,0.6619,38,0.3272,,,14,0, --acs --localsearch 3 --alpha 1.9224 --beta 4.8139 --rho  0.6619 --ants 38 --q0 0.3272 --nnls 14 --dlb 0,True
+313,181,14,ras,2,4.2556,8.8713,0.7364,25,,39,,20,1, --ras --localsearch 2 --alpha 4.2556 --beta 8.8713 --rho  0.7364 --ants 25 --rasranks 39 --nnls 20 --dlb 1,True
+314,243,9,ras,3,2.8799,3.8626,0.2067,24,,55,,23,1, --ras --localsearch 3 --alpha 2.8799 --beta 3.8626 --rho  0.2067 --ants 24 --rasranks 55 --nnls 23 --dlb 1,True
+315,243,9,acs,2,3.8633,7.3759,0.0439,44,0.2546,,,23,0, --acs --localsearch 2 --alpha 3.8633 --beta 7.3759 --rho  0.0439 --ants 44 --q0 0.2546 --nnls 23 --dlb 0,True
+316,255,13,acs,3,3.1221,5.0842,0.6353,69,0.2744,,,45,1, --acs --localsearch 3 --alpha 3.1221 --beta 5.0842 --rho  0.6353 --ants 69 --q0 0.2744 --nnls 45 --dlb 1,True
+317,181,14,acs,2,4.3698,8.2894,0.666,30,0.3508,,,24,1, --acs --localsearch 2 --alpha 4.3698 --beta 8.2894 --rho  0.666 --ants 30 --q0 0.3508 --nnls 24 --dlb 1,True
+318,153,13,ras,2,1.8037,1.9728,0.4017,48,,32,,46,1, --ras --localsearch 2 --alpha 1.8037 --beta 1.9728 --rho  0.4017 --ants 48 --rasranks 32 --nnls 46 --dlb 1,True
+319,181,14,acs,1,3.8063,9.7935,0.5444,19,0.4287,,,23,1, --acs --localsearch 1 --alpha 3.8063 --beta 9.7935 --rho  0.5444 --ants 19 --q0 0.4287 --nnls 23 --dlb 1,True
+320,181,14,mmas,1,4.0824,8.0651,0.7593,35,,,,23,1, --mmas --localsearch 1 --alpha 4.0824 --beta 8.0651 --rho  0.7593 --ants 35 --nnls 23 --dlb 1,True
+321,235,9,mmas,2,4.935,4.8695,0.9644,10,,,,20,1, --mmas --localsearch 2 --alpha 4.935 --beta 4.8695 --rho  0.9644 --ants 10 --nnls 20 --dlb 1,True
+322,255,13,acs,0,2.5462,6.1322,0.9524,45,0.3326,,,,, --acs --localsearch 0 --alpha 2.5462 --beta 6.1322 --rho  0.9524 --ants 45 --q0 0.3326,True
+323,203,15,eas,0,0.7514,6.5974,0.7097,62,,,285,,, --eas --localsearch 0 --alpha 0.7514 --beta 6.5974 --rho  0.7097 --ants 62 --elitistants 285,True
+324,255,13,acs,3,2.4524,1.9404,0.5979,21,0.9875,,,42,1, --acs --localsearch 3 --alpha 2.4524 --beta 1.9404 --rho  0.5979 --ants 21 --q0 0.9875 --nnls 42 --dlb 1,True
+325,181,14,acs,1,4.4855,9.2196,0.7572,41,0.6114,,,21,1, --acs --localsearch 1 --alpha 4.4855 --beta 9.2196 --rho  0.7572 --ants 41 --q0 0.6114 --nnls 21 --dlb 1,True
+326,243,9,ras,1,2.1624,4.1654,0.3502,40,,68,,22,0, --ras --localsearch 1 --alpha 2.1624 --beta 4.1654 --rho  0.3502 --ants 40 --rasranks 68 --nnls 22 --dlb 0,True
+327,153,13,ras,2,4.1811,0.2386,0.7229,21,,39,,49,1, --ras --localsearch 2 --alpha 4.1811 --beta 0.2386 --rho  0.7229 --ants 21 --rasranks 39 --nnls 49 --dlb 1,True
+328,181,14,acs,3,3.6988,9.4619,0.9582,37,0.3626,,,17,1, --acs --localsearch 3 --alpha 3.6988 --beta 9.4619 --rho  0.9582 --ants 37 --q0 0.3626 --nnls 17 --dlb 1,True
+329,153,13,as,1,4.3975,0.069,0.6803,30,,,,34,0, --as --localsearch 1 --alpha 4.3975 --beta 0.069 --rho  0.6803 --ants 30 --nnls 34 --dlb 0,True
+330,243,9,acs,0,0.9528,2.5565,0.0807,59,0.8012,,,,, --acs --localsearch 0 --alpha 0.9528 --beta 2.5565 --rho  0.0807 --ants 59 --q0 0.8012,True
+331,181,17,acs,3,4.0513,7.0845,0.7212,29,0.712,,,17,1, --acs --localsearch 3 --alpha 4.0513 --beta 7.0845 --rho  0.7212 --ants 29 --q0 0.712 --nnls 17 --dlb 1,True
+332,261,14,eas,1,2.487,9.3454,0.9034,29,,,365,41,0, --eas --localsearch 1 --alpha 2.487 --beta 9.3454 --rho  0.9034 --ants 29 --elitistants 365 --nnls 41 --dlb 0,True
+333,255,13,acs,3,4.2565,3.5862,0.2764,33,0.2263,,,49,0, --acs --localsearch 3 --alpha 4.2565 --beta 3.5862 --rho  0.2764 --ants 33 --q0 0.2263 --nnls 49 --dlb 0,True
+334,283,13,mmas,1,2.2455,3.8009,0.6282,32,,,,37,1, --mmas --localsearch 1 --alpha 2.2455 --beta 3.8009 --rho  0.6282 --ants 32 --nnls 37 --dlb 1,True
+335,243,18,acs,3,3.4134,7.6007,0.0602,42,0.8423,,,17,1, --acs --localsearch 3 --alpha 3.4134 --beta 7.6007 --rho  0.0602 --ants 42 --q0 0.8423 --nnls 17 --dlb 1,True
+336,243,18,acs,2,2.497,5.1772,0.0945,41,0.54,,,22,1, --acs --localsearch 2 --alpha 2.497 --beta 5.1772 --rho  0.0945 --ants 41 --q0 0.54 --nnls 22 --dlb 1,True
+337,181,17,acs,3,4.1558,7.9293,0.2958,22,0.5431,,,26,1, --acs --localsearch 3 --alpha 4.1558 --beta 7.9293 --rho  0.2958 --ants 22 --q0 0.5431 --nnls 26 --dlb 1,True
+338,181,17,acs,3,3.3944,6.9803,0.6233,13,0.5247,,,22,1, --acs --localsearch 3 --alpha 3.3944 --beta 6.9803 --rho  0.6233 --ants 13 --q0 0.5247 --nnls 22 --dlb 1,True
+339,153,16,ras,0,4.0193,0.9124,0.756,32,,13,,,, --ras --localsearch 0 --alpha 4.0193 --beta 0.9124 --rho  0.756 --ants 32 --rasranks 13,True
+340,261,14,acs,1,2.4389,8.9818,0.6725,33,0.287,,,31,0, --acs --localsearch 1 --alpha 2.4389 --beta 8.9818 --rho  0.6725 --ants 33 --q0 0.287 --nnls 31 --dlb 0,True
+341,153,16,ras,3,3.1143,1.7405,0.6786,24,,28,,49,1, --ras --localsearch 3 --alpha 3.1143 --beta 1.7405 --rho  0.6786 --ants 24 --rasranks 28 --nnls 49 --dlb 1,True
+342,153,16,ras,2,3.6623,1.7166,0.9232,5,,37,,47,1, --ras --localsearch 2 --alpha 3.6623 --beta 1.7166 --rho  0.9232 --ants 5 --rasranks 37 --nnls 47 --dlb 1,True
+343,261,14,acs,2,3.2406,8.4941,0.6845,12,0.6825,,,27,0, --acs --localsearch 2 --alpha 3.2406 --beta 8.4941 --rho  0.6845 --ants 12 --q0 0.6825 --nnls 27 --dlb 0,True
+344,243,18,as,0,3.5382,3.6351,0.172,10,,,,,, --as --localsearch 0 --alpha 3.5382 --beta 3.6351 --rho  0.172 --ants 10,True
+345,243,18,acs,0,1.6999,3.7045,0.3661,29,0.6722,,,,, --acs --localsearch 0 --alpha 1.6999 --beta 3.7045 --rho  0.3661 --ants 29 --q0 0.6722,True
+346,261,14,acs,1,1.7978,5.4386,0.8355,19,0.6218,,,31,1, --acs --localsearch 1 --alpha 1.7978 --beta 5.4386 --rho  0.8355 --ants 19 --q0 0.6218 --nnls 31 --dlb 1,True
+347,181,17,eas,3,4.3506,8.0617,0.7107,23,,,358,30,1, --eas --localsearch 3 --alpha 4.3506 --beta 8.0617 --rho  0.7107 --ants 23 --elitistants 358 --nnls 30 --dlb 1,True
+348,255,13,ras,2,2.7414,1.7253,0.6756,32,,2,,38,1, --ras --localsearch 2 --alpha 2.7414 --beta 1.7253 --rho  0.6756 --ants 32 --rasranks 2 --nnls 38 --dlb 1,True
+349,243,18,as,3,3.2849,3.4501,0.0721,58,,,,29,1, --as --localsearch 3 --alpha 3.2849 --beta 3.4501 --rho  0.0721 --ants 58 --nnls 29 --dlb 1,True
+350,153,16,ras,3,4.9216,0.3566,0.5522,20,,10,,42,1, --ras --localsearch 3 --alpha 4.9216 --beta 0.3566 --rho  0.5522 --ants 20 --rasranks 10 --nnls 42 --dlb 1,True
+351,243,18,acs,0,3.3383,4.5937,0.186,32,0.5954,,,,, --acs --localsearch 0 --alpha 3.3383 --beta 4.5937 --rho  0.186 --ants 32 --q0 0.5954,True
+352,283,13,ras,3,2.1461,1.9089,0.4103,31,,26,,25,1, --ras --localsearch 3 --alpha 2.1461 --beta 1.9089 --rho  0.4103 --ants 31 --rasranks 26 --nnls 25 --dlb 1,True
+353,255,13,ras,1,2.8,1.2426,0.7473,26,,43,,41,1, --ras --localsearch 1 --alpha 2.8 --beta 1.2426 --rho  0.7473 --ants 26 --rasranks 43 --nnls 41 --dlb 1,True
+354,243,18,ras,3,2.6097,6.0755,0.3664,49,,45,,27,1, --ras --localsearch 3 --alpha 2.6097 --beta 6.0755 --rho  0.3664 --ants 49 --rasranks 45 --nnls 27 --dlb 1,True
+355,153,16,eas,1,4.1572,2.3014,0.6579,39,,,386,41,1, --eas --localsearch 1 --alpha 4.1572 --beta 2.3014 --rho  0.6579 --ants 39 --elitistants 386 --nnls 41 --dlb 1,True
+356,243,18,acs,1,3.2274,4.4156,0.1761,48,0.5304,,,22,1, --acs --localsearch 1 --alpha 3.2274 --beta 4.4156 --rho  0.1761 --ants 48 --q0 0.5304 --nnls 22 --dlb 1,True
+357,311,15,acs,1,1.4908,4.3857,0.9321,13,0.0674,,,14,1, --acs --localsearch 1 --alpha 1.4908 --beta 4.3857 --rho  0.9321 --ants 13 --q0 0.0674 --nnls 14 --dlb 1,True
+358,311,15,eas,1,1.516,7.364,0.8903,54,,,546,19,1, --eas --localsearch 1 --alpha 1.516 --beta 7.364 --rho  0.8903 --ants 54 --elitistants 546 --nnls 19 --dlb 1,True
+359,243,18,acs,1,1.9221,4.4668,0.047,14,0.5707,,,15,0, --acs --localsearch 1 --alpha 1.9221 --beta 4.4668 --rho  0.047 --ants 14 --q0 0.5707 --nnls 15 --dlb 0,True
+360,283,13,acs,3,1.1218,4.2076,0.6712,79,0.5759,,,39,1, --acs --localsearch 3 --alpha 1.1218 --beta 4.2076 --rho  0.6712 --ants 79 --q0 0.5759 --nnls 39 --dlb 1,True
+361,311,15,eas,1,1.0858,7.9158,0.8517,27,,,633,10,1, --eas --localsearch 1 --alpha 1.0858 --beta 7.9158 --rho  0.8517 --ants 27 --elitistants 633 --nnls 10 --dlb 1,True
+362,311,15,eas,1,2.6284,5.7925,0.4484,50,,,698,16,1, --eas --localsearch 1 --alpha 2.6284 --beta 5.7925 --rho  0.4484 --ants 50 --elitistants 698 --nnls 16 --dlb 1,True
+363,283,13,acs,3,3.3905,1.123,0.6696,48,0.2949,,,25,1, --acs --localsearch 3 --alpha 3.3905 --beta 1.123 --rho  0.6696 --ants 48 --q0 0.2949 --nnls 25 --dlb 1,True
+364,181,17,acs,3,4.2708,8.4521,0.6982,27,0.6565,,,20,1, --acs --localsearch 3 --alpha 4.2708 --beta 8.4521 --rho  0.6982 --ants 27 --q0 0.6565 --nnls 20 --dlb 1,True
+365,153,16,ras,2,4.5103,2.3374,0.9494,28,,22,,43,1, --ras --localsearch 2 --alpha 4.5103 --beta 2.3374 --rho  0.9494 --ants 28 --rasranks 22 --nnls 43 --dlb 1,True
+366,283,13,ras,0,3.497,1.0996,0.9712,43,,24,,,, --ras --localsearch 0 --alpha 3.497 --beta 1.0996 --rho  0.9712 --ants 43 --rasranks 24,True
+367,243,18,eas,0,3.6754,1.9946,0.241,31,,,493,,, --eas --localsearch 0 --alpha 3.6754 --beta 1.9946 --rho  0.241 --ants 31 --elitistants 493,True
+368,181,17,acs,3,4.09,9.1645,0.7999,23,0.2263,,,23,1, --acs --localsearch 3 --alpha 4.09 --beta 9.1645 --rho  0.7999 --ants 23 --q0 0.2263 --nnls 23 --dlb 1,True
+369,243,18,acs,2,3.2237,1.7189,0.233,64,0.7902,,,22,1, --acs --localsearch 2 --alpha 3.2237 --beta 1.7189 --rho  0.233 --ants 64 --q0 0.7902 --nnls 22 --dlb 1,True
+370,311,15,acs,2,0.727,5.0334,0.6887,30,0.5895,,,17,0, --acs --localsearch 2 --alpha 0.727 --beta 5.0334 --rho  0.6887 --ants 30 --q0 0.5895 --nnls 17 --dlb 0,True
+371,181,17,acs,0,3.8595,8.825,0.8565,22,0.6069,,,,, --acs --localsearch 0 --alpha 3.8595 --beta 8.825 --rho  0.8565 --ants 22 --q0 0.6069,True
+372,243,18,acs,2,1.8112,8.6432,0.3183,35,0.3907,,,35,1, --acs --localsearch 2 --alpha 1.8112 --beta 8.6432 --rho  0.3183 --ants 35 --q0 0.3907 --nnls 35 --dlb 1,True
+373,283,13,acs,3,4.6044,5.9957,0.7769,46,0.6019,,,32,1, --acs --localsearch 3 --alpha 4.6044 --beta 5.9957 --rho  0.7769 --ants 46 --q0 0.6019 --nnls 32 --dlb 1,True
+374,311,15,as,1,0.2419,5.0869,0.8131,45,,,,24,1, --as --localsearch 1 --alpha 0.2419 --beta 5.0869 --rho  0.8131 --ants 45 --nnls 24 --dlb 1,True
+375,153,16,ras,3,3.4406,0.9665,0.5811,7,,40,,38,1, --ras --localsearch 3 --alpha 3.4406 --beta 0.9665 --rho  0.5811 --ants 7 --rasranks 40 --nnls 38 --dlb 1,True
+376,283,13,acs,2,4.8318,1.0985,0.5794,46,0.4922,,,24,1, --acs --localsearch 2 --alpha 4.8318 --beta 1.0985 --rho  0.5794 --ants 46 --q0 0.4922 --nnls 24 --dlb 1,True
+377,335,18,acs,1,3.7778,7.153,0.0587,15,0.9755,,,10,1, --acs --localsearch 1 --alpha 3.7778 --beta 7.153 --rho  0.0587 --ants 15 --q0 0.9755 --nnls 10 --dlb 1,True
+378,181,17,acs,1,3.8429,8.0961,0.665,16,0.3484,,,19,1, --acs --localsearch 1 --alpha 3.8429 --beta 8.0961 --rho  0.665 --ants 16 --q0 0.3484 --nnls 19 --dlb 1,True
+379,243,18,eas,3,3.8883,3.8531,0.3627,35,,,122,22,0, --eas --localsearch 3 --alpha 3.8883 --beta 3.8531 --rho  0.3627 --ants 35 --elitistants 122 --nnls 22 --dlb 0,True
+380,153,16,acs,2,3.1626,1.2358,0.5742,20,0.4378,,,36,1, --acs --localsearch 2 --alpha 3.1626 --beta 1.2358 --rho  0.5742 --ants 20 --q0 0.4378 --nnls 36 --dlb 1,True
+381,335,18,acs,1,4.1464,9.7475,0.1116,55,0.9826,,,14,0, --acs --localsearch 1 --alpha 4.1464 --beta 9.7475 --rho  0.1116 --ants 55 --q0 0.9826 --nnls 14 --dlb 0,True
+382,153,16,ras,3,3.5387,1.7777,0.7174,42,,5,,44,1, --ras --localsearch 3 --alpha 3.5387 --beta 1.7777 --rho  0.7174 --ants 42 --rasranks 5 --nnls 44 --dlb 1,True
+383,335,18,eas,3,3.7362,8.9996,0.0409,47,,,531,15,1, --eas --localsearch 3 --alpha 3.7362 --beta 8.9996 --rho  0.0409 --ants 47 --elitistants 531 --nnls 15 --dlb 1,True
+384,153,16,acs,2,4.2846,0.6357,0.6437,47,0.5024,,,41,1, --acs --localsearch 2 --alpha 4.2846 --beta 0.6357 --rho  0.6437 --ants 47 --q0 0.5024 --nnls 41 --dlb 1,True
+385,243,18,acs,2,3.7554,6.6464,0.2393,31,0.7778,,,33,1, --acs --localsearch 2 --alpha 3.7554 --beta 6.6464 --rho  0.2393 --ants 31 --q0 0.7778 --nnls 33 --dlb 1,True
+386,153,16,as,3,4.736,1.0261,0.9012,17,,,,41,1, --as --localsearch 3 --alpha 4.736 --beta 1.0261 --rho  0.9012 --ants 17 --nnls 41 --dlb 1,True
+387,311,15,acs,1,0.2836,5.6527,0.5768,46,0.4182,,,14,1, --acs --localsearch 1 --alpha 0.2836 --beta 5.6527 --rho  0.5768 --ants 46 --q0 0.4182 --nnls 14 --dlb 1,True
+388,153,16,as,3,4.1864,1.8449,0.8625,15,,,,38,1, --as --localsearch 3 --alpha 4.1864 --beta 1.8449 --rho  0.8625 --ants 15 --nnls 38 --dlb 1,True
+389,335,18,as,2,3.5811,5.6065,0.2404,59,,,,13,0, --as --localsearch 2 --alpha 3.5811 --beta 5.6065 --rho  0.2404 --ants 59 --nnls 13 --dlb 0,True
+390,243,18,acs,3,3.2874,5.2255,0.1864,26,0.6024,,,21,0, --acs --localsearch 3 --alpha 3.2874 --beta 5.2255 --rho  0.1864 --ants 26 --q0 0.6024 --nnls 21 --dlb 0,True
+391,181,17,acs,3,4.6014,7.9171,0.7531,35,0.5124,,,25,0, --acs --localsearch 3 --alpha 4.6014 --beta 7.9171 --rho  0.7531 --ants 35 --q0 0.5124 --nnls 25 --dlb 0,True
+392,181,17,eas,3,4.846,7.7375,0.7514,36,,,372,16,1, --eas --localsearch 3 --alpha 4.846 --beta 7.7375 --rho  0.7514 --ants 36 --elitistants 372 --nnls 16 --dlb 1,True
+393,311,15,eas,1,1.7959,4.6647,0.7008,35,,,655,13,1, --eas --localsearch 1 --alpha 1.7959 --beta 4.6647 --rho  0.7008 --ants 35 --elitistants 655 --nnls 13 --dlb 1,True
+394,243,18,acs,3,2.9408,6.6351,0.1555,42,0.3919,,,23,0, --acs --localsearch 3 --alpha 2.9408 --beta 6.6351 --rho  0.1555 --ants 42 --q0 0.3919 --nnls 23 --dlb 0,True
+395,335,18,mmas,3,3.1517,9.4618,0.2453,51,,,,19,1, --mmas --localsearch 3 --alpha 3.1517 --beta 9.4618 --rho  0.2453 --ants 51 --nnls 19 --dlb 1,True
+396,311,15,ras,2,0.2917,2.9265,0.6206,31,,34,,18,1, --ras --localsearch 2 --alpha 0.2917 --beta 2.9265 --rho  0.6206 --ants 31 --rasranks 34 --nnls 18 --dlb 1,True
+397,335,18,eas,3,3.647,7.9345,0.2112,32,,,194,31,0, --eas --localsearch 3 --alpha 3.647 --beta 7.9345 --rho  0.2112 --ants 32 --elitistants 194 --nnls 31 --dlb 0,True
+398,243,18,acs,3,2.7782,3.0846,0.3077,54,0.9075,,,25,1, --acs --localsearch 3 --alpha 2.7782 --beta 3.0846 --rho  0.3077 --ants 54 --q0 0.9075 --nnls 25 --dlb 1,True
+399,335,18,acs,3,3.1085,7.4413,0.1193,43,0.7135,,,25,1, --acs --localsearch 3 --alpha 3.1085 --beta 7.4413 --rho  0.1193 --ants 43 --q0 0.7135 --nnls 25 --dlb 1,True
+400,283,13,ras,1,3.1512,1.3133,0.7317,48,,6,,30,0, --ras --localsearch 1 --alpha 3.1512 --beta 1.3133 --rho  0.7317 --ants 48 --rasranks 6 --nnls 30 --dlb 0,True
+401,153,16,ras,2,3.7827,2.206,0.6375,35,,9,,29,0, --ras --localsearch 2 --alpha 3.7827 --beta 2.206 --rho  0.6375 --ants 35 --rasranks 9 --nnls 29 --dlb 0,True
+402,311,15,acs,1,1.3294,5.01,0.588,57,0.4825,,,23,1, --acs --localsearch 1 --alpha 1.3294 --beta 5.01 --rho  0.588 --ants 57 --q0 0.4825 --nnls 23 --dlb 1,True
+403,243,18,acs,3,2.5109,6.2295,0.0945,19,0.7538,,,33,1, --acs --localsearch 3 --alpha 2.5109 --beta 6.2295 --rho  0.0945 --ants 19 --q0 0.7538 --nnls 33 --dlb 1,True
+404,283,13,ras,1,3.9143,1.5221,0.399,43,,58,,9,1, --ras --localsearch 1 --alpha 3.9143 --beta 1.5221 --rho  0.399 --ants 43 --rasranks 58 --nnls 9 --dlb 1,True
+405,311,15,eas,3,0.7294,3.7845,0.7288,25,,,436,10,1, --eas --localsearch 3 --alpha 0.7294 --beta 3.7845 --rho  0.7288 --ants 25 --elitistants 436 --nnls 10 --dlb 1,True
+406,181,21,acs,2,4.2013,7.266,0.6833,27,0.4082,,,25,1, --acs --localsearch 2 --alpha 4.2013 --beta 7.266 --rho  0.6833 --ants 27 --q0 0.4082 --nnls 25 --dlb 1,True
+407,181,21,acs,1,4.1966,7.7444,0.684,29,0.507,,,22,1, --acs --localsearch 1 --alpha 4.1966 --beta 7.7444 --rho  0.684 --ants 29 --q0 0.507 --nnls 22 --dlb 1,True
+408,311,20,mmas,3,1.2785,4.4809,0.7512,38,,,,23,1, --mmas --localsearch 3 --alpha 1.2785 --beta 4.4809 --rho  0.7512 --ants 38 --nnls 23 --dlb 1,True
+409,335,22,acs,1,2.8184,8.0503,0.0796,45,0.7555,,,19,1, --acs --localsearch 1 --alpha 2.8184 --beta 8.0503 --rho  0.0796 --ants 45 --q0 0.7555 --nnls 19 --dlb 1,True
+410,311,20,eas,3,2.2283,3.2955,0.769,24,,,669,10,1, --eas --localsearch 3 --alpha 2.2283 --beta 3.2955 --rho  0.769 --ants 24 --elitistants 669 --nnls 10 --dlb 1,True
+411,283,19,ras,3,3.8415,2.6892,0.4064,21,,6,,28,1, --ras --localsearch 3 --alpha 3.8415 --beta 2.6892 --rho  0.4064 --ants 21 --rasranks 6 --nnls 28 --dlb 1,True
+412,388,16,ras,3,4.0225,2.5046,0.7372,16,,37,,38,1, --ras --localsearch 3 --alpha 4.0225 --beta 2.5046 --rho  0.7372 --ants 16 --rasranks 37 --nnls 38 --dlb 1,True
+413,311,20,acs,0,1.3648,6.1295,0.7045,50,0.4064,,,,, --acs --localsearch 0 --alpha 1.3648 --beta 6.1295 --rho  0.7045 --ants 50 --q0 0.4064,True
+414,388,16,mmas,3,4.1378,2.5541,0.9611,15,,,,34,1, --mmas --localsearch 3 --alpha 4.1378 --beta 2.5541 --rho  0.9611 --ants 15 --nnls 34 --dlb 1,True
+415,283,19,ras,3,3.9274,1.4038,0.7381,35,,37,,30,0, --ras --localsearch 3 --alpha 3.9274 --beta 1.4038 --rho  0.7381 --ants 35 --rasranks 37 --nnls 30 --dlb 0,True
+416,335,22,eas,3,3.6069,6.9391,0.0966,41,,,403,17,0, --eas --localsearch 3 --alpha 3.6069 --beta 6.9391 --rho  0.0966 --ants 41 --elitistants 403 --nnls 17 --dlb 0,True
+417,311,20,acs,0,1.3773,3.6301,0.7603,30,0.6057,,,,, --acs --localsearch 0 --alpha 1.3773 --beta 3.6301 --rho  0.7603 --ants 30 --q0 0.6057,True
+418,311,20,eas,3,0.6898,4.1753,0.8922,17,,,638,5,1, --eas --localsearch 3 --alpha 0.6898 --beta 4.1753 --rho  0.8922 --ants 17 --elitistants 638 --nnls 5 --dlb 1,True
+419,311,20,acs,1,0.4616,2.4936,0.6269,42,0.5985,,,21,1, --acs --localsearch 1 --alpha 0.4616 --beta 2.4936 --rho  0.6269 --ants 42 --q0 0.5985 --nnls 21 --dlb 1,True
+420,335,22,acs,3,3.1074,6.7172,0.1593,30,0.837,,,15,1, --acs --localsearch 3 --alpha 3.1074 --beta 6.7172 --rho  0.1593 --ants 30 --q0 0.837 --nnls 15 --dlb 1,True
+421,181,21,ras,3,3.6764,8.2782,0.6544,23,,55,,22,1, --ras --localsearch 3 --alpha 3.6764 --beta 8.2782 --rho  0.6544 --ants 23 --rasranks 55 --nnls 22 --dlb 1,True
+422,283,19,acs,2,2.1889,2.5566,0.4075,6,0.5832,,,12,1, --acs --localsearch 2 --alpha 2.1889 --beta 2.5566 --rho  0.4075 --ants 6 --q0 0.5832 --nnls 12 --dlb 1,True
+423,388,16,ras,3,4.2077,0.086,0.8965,18,,71,,35,1, --ras --localsearch 3 --alpha 4.2077 --beta 0.086 --rho  0.8965 --ants 18 --rasranks 71 --nnls 35 --dlb 1,True
+424,388,16,as,1,4.2546,2.3791,0.8842,9,,,,35,1, --as --localsearch 1 --alpha 4.2546 --beta 2.3791 --rho  0.8842 --ants 9 --nnls 35 --dlb 1,True
+425,388,16,eas,3,4.262,0.5526,0.9914,29,,,479,46,0, --eas --localsearch 3 --alpha 4.262 --beta 0.5526 --rho  0.9914 --ants 29 --elitistants 479 --nnls 46 --dlb 0,True
+426,386,16,ras,2,4.0389,2.3936,0.7947,10,,46,,34,0, --ras --localsearch 2 --alpha 4.0389 --beta 2.3936 --rho  0.7947 --ants 10 --rasranks 46 --nnls 34 --dlb 0,True
+427,335,22,acs,3,3.1256,7.9754,0.1006,57,0.895,,,23,1, --acs --localsearch 3 --alpha 3.1256 --beta 7.9754 --rho  0.1006 --ants 57 --q0 0.895 --nnls 23 --dlb 1,True
+428,386,16,ras,3,4.6949,2.8303,0.7125,23,,38,,29,1, --ras --localsearch 3 --alpha 4.6949 --beta 2.8303 --rho  0.7125 --ants 23 --rasranks 38 --nnls 29 --dlb 1,True
+429,335,22,acs,3,3.7943,8.1869,0.24,43,0.7787,,,8,1, --acs --localsearch 3 --alpha 3.7943 --beta 8.1869 --rho  0.24 --ants 43 --q0 0.7787 --nnls 8 --dlb 1,True
+430,386,16,ras,3,4.9981,1.9224,0.8778,13,,40,,29,1, --ras --localsearch 3 --alpha 4.9981 --beta 1.9224 --rho  0.8778 --ants 13 --rasranks 40 --nnls 29 --dlb 1,True
+431,335,22,acs,3,2.7877,6.5959,0.2012,47,0.8523,,,20,0, --acs --localsearch 3 --alpha 2.7877 --beta 6.5959 --rho  0.2012 --ants 47 --q0 0.8523 --nnls 20 --dlb 0,True
+432,388,16,ras,3,4.1483,3.0105,0.9609,15,,23,,21,1, --ras --localsearch 3 --alpha 4.1483 --beta 3.0105 --rho  0.9609 --ants 15 --rasranks 23 --nnls 21 --dlb 1,True
+433,386,16,ras,2,4.9156,0.4082,0.9424,16,,74,,29,0, --ras --localsearch 2 --alpha 4.9156 --beta 0.4082 --rho  0.9424 --ants 16 --rasranks 74 --nnls 29 --dlb 0,True
+434,388,16,ras,3,4.5137,1.8013,0.7272,7,,31,,42,1, --ras --localsearch 3 --alpha 4.5137 --beta 1.8013 --rho  0.7272 --ants 7 --rasranks 31 --nnls 42 --dlb 1,True
+435,386,16,ras,3,4.2516,0.7147,0.978,22,,41,,41,1, --ras --localsearch 3 --alpha 4.2516 --beta 0.7147 --rho  0.978 --ants 22 --rasranks 41 --nnls 41 --dlb 1,True
+436,386,16,acs,1,3.5349,1.4363,0.8879,17,0.5629,,,49,1, --acs --localsearch 1 --alpha 3.5349 --beta 1.4363 --rho  0.8879 --ants 17 --q0 0.5629 --nnls 49 --dlb 1,True
+437,283,19,as,3,3.2738,1.6437,0.6899,21,,,,31,1, --as --localsearch 3 --alpha 3.2738 --beta 1.6437 --rho  0.6899 --ants 21 --nnls 31 --dlb 1,True
+438,411,19,ras,3,2.3838,0.6817,0.2935,15,,10,,26,1, --ras --localsearch 3 --alpha 2.3838 --beta 0.6817 --rho  0.2935 --ants 15 --rasranks 10 --nnls 26 --dlb 1,True
+439,335,22,acs,3,3.8315,8.0228,0.055,33,0.8045,,,23,1, --acs --localsearch 3 --alpha 3.8315 --beta 8.0228 --rho  0.055 --ants 33 --q0 0.8045 --nnls 23 --dlb 1,True
+440,386,16,ras,2,4.8526,3.3613,0.7175,8,,42,,39,1, --ras --localsearch 2 --alpha 4.8526 --beta 3.3613 --rho  0.7175 --ants 8 --rasranks 42 --nnls 39 --dlb 1,True
+441,311,20,eas,1,1.5782,5.621,0.8166,40,,,483,10,1, --eas --localsearch 1 --alpha 1.5782 --beta 5.621 --rho  0.8166 --ants 40 --elitistants 483 --nnls 10 --dlb 1,True
+442,335,22,acs,2,3.9171,8.4554,0.1369,55,0.7804,,,15,0, --acs --localsearch 2 --alpha 3.9171 --beta 8.4554 --rho  0.1369 --ants 55 --q0 0.7804 --nnls 15 --dlb 0,True
+443,388,16,ras,2,4.4003,3.1355,0.666,21,,57,,30,1, --ras --localsearch 2 --alpha 4.4003 --beta 3.1355 --rho  0.666 --ants 21 --rasranks 57 --nnls 30 --dlb 1,True
+444,283,19,acs,3,2.4792,2.0053,0.7895,34,0.5804,,,23,1, --acs --localsearch 3 --alpha 2.4792 --beta 2.0053 --rho  0.7895 --ants 34 --q0 0.5804 --nnls 23 --dlb 1,True
+445,386,16,acs,3,3.7199,1.3624,0.8611,12,0.4734,,,44,1, --acs --localsearch 3 --alpha 3.7199 --beta 1.3624 --rho  0.8611 --ants 12 --q0 0.4734 --nnls 44 --dlb 1,True
+446,335,22,acs,3,3.3723,8.4436,0.2104,25,0.8468,,,23,1, --acs --localsearch 3 --alpha 3.3723 --beta 8.4436 --rho  0.2104 --ants 25 --q0 0.8468 --nnls 23 --dlb 1,True
+447,283,19,mmas,3,4.5599,3.7538,0.5534,43,,,,32,0, --mmas --localsearch 3 --alpha 4.5599 --beta 3.7538 --rho  0.5534 --ants 43 --nnls 32 --dlb 0,True
+448,311,20,eas,1,1.1431,6.3041,0.7137,30,,,677,9,1, --eas --localsearch 1 --alpha 1.1431 --beta 6.3041 --rho  0.7137 --ants 30 --elitistants 677 --nnls 9 --dlb 1,True
+449,386,16,acs,1,4.8783,0.0731,0.9016,21,0.1513,,,46,1, --acs --localsearch 1 --alpha 4.8783 --beta 0.0731 --rho  0.9016 --ants 21 --q0 0.1513 --nnls 46 --dlb 1,True
+450,283,19,ras,3,4.0472,1.9128,0.44,27,,16,,22,1, --ras --localsearch 3 --alpha 4.0472 --beta 1.9128 --rho  0.44 --ants 27 --rasranks 16 --nnls 22 --dlb 1,True
+451,311,20,eas,3,1.0197,6.5901,0.7618,64,,,528,10,0, --eas --localsearch 3 --alpha 1.0197 --beta 6.5901 --rho  0.7618 --ants 64 --elitistants 528 --nnls 10 --dlb 0,True
+452,411,19,ras,3,4.5138,2.2919,0.7252,16,,8,,22,1, --ras --localsearch 3 --alpha 4.5138 --beta 2.2919 --rho  0.7252 --ants 16 --rasranks 8 --nnls 22 --dlb 1,True
+453,311,20,eas,3,2.3304,5.7038,0.7347,46,,,725,10,0, --eas --localsearch 3 --alpha 2.3304 --beta 5.7038 --rho  0.7347 --ants 46 --elitistants 725 --nnls 10 --dlb 0,True
+454,388,16,eas,3,4.1137,1.7769,0.7782,21,,,545,42,0, --eas --localsearch 3 --alpha 4.1137 --beta 1.7769 --rho  0.7782 --ants 21 --elitistants 545 --nnls 42 --dlb 0,True
+455,386,16,acs,3,4.259,0.1971,0.8713,8,0.4376,,,44,1, --acs --localsearch 3 --alpha 4.259 --beta 0.1971 --rho  0.8713 --ants 8 --q0 0.4376 --nnls 44 --dlb 1,True
+456,386,16,ras,3,4.3344,0.8105,0.8416,11,,38,,37,1, --ras --localsearch 3 --alpha 4.3344 --beta 0.8105 --rho  0.8416 --ants 11 --rasranks 38 --nnls 37 --dlb 1,True
+457,411,19,ras,1,2.8811,4.7246,0.1989,27,,28,,50,1, --ras --localsearch 1 --alpha 2.8811 --beta 4.7246 --rho  0.1989 --ants 27 --rasranks 28 --nnls 50 --dlb 1,True
+458,411,19,ras,3,4.6625,2.4382,0.5035,37,,7,,24,1, --ras --localsearch 3 --alpha 4.6625 --beta 2.4382 --rho  0.5035 --ants 37 --rasranks 7 --nnls 24 --dlb 1,True
+459,283,19,mmas,3,2.7727,2.1435,0.6131,38,,,,44,1, --mmas --localsearch 3 --alpha 2.7727 --beta 2.1435 --rho  0.6131 --ants 38 --nnls 44 --dlb 1,True
+460,388,16,ras,0,4.2476,4.8119,0.7766,5,,40,,,, --ras --localsearch 0 --alpha 4.2476 --beta 4.8119 --rho  0.7766 --ants 5 --rasranks 40,True
+461,411,19,ras,1,3.5249,1.2802,0.5482,26,,3,,26,1, --ras --localsearch 1 --alpha 3.5249 --beta 1.2802 --rho  0.5482 --ants 26 --rasranks 3 --nnls 26 --dlb 1,True
+462,386,16,ras,2,4.3168,1.2979,0.7547,23,,56,,42,0, --ras --localsearch 2 --alpha 4.3168 --beta 1.2979 --rho  0.7547 --ants 23 --rasranks 56 --nnls 42 --dlb 0,True
+463,386,16,ras,3,4.1144,3.3377,0.868,20,,47,,43,1, --ras --localsearch 3 --alpha 4.1144 --beta 3.3377 --rho  0.868 --ants 20 --rasranks 47 --nnls 43 --dlb 1,True
+464,283,19,ras,3,3.67,4.1906,0.5965,49,,15,,43,0, --ras --localsearch 3 --alpha 3.67 --beta 4.1906 --rho  0.5965 --ants 49 --rasranks 15 --nnls 43 --dlb 0,True
+465,283,19,ras,3,3.8191,1.7893,0.3429,47,,22,,36,1, --ras --localsearch 3 --alpha 3.8191 --beta 1.7893 --rho  0.3429 --ants 47 --rasranks 22 --nnls 36 --dlb 1,True
+466,411,19,mmas,0,2.807,3.8941,0.409,30,,,,,, --mmas --localsearch 0 --alpha 2.807 --beta 3.8941 --rho  0.409 --ants 30,True
+467,420,22,acs,1,2.5189,4.8843,0.0265,16,0.8819,,,11,1, --acs --localsearch 1 --alpha 2.5189 --beta 4.8843 --rho  0.0265 --ants 16 --q0 0.8819 --nnls 11 --dlb 1,True
+468,311,20,eas,3,1.6071,5.422,0.7267,52,,,708,13,1, --eas --localsearch 3 --alpha 1.6071 --beta 5.422 --rho  0.7267 --ants 52 --elitistants 708 --nnls 13 --dlb 1,True
+469,335,22,acs,2,3.5502,7.971,0.0383,43,0.748,,,17,1, --acs --localsearch 2 --alpha 3.5502 --beta 7.971 --rho  0.0383 --ants 43 --q0 0.748 --nnls 17 --dlb 1,True
+470,411,19,eas,3,3.7334,3.0154,0.6268,40,,,399,31,1, --eas --localsearch 3 --alpha 3.7334 --beta 3.0154 --rho  0.6268 --ants 40 --elitistants 399 --nnls 31 --dlb 1,True
+471,420,22,acs,3,2.9743,6.5527,0.1436,25,0.6351,,,10,0, --acs --localsearch 3 --alpha 2.9743 --beta 6.5527 --rho  0.1436 --ants 25 --q0 0.6351 --nnls 10 --dlb 0,True
+472,439,22,acs,0,3.9684,8.0119,0.0726,44,0.8941,,,,, --acs --localsearch 0 --alpha 3.9684 --beta 8.0119 --rho  0.0726 --ants 44 --q0 0.8941,True
+473,335,25,ras,3,3.936,7.7813,0.1101,50,,51,,20,1, --ras --localsearch 3 --alpha 3.936 --beta 7.7813 --rho  0.1101 --ants 50 --rasranks 51 --nnls 20 --dlb 1,True
+474,411,19,mmas,3,4.8144,1.6906,0.1713,13,,,,31,1, --mmas --localsearch 3 --alpha 4.8144 --beta 1.6906 --rho  0.1713 --ants 13 --nnls 31 --dlb 1,True
+475,311,24,eas,3,1.5321,4.5873,0.7381,43,,,737,7,1, --eas --localsearch 3 --alpha 1.5321 --beta 4.5873 --rho  0.7381 --ants 43 --elitistants 737 --nnls 7 --dlb 1,True
+476,420,22,acs,3,3.2355,6.4887,0.262,12,0.7369,,,12,1, --acs --localsearch 3 --alpha 3.2355 --beta 6.4887 --rho  0.262 --ants 12 --q0 0.7369 --nnls 12 --dlb 1,True
+477,283,23,ras,3,4.4087,3.3142,0.672,22,,37,,34,1, --ras --localsearch 3 --alpha 4.4087 --beta 3.3142 --rho  0.672 --ants 22 --rasranks 37 --nnls 34 --dlb 1,True
+478,438,19,ras,3,2.7179,2.4302,0.0703,38,,23,,31,1, --ras --localsearch 3 --alpha 2.7179 --beta 2.4302 --rho  0.0703 --ants 38 --rasranks 23 --nnls 31 --dlb 1,True
+479,452,19,ras,1,4.7933,0.6712,0.844,10,,13,,33,1, --ras --localsearch 1 --alpha 4.7933 --beta 0.6712 --rho  0.844 --ants 10 --rasranks 13 --nnls 33 --dlb 1,True
+480,452,19,ras,3,4.4863,0.3826,0.7255,23,,1,,5,1, --ras --localsearch 3 --alpha 4.4863 --beta 0.3826 --rho  0.7255 --ants 23 --rasranks 1 --nnls 5 --dlb 1,True
+481,439,22,acs,0,3.579,7.4757,0.0371,44,0.9613,,,,, --acs --localsearch 0 --alpha 3.579 --beta 7.4757 --rho  0.0371 --ants 44 --q0 0.9613,True
+482,420,22,acs,3,3.0102,6.0795,0.0236,34,0.7455,,,13,0, --acs --localsearch 3 --alpha 3.0102 --beta 6.0795 --rho  0.0236 --ants 34 --q0 0.7455 --nnls 13 --dlb 0,True
+483,450,19,ras,3,3.948,5.3294,0.7674,17,,14,,23,1, --ras --localsearch 3 --alpha 3.948 --beta 5.3294 --rho  0.7674 --ants 17 --rasranks 14 --nnls 23 --dlb 1,True
+484,283,23,ras,3,4.3246,1.4985,0.6234,43,,27,,30,1, --ras --localsearch 3 --alpha 4.3246 --beta 1.4985 --rho  0.6234 --ants 43 --rasranks 27 --nnls 30 --dlb 1,True
+485,450,19,ras,3,3.8452,0.1182,0.4002,34,,41,,19,1, --ras --localsearch 3 --alpha 3.8452 --beta 0.1182 --rho  0.4002 --ants 34 --rasranks 41 --nnls 19 --dlb 1,True
+486,283,23,ras,3,3.9066,2.2269,0.6344,29,,15,,36,1, --ras --localsearch 3 --alpha 3.9066 --beta 2.2269 --rho  0.6344 --ants 29 --rasranks 15 --nnls 36 --dlb 1,True
+487,438,19,as,3,3.6085,1.3076,0.227,20,,,,25,1, --as --localsearch 3 --alpha 3.6085 --beta 1.3076 --rho  0.227 --ants 20 --nnls 25 --dlb 1,True
+488,420,22,acs,3,3.3345,4.7477,0.212,36,0.8113,,,19,0, --acs --localsearch 3 --alpha 3.3345 --beta 4.7477 --rho  0.212 --ants 36 --q0 0.8113 --nnls 19 --dlb 0,True
+489,438,19,eas,3,2.0274,0.7566,0.5334,38,,,303,23,1, --eas --localsearch 3 --alpha 2.0274 --beta 0.7566 --rho  0.5334 --ants 38 --elitistants 303 --nnls 23 --dlb 1,True
+490,283,23,ras,3,4.053,1.1367,0.6044,38,,15,,27,1, --ras --localsearch 3 --alpha 4.053 --beta 1.1367 --rho  0.6044 --ants 38 --rasranks 15 --nnls 27 --dlb 1,True
+491,420,22,acs,3,3.6032,8.2585,0.2966,10,0.7838,,,16,1, --acs --localsearch 3 --alpha 3.6032 --beta 8.2585 --rho  0.2966 --ants 10 --q0 0.7838 --nnls 16 --dlb 1,True
+492,450,19,ras,3,3.4569,0.6921,0.3973,33,,24,,14,1, --ras --localsearch 3 --alpha 3.4569 --beta 0.6921 --rho  0.3973 --ants 33 --rasranks 24 --nnls 14 --dlb 1,True
+493,471,22,acs,3,2.6462,6.3738,0.1636,30,0.5434,,,9,1, --acs --localsearch 3 --alpha 2.6462 --beta 6.3738 --rho  0.1636 --ants 30 --q0 0.5434 --nnls 9 --dlb 1,True
+494,438,19,ras,3,1.8865,2.226,0.2141,14,,8,,28,1, --ras --localsearch 3 --alpha 1.8865 --beta 2.226 --rho  0.2141 --ants 14 --rasranks 8 --nnls 28 --dlb 1,True
+495,471,22,acs,3,2.5917,6.1678,0.0957,27,0.6792,,,12,1, --acs --localsearch 3 --alpha 2.5917 --beta 6.1678 --rho  0.0957 --ants 27 --q0 0.6792 --nnls 12 --dlb 1,True
+496,420,22,acs,3,3.4082,6.9589,0.3064,21,0.9706,,,19,1, --acs --localsearch 3 --alpha 3.4082 --beta 6.9589 --rho  0.3064 --ants 21 --q0 0.9706 --nnls 19 --dlb 1,True
+497,450,19,ras,3,3.3602,0.9674,0.4156,11,,18,,22,1, --ras --localsearch 3 --alpha 3.3602 --beta 0.9674 --rho  0.4156 --ants 11 --rasranks 18 --nnls 22 --dlb 1,True
+498,438,19,acs,3,2.9931,2.2652,0.2784,14,0.67,,,38,1, --acs --localsearch 3 --alpha 2.9931 --beta 2.2652 --rho  0.2784 --ants 14 --q0 0.67 --nnls 38 --dlb 1,True
+499,438,19,ras,1,3.9118,1.8191,0.2658,36,,21,,28,1, --ras --localsearch 1 --alpha 3.9118 --beta 1.8191 --rho  0.2658 --ants 36 --rasranks 21 --nnls 28 --dlb 1,True
+500,450,19,eas,2,2.537,3.3902,0.2356,49,,,327,8,1, --eas --localsearch 2 --alpha 2.537 --beta 3.3902 --rho  0.2356 --ants 49 --elitistants 327 --nnls 8 --dlb 1,True
+501,450,19,eas,3,3.3623,5.8483,0.2032,44,,,127,16,1, --eas --localsearch 3 --alpha 3.3623 --beta 5.8483 --rho  0.2032 --ants 44 --elitistants 127 --nnls 16 --dlb 1,True
+502,450,19,ras,3,4.6881,3.4036,0.5216,19,,9,,19,1, --ras --localsearch 3 --alpha 4.6881 --beta 3.4036 --rho  0.5216 --ants 19 --rasranks 9 --nnls 19 --dlb 1,True
+503,468,20,eas,2,1.3364,3.9208,0.7904,58,,,695,13,1, --eas --localsearch 2 --alpha 1.3364 --beta 3.9208 --rho  0.7904 --ants 58 --elitistants 695 --nnls 13 --dlb 1,True
+504,450,19,ras,3,1.5229,2.5834,0.3862,19,,12,,20,1, --ras --localsearch 3 --alpha 1.5229 --beta 2.5834 --rho  0.3862 --ants 19 --rasranks 12 --nnls 20 --dlb 1,True
+505,438,19,ras,1,1.6746,2.1854,0.2745,9,,6,,18,1, --ras --localsearch 1 --alpha 1.6746 --beta 2.1854 --rho  0.2745 --ants 9 --rasranks 6 --nnls 18 --dlb 1,True
+506,420,22,eas,3,2.902,6.1397,0.3108,23,,,520,5,1, --eas --localsearch 3 --alpha 2.902 --beta 6.1397 --rho  0.3108 --ants 23 --elitistants 520 --nnls 5 --dlb 1,True
+507,438,19,ras,2,1.4948,1.1663,0.3191,21,,13,,25,0, --ras --localsearch 2 --alpha 1.4948 --beta 1.1663 --rho  0.3191 --ants 21 --rasranks 13 --nnls 25 --dlb 0,True
+508,283,23,ras,3,3.6964,2.7055,0.6494,32,,21,,23,1, --ras --localsearch 3 --alpha 3.6964 --beta 2.7055 --rho  0.6494 --ants 32 --rasranks 21 --nnls 23 --dlb 1,True
+509,450,19,ras,1,4.673,4.9811,0.5619,14,,4,,28,1, --ras --localsearch 1 --alpha 4.673 --beta 4.9811 --rho  0.5619 --ants 14 --rasranks 4 --nnls 28 --dlb 1,True
+510,476,22,acs,3,3.1043,6.4152,0.2097,9,0.769,,,17,1, --acs --localsearch 3 --alpha 3.1043 --beta 6.4152 --rho  0.2097 --ants 9 --q0 0.769 --nnls 17 --dlb 1,True
+511,476,22,acs,3,3.6016,7.7132,0.3077,8,0.6855,,,24,1, --acs --localsearch 3 --alpha 3.6016 --beta 7.7132 --rho  0.3077 --ants 8 --q0 0.6855 --nnls 24 --dlb 1,True
+512,283,23,ras,3,4.5718,3.0416,0.5898,31,,7,,29,1, --ras --localsearch 3 --alpha 4.5718 --beta 3.0416 --rho  0.5898 --ants 31 --rasranks 7 --nnls 29 --dlb 1,True
+513,438,19,ras,3,2.0118,0.2727,0.4023,21,,12,,29,1, --ras --localsearch 3 --alpha 2.0118 --beta 0.2727 --rho  0.4023 --ants 21 --rasranks 12 --nnls 29 --dlb 1,True
+514,450,19,ras,3,4.0831,3.1319,0.5484,15,,21,,11,1, --ras --localsearch 3 --alpha 4.0831 --beta 3.1319 --rho  0.5484 --ants 15 --rasranks 21 --nnls 11 --dlb 1,True
+515,283,23,ras,3,3.3081,4.3866,0.5269,27,,7,,30,1, --ras --localsearch 3 --alpha 3.3081 --beta 4.3866 --rho  0.5269 --ants 27 --rasranks 7 --nnls 30 --dlb 1,True
+516,283,23,ras,3,4.1693,1.8969,0.5608,42,,18,,31,1, --ras --localsearch 3 --alpha 4.1693 --beta 1.8969 --rho  0.5608 --ants 42 --rasranks 18 --nnls 31 --dlb 1,True
+517,476,22,acs,3,3.8768,4.9419,0.3185,24,0.8883,,,21,1, --acs --localsearch 3 --alpha 3.8768 --beta 4.9419 --rho  0.3185 --ants 24 --q0 0.8883 --nnls 21 --dlb 1,True
+518,420,22,acs,3,3.1227,7.3062,0.272,27,0.5772,,,14,1, --acs --localsearch 3 --alpha 3.1227 --beta 7.3062 --rho  0.272 --ants 27 --q0 0.5772 --nnls 14 --dlb 1,True
+519,450,19,eas,3,3.2994,0.6097,0.4025,36,,,594,31,0, --eas --localsearch 3 --alpha 3.2994 --beta 0.6097 --rho  0.4025 --ants 36 --elitistants 594 --nnls 31 --dlb 0,True
+520,450,19,ras,2,4.2735,4.4653,0.1531,15,,1,,29,1, --ras --localsearch 2 --alpha 4.2735 --beta 4.4653 --rho  0.1531 --ants 15 --rasranks 1 --nnls 29 --dlb 1,True
+521,468,20,eas,0,1.7473,5.6151,0.7549,48,,,746,,, --eas --localsearch 0 --alpha 1.7473 --beta 5.6151 --rho  0.7549 --ants 48 --elitistants 746,True
+522,420,22,acs,3,2.9256,6.9175,0.0493,31,0.8286,,,17,0, --acs --localsearch 3 --alpha 2.9256 --beta 6.9175 --rho  0.0493 --ants 31 --q0 0.8286 --nnls 17 --dlb 0,True
+523,476,22,acs,3,3.3414,5.8883,0.3121,7,0.6108,,,16,1, --acs --localsearch 3 --alpha 3.3414 --beta 5.8883 --rho  0.3121 --ants 7 --q0 0.6108 --nnls 16 --dlb 1,True
+524,420,22,acs,0,2.6885,5.6459,0.0941,34,0.7592,,,,, --acs --localsearch 0 --alpha 2.6885 --beta 5.6459 --rho  0.0941 --ants 34 --q0 0.7592,True
+525,420,22,acs,3,2.7779,6.5676,0.2702,45,0.9386,,,6,1, --acs --localsearch 3 --alpha 2.7779 --beta 6.5676 --rho  0.2702 --ants 45 --q0 0.9386 --nnls 6 --dlb 1,True
+526,420,27,eas,3,2.9981,7.0362,0.1158,30,,,287,15,1, --eas --localsearch 3 --alpha 2.9981 --beta 7.0362 --rho  0.1158 --ants 30 --elitistants 287 --nnls 15 --dlb 1,True
+527,450,28,ras,3,3.7082,2.0363,0.5198,15,,3,,19,1, --ras --localsearch 3 --alpha 3.7082 --beta 2.0363 --rho  0.5198 --ants 15 --rasranks 3 --nnls 19 --dlb 1,True
+528,420,27,ras,0,3.2304,6.8455,0.2103,27,,57,,,, --ras --localsearch 0 --alpha 3.2304 --beta 6.8455 --rho  0.2103 --ants 27 --rasranks 57,True
+529,283,26,ras,3,3.1424,1.8549,0.5361,34,,6,,30,1, --ras --localsearch 3 --alpha 3.1424 --beta 1.8549 --rho  0.5361 --ants 34 --rasranks 6 --nnls 30 --dlb 1,True
+530,420,27,acs,1,2.4666,5.1713,0.0633,26,0.638,,,15,1, --acs --localsearch 1 --alpha 2.4666 --beta 5.1713 --rho  0.0633 --ants 26 --q0 0.638 --nnls 15 --dlb 1,True
+531,438,19,ras,3,3.0344,2.5344,0.583,25,,3,,25,1, --ras --localsearch 3 --alpha 3.0344 --beta 2.5344 --rho  0.583 --ants 25 --rasranks 3 --nnls 25 --dlb 1,True
+532,468,29,mmas,3,1.3638,6.108,0.5809,58,,,,11,1, --mmas --localsearch 3 --alpha 1.3638 --beta 6.108 --rho  0.5809 --ants 58 --nnls 11 --dlb 1,True
+533,468,29,eas,3,0.8419,4.9293,0.8175,54,,,745,11,1, --eas --localsearch 3 --alpha 0.8419 --beta 4.9293 --rho  0.8175 --ants 54 --elitistants 745 --nnls 11 --dlb 1,True
+534,420,27,ras,3,2.7047,5.8982,0.2574,19,,56,,14,1, --ras --localsearch 3 --alpha 2.7047 --beta 5.8982 --rho  0.2574 --ants 19 --rasranks 56 --nnls 14 --dlb 1,True
+535,420,27,acs,3,3.0022,5.7469,0.0514,34,0.8081,,,17,1, --acs --localsearch 3 --alpha 3.0022 --beta 5.7469 --rho  0.0514 --ants 34 --q0 0.8081 --nnls 17 --dlb 1,True
+536,438,19,ras,3,3.8181,1.7819,0.4755,27,,28,,14,1, --ras --localsearch 3 --alpha 3.8181 --beta 1.7819 --rho  0.4755 --ants 27 --rasranks 28 --nnls 14 --dlb 1,True
+537,420,27,acs,3,3.7561,7.1359,0.1529,46,0.9089,,,15,1, --acs --localsearch 3 --alpha 3.7561 --beta 7.1359 --rho  0.1529 --ants 46 --q0 0.9089 --nnls 15 --dlb 1,True
+538,476,22,acs,3,3.4695,7.3921,0.3013,5,0.7357,,,7,1, --acs --localsearch 3 --alpha 3.4695 --beta 7.3921 --rho  0.3013 --ants 5 --q0 0.7357 --nnls 7 --dlb 1,True
+539,438,19,ras,3,2.893,0.9562,0.534,31,,3,,30,0, --ras --localsearch 3 --alpha 2.893 --beta 0.9562 --rho  0.534 --ants 31 --rasranks 3 --nnls 30 --dlb 0,True
+540,283,26,acs,3,3.4176,0.8424,0.6687,29,0.485,,,30,1, --acs --localsearch 3 --alpha 3.4176 --beta 0.8424 --rho  0.6687 --ants 29 --q0 0.485 --nnls 30 --dlb 1,True
+541,450,28,ras,3,3.0133,1.4011,0.4394,29,,27,,24,1, --ras --localsearch 3 --alpha 3.0133 --beta 1.4011 --rho  0.4394 --ants 29 --rasranks 27 --nnls 24 --dlb 1,True
+542,438,19,acs,3,2.6958,1.6606,0.1698,6,0.8493,,,21,1, --acs --localsearch 3 --alpha 2.6958 --beta 1.6606 --rho  0.1698 --ants 6 --q0 0.8493 --nnls 21 --dlb 1,True
+543,450,28,ras,3,3.1579,1.9688,0.2323,16,,31,,21,1, --ras --localsearch 3 --alpha 3.1579 --beta 1.9688 --rho  0.2323 --ants 16 --rasranks 31 --nnls 21 --dlb 1,True
+544,438,19,ras,3,2.2491,1.7812,0.0954,16,,24,,36,1, --ras --localsearch 3 --alpha 2.2491 --beta 1.7812 --rho  0.0954 --ants 16 --rasranks 24 --nnls 36 --dlb 1,True
+545,420,27,acs,3,3.1132,7.2494,0.1358,34,0.8712,,,13,1, --acs --localsearch 3 --alpha 3.1132 --beta 7.2494 --rho  0.1358 --ants 34 --q0 0.8712 --nnls 13 --dlb 1,True
+546,438,19,ras,3,3.635,0.1003,0.3486,11,,5,,26,1, --ras --localsearch 3 --alpha 3.635 --beta 0.1003 --rho  0.3486 --ants 11 --rasranks 5 --nnls 26 --dlb 1,True
+547,483,19,ras,3,4.089,3.7308,0.6329,29,,43,,35,1, --ras --localsearch 3 --alpha 4.089 --beta 3.7308 --rho  0.6329 --ants 29 --rasranks 43 --nnls 35 --dlb 1,True
+548,476,22,acs,3,3.2091,6.0845,0.2772,22,0.7379,,,17,1, --acs --localsearch 3 --alpha 3.2091 --beta 6.0845 --rho  0.2772 --ants 22 --q0 0.7379 --nnls 17 --dlb 1,True
+549,483,19,ras,3,4.4013,6.5317,0.8174,25,,14,,23,1, --ras --localsearch 3 --alpha 4.4013 --beta 6.5317 --rho  0.8174 --ants 25 --rasranks 14 --nnls 23 --dlb 1,True
+550,468,29,as,3,1.3955,5.5878,0.6434,52,,,,18,1, --as --localsearch 3 --alpha 1.3955 --beta 5.5878 --rho  0.6434 --ants 52 --nnls 18 --dlb 1,True
+551,450,28,ras,3,4.5037,3.1809,0.1985,20,,10,,25,1, --ras --localsearch 3 --alpha 4.5037 --beta 3.1809 --rho  0.1985 --ants 20 --rasranks 10 --nnls 25 --dlb 1,True
+552,468,29,eas,3,1.8582,5.2519,0.7493,42,,,659,15,1, --eas --localsearch 3 --alpha 1.8582 --beta 5.2519 --rho  0.7493 --ants 42 --elitistants 659 --nnls 15 --dlb 1,True
+553,438,19,eas,3,2.0206,3.5682,0.2278,22,,,492,39,0, --eas --localsearch 3 --alpha 2.0206 --beta 3.5682 --rho  0.2278 --ants 22 --elitistants 492 --nnls 39 --dlb 0,True
+554,476,22,acs,3,3.0867,7.9851,0.3099,22,0.7909,,,17,1, --acs --localsearch 3 --alpha 3.0867 --beta 7.9851 --rho  0.3099 --ants 22 --q0 0.7909 --nnls 17 --dlb 1,True
+555,283,26,ras,3,3.3914,1.28,0.6333,37,,13,,32,1, --ras --localsearch 3 --alpha 3.3914 --beta 1.28 --rho  0.6333 --ants 37 --rasranks 13 --nnls 32 --dlb 1,True
+556,468,29,eas,3,1.7411,4.7815,0.7534,48,,,719,16,1, --eas --localsearch 3 --alpha 1.7411 --beta 4.7815 --rho  0.7534 --ants 48 --elitistants 719 --nnls 16 --dlb 1,True
+557,283,26,ras,3,3.4934,2.6809,0.4968,29,,10,,35,1, --ras --localsearch 3 --alpha 3.4934 --beta 2.6809 --rho  0.4968 --ants 29 --rasranks 10 --nnls 35 --dlb 1,True
+558,468,29,eas,3,2.0802,5.0331,0.8208,44,,,640,18,1, --eas --localsearch 3 --alpha 2.0802 --beta 5.0331 --rho  0.8208 --ants 44 --elitistants 640 --nnls 18 --dlb 1,True
+559,476,22,acs,3,2.9926,7.2226,0.3791,13,0.6177,,,15,1, --acs --localsearch 3 --alpha 2.9926 --beta 7.2226 --rho  0.3791 --ants 13 --q0 0.6177 --nnls 15 --dlb 1,True
+560,483,19,ras,3,4.0442,4.8198,0.704,13,,34,,36,1, --ras --localsearch 3 --alpha 4.0442 --beta 4.8198 --rho  0.704 --ants 13 --rasranks 34 --nnls 36 --dlb 1,True
+561,283,26,ras,3,3.6093,1.8135,0.3841,33,,16,,30,1, --ras --localsearch 3 --alpha 3.6093 --beta 1.8135 --rho  0.3841 --ants 33 --rasranks 16 --nnls 30 --dlb 1,True
+562,483,19,ras,0,3.4913,7.0449,0.9057,25,,7,,,, --ras --localsearch 0 --alpha 3.4913 --beta 7.0449 --rho  0.9057 --ants 25 --rasranks 7,True
+563,438,19,ras,3,3.6885,0.0239,0.2727,13,,20,,25,1, --ras --localsearch 3 --alpha 3.6885 --beta 0.0239 --rho  0.2727 --ants 13 --rasranks 20 --nnls 25 --dlb 1,True
+564,450,28,ras,3,4.9731,1.839,0.5862,8,,3,,23,1, --ras --localsearch 3 --alpha 4.9731 --beta 1.839 --rho  0.5862 --ants 8 --rasranks 3 --nnls 23 --dlb 1,True
+565,283,26,ras,3,3.3819,2.5315,0.5896,22,,17,,29,1, --ras --localsearch 3 --alpha 3.3819 --beta 2.5315 --rho  0.5896 --ants 22 --rasranks 17 --nnls 29 --dlb 1,True
+566,476,22,acs,3,2.5414,6.9378,0.3105,9,0.7244,,,12,1, --acs --localsearch 3 --alpha 2.5414 --beta 6.9378 --rho  0.3105 --ants 9 --q0 0.7244 --nnls 12 --dlb 1,True
+567,476,22,acs,3,2.9745,9.7277,0.3026,31,0.663,,,7,1, --acs --localsearch 3 --alpha 2.9745 --beta 9.7277 --rho  0.3026 --ants 31 --q0 0.663 --nnls 7 --dlb 1,True
+568,468,29,eas,3,1.4896,5.1083,0.847,46,,,728,9,1, --eas --localsearch 3 --alpha 1.4896 --beta 5.1083 --rho  0.847 --ants 46 --elitistants 728 --nnls 9 --dlb 1,True
+569,450,28,ras,3,4.2351,1.6857,0.2603,38,,11,,31,1, --ras --localsearch 3 --alpha 4.2351 --beta 1.6857 --rho  0.2603 --ants 38 --rasranks 11 --nnls 31 --dlb 1,True
+570,476,22,eas,3,3.7066,5.183,0.3733,11,,,436,11,1, --eas --localsearch 3 --alpha 3.7066 --beta 5.183 --rho  0.3733 --ants 11 --elitistants 436 --nnls 11 --dlb 1,True
+571,438,19,acs,3,1.1758,1.4745,0.0941,22,0.4681,,,24,1, --acs --localsearch 3 --alpha 1.1758 --beta 1.4745 --rho  0.0941 --ants 22 --q0 0.4681 --nnls 24 --dlb 1,True
+572,283,26,ras,3,3.8318,1.9287,0.5388,28,,9,,31,1, --ras --localsearch 3 --alpha 3.8318 --beta 1.9287 --rho  0.5388 --ants 28 --rasranks 9 --nnls 31 --dlb 1,True
+573,283,26,ras,3,3.6368,2.4798,0.5374,24,,18,,44,1, --ras --localsearch 3 --alpha 3.6368 --beta 2.4798 --rho  0.5374 --ants 24 --rasranks 18 --nnls 44 --dlb 1,True
+574,468,29,eas,3,1.91,4.9032,0.6455,62,,,726,11,1, --eas --localsearch 3 --alpha 1.91 --beta 4.9032 --rho  0.6455 --ants 62 --elitistants 726 --nnls 11 --dlb 1,True
+575,483,19,ras,3,4.9484,3.6758,0.6047,8,,17,,25,1, --ras --localsearch 3 --alpha 4.9484 --beta 3.6758 --rho  0.6047 --ants 8 --rasranks 17 --nnls 25 --dlb 1,True
+576,283,26,ras,3,4.1315,0.7296,0.6445,34,,11,,33,1, --ras --localsearch 3 --alpha 4.1315 --beta 0.7296 --rho  0.6445 --ants 34 --rasranks 11 --nnls 33 --dlb 1,True
+577,483,19,mmas,1,3.8933,4.713,0.8206,14,,,,18,1, --mmas --localsearch 1 --alpha 3.8933 --beta 4.713 --rho  0.8206 --ants 14 --nnls 18 --dlb 1,True
+578,450,28,ras,3,3.4809,1.0381,0.3419,45,,7,,27,1, --ras --localsearch 3 --alpha 3.4809 --beta 1.0381 --rho  0.3419 --ants 45 --rasranks 7 --nnls 27 --dlb 1,True
+579,283,26,ras,0,3.4418,2.1155,0.5902,34,,16,,,, --ras --localsearch 0 --alpha 3.4418 --beta 2.1155 --rho  0.5902 --ants 34 --rasranks 16,True
+580,476,22,acs,3,4.0454,6.6015,0.3978,8,0.6643,,,13,1, --acs --localsearch 3 --alpha 4.0454 --beta 6.6015 --rho  0.3978 --ants 8 --q0 0.6643 --nnls 13 --dlb 1,True
+581,283,26,ras,3,3.6277,2.3497,0.6023,33,,23,,30,1, --ras --localsearch 3 --alpha 3.6277 --beta 2.3497 --rho  0.6023 --ants 33 --rasranks 23 --nnls 30 --dlb 1,True
+582,468,33,eas,3,1.7175,5.4634,0.7236,54,,,728,12,1, --eas --localsearch 3 --alpha 1.7175 --beta 5.4634 --rho  0.7236 --ants 54 --elitistants 728 --nnls 12 --dlb 1,True
+583,468,33,eas,3,2.3031,4.9805,0.7087,52,,,685,9,1, --eas --localsearch 3 --alpha 2.3031 --beta 4.9805 --rho  0.7087 --ants 52 --elitistants 685 --nnls 9 --dlb 1,True
+584,283,30,ras,3,3.8344,0.9989,0.5651,21,,14,,32,1, --ras --localsearch 3 --alpha 3.8344 --beta 0.9989 --rho  0.5651 --ants 21 --rasranks 14 --nnls 32 --dlb 1,True
+585,450,32,ras,3,3.0814,1.0616,0.3042,31,,28,,24,1, --ras --localsearch 3 --alpha 3.0814 --beta 1.0616 --rho  0.3042 --ants 31 --rasranks 28 --nnls 24 --dlb 1,True
+586,476,34,acs,3,2.9469,6.41,0.1118,21,0.8676,,,13,1, --acs --localsearch 3 --alpha 2.9469 --beta 6.41 --rho  0.1118 --ants 21 --q0 0.8676 --nnls 13 --dlb 1,True
+587,468,33,eas,3,1.712,4.7212,0.614,57,,,713,15,1, --eas --localsearch 3 --alpha 1.712 --beta 4.7212 --rho  0.614 --ants 57 --elitistants 713 --nnls 15 --dlb 1,True
+588,476,34,acs,3,3.2911,6.606,0.3212,16,0.6827,,,14,1, --acs --localsearch 3 --alpha 3.2911 --beta 6.606 --rho  0.3212 --ants 16 --q0 0.6827 --nnls 14 --dlb 1,True
+589,476,34,acs,3,3.2589,6.2055,0.2822,15,0.8726,,,16,1, --acs --localsearch 3 --alpha 3.2589 --beta 6.2055 --rho  0.2822 --ants 15 --q0 0.8726 --nnls 16 --dlb 1,True
+590,476,34,acs,3,2.855,5.0896,0.2402,15,0.6727,,,10,1, --acs --localsearch 3 --alpha 2.855 --beta 5.0896 --rho  0.2402 --ants 15 --q0 0.6727 --nnls 10 --dlb 1,True
+591,283,30,ras,3,3.5907,2.4016,0.5852,36,,14,,32,1, --ras --localsearch 3 --alpha 3.5907 --beta 2.4016 --rho  0.5852 --ants 36 --rasranks 14 --nnls 32 --dlb 1,True
+592,476,34,acs,3,3.4136,6.0516,0.2978,16,0.7663,,,18,1, --acs --localsearch 3 --alpha 3.4136 --beta 6.0516 --rho  0.2978 --ants 16 --q0 0.7663 --nnls 18 --dlb 1,True
+593,476,34,acs,3,3.4248,6.9035,0.2856,14,0.7487,,,17,1, --acs --localsearch 3 --alpha 3.4248 --beta 6.9035 --rho  0.2856 --ants 14 --q0 0.7487 --nnls 17 --dlb 1,True
+594,283,30,ras,3,3.4338,1.5004,0.5814,34,,17,,31,1, --ras --localsearch 3 --alpha 3.4338 --beta 1.5004 --rho  0.5814 --ants 34 --rasranks 17 --nnls 31 --dlb 1,True
+595,483,19,ras,3,4.461,6.9873,0.7271,32,,5,,24,0, --ras --localsearch 3 --alpha 4.461 --beta 6.9873 --rho  0.7271 --ants 32 --rasranks 5 --nnls 24 --dlb 0,True
+596,450,32,ras,3,3.3817,1.4559,0.3264,24,,10,,25,1, --ras --localsearch 3 --alpha 3.3817 --beta 1.4559 --rho  0.3264 --ants 24 --rasranks 10 --nnls 25 --dlb 1,True
+597,438,31,ras,1,1.4508,1.0629,0.1855,7,,29,,31,1, --ras --localsearch 1 --alpha 1.4508 --beta 1.0629 --rho  0.1855 --ants 7 --rasranks 29 --nnls 31 --dlb 1,True
+598,450,32,ras,3,3.7407,1.3671,0.4818,22,,15,,25,1, --ras --localsearch 3 --alpha 3.7407 --beta 1.3671 --rho  0.4818 --ants 22 --rasranks 15 --nnls 25 --dlb 1,True
+599,483,19,ras,3,4.4613,5.7517,0.6756,25,,3,,22,1, --ras --localsearch 3 --alpha 4.4613 --beta 5.7517 --rho  0.6756 --ants 25 --rasranks 3 --nnls 22 --dlb 1,True
+600,476,34,acs,3,3.8177,6.5557,0.2505,14,0.6675,,,12,1, --acs --localsearch 3 --alpha 3.8177 --beta 6.5557 --rho  0.2505 --ants 14 --q0 0.6675 --nnls 12 --dlb 1,True
+601,438,31,ras,3,1.4794,2.0189,0.311,27,,15,,23,1, --ras --localsearch 3 --alpha 1.4794 --beta 2.0189 --rho  0.311 --ants 27 --rasranks 15 --nnls 23 --dlb 1,True
+602,483,19,eas,3,3.4011,4.4035,0.8458,27,,,381,13,1, --eas --localsearch 3 --alpha 3.4011 --beta 4.4035 --rho  0.8458 --ants 27 --elitistants 381 --nnls 13 --dlb 1,True
+603,450,32,ras,3,3.7654,2.2653,0.4333,25,,18,,28,1, --ras --localsearch 3 --alpha 3.7654 --beta 2.2653 --rho  0.4333 --ants 25 --rasranks 18 --nnls 28 --dlb 1,True
+604,476,34,acs,3,2.8874,5.4831,0.2981,10,0.8257,,,8,1, --acs --localsearch 3 --alpha 2.8874 --beta 5.4831 --rho  0.2981 --ants 10 --q0 0.8257 --nnls 8 --dlb 1,True
+605,438,31,as,3,2.3318,0.2001,0.1994,23,,,,30,1, --as --localsearch 3 --alpha 2.3318 --beta 0.2001 --rho  0.1994 --ants 23 --nnls 30 --dlb 1,True
+606,476,34,acs,3,2.891,7.1958,0.2257,12,0.636,,,11,1, --acs --localsearch 3 --alpha 2.891 --beta 7.1958 --rho  0.2257 --ants 12 --q0 0.636 --nnls 11 --dlb 1,True
+607,283,30,ras,3,3.4422,2.2173,0.5467,35,,9,,33,1, --ras --localsearch 3 --alpha 3.4422 --beta 2.2173 --rho  0.5467 --ants 35 --rasranks 9 --nnls 33 --dlb 1,True
+608,450,32,ras,0,4.1526,1.8675,0.5331,31,,9,,,, --ras --localsearch 0 --alpha 4.1526 --beta 1.8675 --rho  0.5331 --ants 31 --rasranks 9,True
+609,483,19,ras,3,4.2222,8.0369,0.7029,24,,3,,36,1, --ras --localsearch 3 --alpha 4.2222 --beta 8.0369 --rho  0.7029 --ants 24 --rasranks 3 --nnls 36 --dlb 1,True
+610,438,31,ras,3,2.3116,1.1641,0.3461,24,,5,,31,1, --ras --localsearch 3 --alpha 2.3116 --beta 1.1641 --rho  0.3461 --ants 24 --rasranks 5 --nnls 31 --dlb 1,True
+611,483,19,ras,3,4.0524,7.0448,0.6896,9,,34,,26,1, --ras --localsearch 3 --alpha 4.0524 --beta 7.0448 --rho  0.6896 --ants 9 --rasranks 34 --nnls 26 --dlb 1,True
+612,476,34,acs,3,2.2971,5.6482,0.3222,10,0.7183,,,12,1, --acs --localsearch 3 --alpha 2.2971 --beta 5.6482 --rho  0.3222 --ants 10 --q0 0.7183 --nnls 12 --dlb 1,True
+613,283,30,ras,3,3.3485,1.5464,0.597,30,,13,,32,1, --ras --localsearch 3 --alpha 3.3485 --beta 1.5464 --rho  0.597 --ants 30 --rasranks 13 --nnls 32 --dlb 1,True
+614,438,31,ras,3,2.2986,3.8196,0.3772,18,,30,,32,0, --ras --localsearch 3 --alpha 2.2986 --beta 3.8196 --rho  0.3772 --ants 18 --rasranks 30 --nnls 32 --dlb 0,True
+615,476,34,acs,3,2.4235,6.9774,0.307,15,0.7748,,,13,1, --acs --localsearch 3 --alpha 2.4235 --beta 6.9774 --rho  0.307 --ants 15 --q0 0.7748 --nnls 13 --dlb 1,True
+616,438,31,ras,3,0.9911,0.1881,0.4165,10,,20,,24,1, --ras --localsearch 3 --alpha 0.9911 --beta 0.1881 --rho  0.4165 --ants 10 --rasranks 20 --nnls 24 --dlb 1,True
+617,483,19,as,3,4.4762,7.2347,0.6972,10,,,,22,1, --as --localsearch 3 --alpha 4.4762 --beta 7.2347 --rho  0.6972 --ants 10 --nnls 22 --dlb 1,True
+618,495,22,acs,1,3.0553,5.4466,0.145,5,0.593,,,15,1, --acs --localsearch 1 --alpha 3.0553 --beta 5.4466 --rho  0.145 --ants 5 --q0 0.593 --nnls 15 --dlb 1,True
+619,476,34,acs,1,3.2703,6.6266,0.2316,16,0.7315,,,10,0, --acs --localsearch 1 --alpha 3.2703 --beta 6.6266 --rho  0.2316 --ants 16 --q0 0.7315 --nnls 10 --dlb 0,True
+620,476,34,acs,3,3.2082,7.4099,0.2344,10,0.6151,,,12,1, --acs --localsearch 3 --alpha 3.2082 --beta 7.4099 --rho  0.2344 --ants 10 --q0 0.6151 --nnls 12 --dlb 1,True
+621,493,22,acs,3,2.3684,7.0785,0.2543,30,0.6881,,,11,1, --acs --localsearch 3 --alpha 2.3684 --beta 7.0785 --rho  0.2543 --ants 30 --q0 0.6881 --nnls 11 --dlb 1,True
+622,483,19,acs,3,2.8006,6.278,0.6281,6,0.2904,,,33,1, --acs --localsearch 3 --alpha 2.8006 --beta 6.278 --rho  0.6281 --ants 6 --q0 0.2904 --nnls 33 --dlb 1,True
+623,483,19,eas,3,4.1229,4.6585,0.8171,6,,,269,21,1, --eas --localsearch 3 --alpha 4.1229 --beta 4.6585 --rho  0.8171 --ants 6 --elitistants 269 --nnls 21 --dlb 1,True
+624,493,22,acs,3,1.7292,5.0189,0.1686,40,0.7559,,,5,1, --acs --localsearch 3 --alpha 1.7292 --beta 5.0189 --rho  0.1686 --ants 40 --q0 0.7559 --nnls 5 --dlb 1,True
+625,493,22,acs,3,2.7362,7.6201,0.154,22,0.4481,,,6,1, --acs --localsearch 3 --alpha 2.7362 --beta 7.6201 --rho  0.154 --ants 22 --q0 0.4481 --nnls 6 --dlb 1,True
+626,483,19,ras,3,4.1679,7.1198,0.8238,23,,6,,31,1, --ras --localsearch 3 --alpha 4.1679 --beta 7.1198 --rho  0.8238 --ants 23 --rasranks 6 --nnls 31 --dlb 1,True
+627,483,19,ras,3,3.2445,4.7238,0.9639,26,,11,,36,1, --ras --localsearch 3 --alpha 3.2445 --beta 4.7238 --rho  0.9639 --ants 26 --rasranks 11 --nnls 36 --dlb 1,True
+628,283,30,ras,3,3.6219,2.2582,0.5886,36,,12,,32,1, --ras --localsearch 3 --alpha 3.6219 --beta 2.2582 --rho  0.5886 --ants 36 --rasranks 12 --nnls 32 --dlb 1,True
+629,549,19,eas,3,4.0367,7.5126,0.7804,39,,,342,14,1, --eas --localsearch 3 --alpha 4.0367 --beta 7.5126 --rho  0.7804 --ants 39 --elitistants 342 --nnls 14 --dlb 1,True
+630,549,19,as,2,4.6399,5.9836,0.8756,24,,,,16,1, --as --localsearch 2 --alpha 4.6399 --beta 5.9836 --rho  0.8756 --ants 24 --nnls 16 --dlb 1,True
+631,559,22,acs,3,3.373,6.5856,0.4707,16,0.5342,,,12,1, --acs --localsearch 3 --alpha 3.373 --beta 6.5856 --rho  0.4707 --ants 16 --q0 0.5342 --nnls 12 --dlb 1,True
+632,559,22,acs,3,2.3918,8.463,0.3351,15,0.8295,,,11,1, --acs --localsearch 3 --alpha 2.3918 --beta 8.463 --rho  0.3351 --ants 15 --q0 0.8295 --nnls 11 --dlb 1,True
+633,549,19,ras,0,3.4745,4.8459,0.7825,33,,14,,,, --ras --localsearch 0 --alpha 3.4745 --beta 4.8459 --rho  0.7825 --ants 33 --rasranks 14,True
+634,495,35,acs,0,2.4009,6.4702,0.112,41,0.6765,,,,, --acs --localsearch 0 --alpha 2.4009 --beta 6.4702 --rho  0.112 --ants 41 --q0 0.6765,True
+635,549,38,ras,3,4.7793,5.2141,0.6967,17,,6,,20,1, --ras --localsearch 3 --alpha 4.7793 --beta 5.2141 --rho  0.6967 --ants 17 --rasranks 6 --nnls 20 --dlb 1,True
+636,495,35,acs,3,2.7463,6.8375,0.0891,31,0.5874,,,16,1, --acs --localsearch 3 --alpha 2.7463 --beta 6.8375 --rho  0.0891 --ants 31 --q0 0.5874 --nnls 16 --dlb 1,True
+637,549,38,ras,3,4.4339,6.285,0.6524,36,,26,,21,1, --ras --localsearch 3 --alpha 4.4339 --beta 6.285 --rho  0.6524 --ants 36 --rasranks 26 --nnls 21 --dlb 1,True
+638,559,22,acs,3,3.2931,6.1113,0.4418,11,0.7069,,,14,1, --acs --localsearch 3 --alpha 3.2931 --beta 6.1113 --rho  0.4418 --ants 11 --q0 0.7069 --nnls 14 --dlb 1,True
+639,283,36,ras,3,3.7462,1.7771,0.5941,36,,14,,30,1, --ras --localsearch 3 --alpha 3.7462 --beta 1.7771 --rho  0.5941 --ants 36 --rasranks 14 --nnls 30 --dlb 1,True
+640,565,26,ras,3,2.8306,2.85,0.5864,19,,14,,34,1, --ras --localsearch 3 --alpha 2.8306 --beta 2.85 --rho  0.5864 --ants 19 --rasranks 14 --nnls 34 --dlb 1,True
+641,559,22,acs,1,3.6824,7.1113,0.4139,17,0.5851,,,14,1, --acs --localsearch 1 --alpha 3.6824 --beta 7.1113 --rho  0.4139 --ants 17 --q0 0.5851 --nnls 14 --dlb 1,True
+642,283,36,ras,3,4.0164,1.3154,0.5946,36,,10,,33,1, --ras --localsearch 3 --alpha 4.0164 --beta 1.3154 --rho  0.5946 --ants 36 --rasranks 10 --nnls 33 --dlb 1,True
+643,493,22,acs,3,2.8576,7.1433,0.2296,36,0.6597,,,13,0, --acs --localsearch 3 --alpha 2.8576 --beta 7.1433 --rho  0.2296 --ants 36 --q0 0.6597 --nnls 13 --dlb 0,True
+644,549,38,ras,3,4.7397,7.9149,0.7176,9,,14,,30,1, --ras --localsearch 3 --alpha 4.7397 --beta 7.9149 --rho  0.7176 --ants 9 --rasranks 14 --nnls 30 --dlb 1,True
+645,495,35,acs,3,3.1385,5.5314,0.1486,22,0.612,,,11,1, --acs --localsearch 3 --alpha 3.1385 --beta 5.5314 --rho  0.1486 --ants 22 --q0 0.612 --nnls 11 --dlb 1,True
+646,493,22,as,3,2.4249,5.1535,0.1,36,,,,13,1, --as --localsearch 3 --alpha 2.4249 --beta 5.1535 --rho  0.1 --ants 36 --nnls 13 --dlb 1,True
+647,559,22,acs,3,3.2867,7.5311,0.3053,19,0.5892,,,9,0, --acs --localsearch 3 --alpha 3.2867 --beta 7.5311 --rho  0.3053 --ants 19 --q0 0.5892 --nnls 9 --dlb 0,True
+648,495,35,acs,3,2.8861,5.4653,0.0142,20,0.6449,,,11,1, --acs --localsearch 3 --alpha 2.8861 --beta 5.4653 --rho  0.0142 --ants 20 --q0 0.6449 --nnls 11 --dlb 1,True
+649,495,35,acs,3,3.2821,5.6927,0.0829,27,0.6841,,,9,1, --acs --localsearch 3 --alpha 3.2821 --beta 5.6927 --rho  0.0829 --ants 27 --q0 0.6841 --nnls 9 --dlb 1,True
+650,283,36,ras,3,3.4183,2.0762,0.5925,38,,9,,32,1, --ras --localsearch 3 --alpha 3.4183 --beta 2.0762 --rho  0.5925 --ants 38 --rasranks 9 --nnls 32 --dlb 1,True
+651,588,34,acs,3,4.1023,7.2852,0.3537,18,0.6482,,,10,1, --acs --localsearch 3 --alpha 4.1023 --beta 7.2852 --rho  0.3537 --ants 18 --q0 0.6482 --nnls 10 --dlb 1,True
+652,559,22,acs,3,3.0301,6.8249,0.3063,29,0.4417,,,18,1, --acs --localsearch 3 --alpha 3.0301 --beta 6.8249 --rho  0.3063 --ants 29 --q0 0.4417 --nnls 18 --dlb 1,True
+653,565,26,ras,3,2.9412,2.5462,0.5567,21,,21,,24,1, --ras --localsearch 3 --alpha 2.9412 --beta 2.5462 --rho  0.5567 --ants 21 --rasranks 21 --nnls 24 --dlb 1,True
+654,559,22,acs,3,2.3828,8.7436,0.418,12,0.5579,,,11,1, --acs --localsearch 3 --alpha 2.3828 --beta 8.7436 --rho  0.418 --ants 12 --q0 0.5579 --nnls 11 --dlb 1,True
+655,493,22,acs,3,2.3223,5.2283,0.1893,25,0.5568,,,16,1, --acs --localsearch 3 --alpha 2.3223 --beta 5.2283 --rho  0.1893 --ants 25 --q0 0.5568 --nnls 16 --dlb 1,True
+656,588,34,acs,3,3.5266,6.301,0.4652,16,0.713,,,15,1, --acs --localsearch 3 --alpha 3.5266 --beta 6.301 --rho  0.4652 --ants 16 --q0 0.713 --nnls 15 --dlb 1,True
+657,588,34,acs,3,2.7735,7.1118,0.3009,22,0.7949,,,17,1, --acs --localsearch 3 --alpha 2.7735 --beta 7.1118 --rho  0.3009 --ants 22 --q0 0.7949 --nnls 17 --dlb 1,True
+658,559,22,acs,1,3.166,7.88,0.6576,15,0.5447,,,9,1, --acs --localsearch 1 --alpha 3.166 --beta 7.88 --rho  0.6576 --ants 15 --q0 0.5447 --nnls 9 --dlb 1,True
+659,612,34,acs,3,1.816,6.1151,0.2379,7,0.6471,,,7,1, --acs --localsearch 3 --alpha 1.816 --beta 6.1151 --rho  0.2379 --ants 7 --q0 0.6471 --nnls 7 --dlb 1,True
+660,588,34,acs,3,2.8119,5.7629,0.3567,22,0.7147,,,11,1, --acs --localsearch 3 --alpha 2.8119 --beta 5.7629 --rho  0.3567 --ants 22 --q0 0.7147 --nnls 11 --dlb 1,True
+661,283,36,ras,3,3.5662,2.6469,0.6116,35,,15,,29,1, --ras --localsearch 3 --alpha 3.5662 --beta 2.6469 --rho  0.6116 --ants 35 --rasranks 15 --nnls 29 --dlb 1,True
+662,283,36,ras,3,3.5029,1.4366,0.5569,36,,17,,31,1, --ras --localsearch 3 --alpha 3.5029 --beta 1.4366 --rho  0.5569 --ants 36 --rasranks 17 --nnls 31 --dlb 1,True
+663,588,34,acs,3,3.6438,8.1973,0.2482,22,0.7446,,,13,1, --acs --localsearch 3 --alpha 3.6438 --beta 8.1973 --rho  0.2482 --ants 22 --q0 0.7446 --nnls 13 --dlb 1,True
+664,495,35,acs,3,2.6461,3.9756,0.0434,32,0.6204,,,11,1, --acs --localsearch 3 --alpha 2.6461 --beta 3.9756 --rho  0.0434 --ants 32 --q0 0.6204 --nnls 11 --dlb 1,True
+665,495,35,acs,3,2.3505,8.2946,0.0954,25,0.6996,,,7,0, --acs --localsearch 3 --alpha 2.3505 --beta 8.2946 --rho  0.0954 --ants 25 --q0 0.6996 --nnls 7 --dlb 0,True
+666,283,36,ras,3,3.8463,1.9824,0.5997,39,,12,,30,1, --ras --localsearch 3 --alpha 3.8463 --beta 1.9824 --rho  0.5997 --ants 39 --rasranks 12 --nnls 30 --dlb 1,True
+667,588,34,acs,3,3.3499,5.9884,0.3049,17,0.6819,,,13,1, --acs --localsearch 3 --alpha 3.3499 --beta 5.9884 --rho  0.3049 --ants 17 --q0 0.6819 --nnls 13 --dlb 1,True
+668,559,22,acs,3,2.7968,4.9967,0.2579,10,0.6433,,,14,1, --acs --localsearch 3 --alpha 2.7968 --beta 4.9967 --rho  0.2579 --ants 10 --q0 0.6433 --nnls 14 --dlb 1,True
+669,495,35,acs,3,2.6032,7.4505,0.0566,24,0.6725,,,17,1, --acs --localsearch 3 --alpha 2.6032 --beta 7.4505 --rho  0.0566 --ants 24 --q0 0.6725 --nnls 17 --dlb 1,True
+670,559,22,acs,3,2.6504,9.433,0.3795,24,0.6093,,,11,1, --acs --localsearch 3 --alpha 2.6504 --beta 9.433 --rho  0.3795 --ants 24 --q0 0.6093 --nnls 11 --dlb 1,True
+671,559,22,acs,3,3.0859,7.3929,0.402,14,0.636,,,16,1, --acs --localsearch 3 --alpha 3.0859 --beta 7.3929 --rho  0.402 --ants 14 --q0 0.636 --nnls 16 --dlb 1,True
+672,493,22,acs,3,2.2719,6.6991,0.1589,13,0.6219,,,7,0, --acs --localsearch 3 --alpha 2.2719 --beta 6.6991 --rho  0.1589 --ants 13 --q0 0.6219 --nnls 7 --dlb 0,True
+673,495,35,acs,3,2.7602,5.7106,0.0153,23,0.823,,,11,1, --acs --localsearch 3 --alpha 2.7602 --beta 5.7106 --rho  0.0153 --ants 23 --q0 0.823 --nnls 11 --dlb 1,True
+674,559,22,acs,3,2.7816,7.1165,0.3708,10,0.7066,,,9,0, --acs --localsearch 3 --alpha 2.7816 --beta 7.1165 --rho  0.3708 --ants 10 --q0 0.7066 --nnls 9 --dlb 0,True
+675,612,34,acs,3,2.0551,7.2331,0.2189,10,0.8165,,,11,1, --acs --localsearch 3 --alpha 2.0551 --beta 7.2331 --rho  0.2189 --ants 10 --q0 0.8165 --nnls 11 --dlb 1,True
+676,559,22,acs,1,2.3429,8.2202,0.465,18,0.6218,,,11,1, --acs --localsearch 1 --alpha 2.3429 --beta 8.2202 --rho  0.465 --ants 18 --q0 0.6218 --nnls 11 --dlb 1,True
+677,283,36,ras,3,3.375,2.0054,0.6457,41,,12,,33,1, --ras --localsearch 3 --alpha 3.375 --beta 2.0054 --rho  0.6457 --ants 41 --rasranks 12 --nnls 33 --dlb 1,True
+678,612,34,acs,3,1.7361,5.7004,0.3709,12,0.6992,,,13,1, --acs --localsearch 3 --alpha 1.7361 --beta 5.7004 --rho  0.3709 --ants 12 --q0 0.6992 --nnls 13 --dlb 1,True
+679,559,22,acs,3,2.825,6.4349,0.3946,13,0.7227,,,13,0, --acs --localsearch 3 --alpha 2.825 --beta 6.4349 --rho  0.3946 --ants 13 --q0 0.7227 --nnls 13 --dlb 0,True
+680,559,22,acs,3,2.6787,7.0448,0.4867,25,0.5228,,,22,1, --acs --localsearch 3 --alpha 2.6787 --beta 7.0448 --rho  0.4867 --ants 25 --q0 0.5228 --nnls 22 --dlb 1,True
+681,493,22,acs,3,2.5751,7.3472,0.1238,24,0.7452,,,19,1, --acs --localsearch 3 --alpha 2.5751 --beta 7.3472 --rho  0.1238 --ants 24 --q0 0.7452 --nnls 19 --dlb 1,True
+682,648,35,acs,3,3.2915,5.4952,0.158,17,0.5884,,,9,1, --acs --localsearch 3 --alpha 3.2915 --beta 5.4952 --rho  0.158 --ants 17 --q0 0.5884 --nnls 9 --dlb 1,True
+683,648,35,acs,3,3.0239,5.2776,0.059,23,0.5234,,,14,1, --acs --localsearch 3 --alpha 3.0239 --beta 5.2776 --rho  0.059 --ants 23 --q0 0.5234 --nnls 14 --dlb 1,True
+684,648,35,acs,3,3.6997,4.48,0.1618,22,0.6063,,,10,1, --acs --localsearch 3 --alpha 3.6997 --beta 4.48 --rho  0.1618 --ants 22 --q0 0.6063 --nnls 10 --dlb 1,True
+685,493,40,acs,3,2.9208,7.115,0.131,39,0.3134,,,8,1, --acs --localsearch 3 --alpha 2.9208 --beta 7.115 --rho  0.131 --ants 39 --q0 0.3134 --nnls 8 --dlb 1,True
+686,661,36,ras,3,4.0271,3.2745,0.6437,37,,17,,28,1, --ras --localsearch 3 --alpha 4.0271 --beta 3.2745 --rho  0.6437 --ants 37 --rasranks 17 --nnls 28 --dlb 1,True
+687,495,39,acs,3,2.6119,6.8482,0.0799,23,0.6332,,,8,1, --acs --localsearch 3 --alpha 2.6119 --beta 6.8482 --rho  0.0799 --ants 23 --q0 0.6332 --nnls 8 --dlb 1,True
+688,648,35,acs,3,2.8168,5.8721,0.0233,19,0.6543,,,10,1, --acs --localsearch 3 --alpha 2.8168 --beta 5.8721 --rho  0.0233 --ants 19 --q0 0.6543 --nnls 10 --dlb 1,True
+689,648,35,acs,3,3.2287,4.912,0.0152,24,0.6373,,,7,1, --acs --localsearch 3 --alpha 3.2287 --beta 4.912 --rho  0.0152 --ants 24 --q0 0.6373 --nnls 7 --dlb 1,True
+690,495,39,acs,3,2.3806,6.5165,0.0145,22,0.6263,,,13,1, --acs --localsearch 3 --alpha 2.3806 --beta 6.5165 --rho  0.0145 --ants 22 --q0 0.6263 --nnls 13 --dlb 1,True
+691,612,34,acs,3,2.6101,4.091,0.2512,5,0.7581,,,14,1, --acs --localsearch 3 --alpha 2.6101 --beta 4.091 --rho  0.2512 --ants 5 --q0 0.7581 --nnls 14 --dlb 1,True
+692,493,40,acs,3,2.1624,5.9684,0.1621,26,0.4093,,,7,1, --acs --localsearch 3 --alpha 2.1624 --beta 5.9684 --rho  0.1621 --ants 26 --q0 0.4093 --nnls 7 --dlb 1,True
+693,588,41,acs,3,3.1228,6.8594,0.2882,18,0.7236,,,10,1, --acs --localsearch 3 --alpha 3.1228 --beta 6.8594 --rho  0.2882 --ants 18 --q0 0.7236 --nnls 10 --dlb 1,True
+694,648,35,acs,3,3.2242,4.5772,0.0655,15,0.6627,,,8,1, --acs --localsearch 3 --alpha 3.2242 --beta 4.5772 --rho  0.0655 --ants 15 --q0 0.6627 --nnls 8 --dlb 1,True
+695,495,39,acs,3,2.5853,6.7974,0.1059,24,0.6376,,,15,1, --acs --localsearch 3 --alpha 2.5853 --beta 6.7974 --rho  0.1059 --ants 24 --q0 0.6376 --nnls 15 --dlb 1,True
+696,661,36,ras,3,3.4019,2.5341,0.6418,27,,16,,30,1, --ras --localsearch 3 --alpha 3.4019 --beta 2.5341 --rho  0.6418 --ants 27 --rasranks 16 --nnls 30 --dlb 1,True
+697,612,34,acs,3,2.0362,4.3701,0.2555,21,0.7716,,,10,0, --acs --localsearch 3 --alpha 2.0362 --beta 4.3701 --rho  0.2555 --ants 21 --q0 0.7716 --nnls 10 --dlb 0,True
+698,493,40,acs,3,3.1668,7.7886,0.0548,24,0.7084,,,9,1, --acs --localsearch 3 --alpha 3.1668 --beta 7.7886 --rho  0.0548 --ants 24 --q0 0.7084 --nnls 9 --dlb 1,True
+699,495,39,acs,3,2.8211,6.3016,0.0541,19,0.7337,,,14,1, --acs --localsearch 3 --alpha 2.8211 --beta 6.3016 --rho  0.0541 --ants 19 --q0 0.7337 --nnls 14 --dlb 1,True
+700,648,35,acs,3,3.0232,5.9976,0.0559,18,0.752,,,6,1, --acs --localsearch 3 --alpha 3.0232 --beta 5.9976 --rho  0.0559 --ants 18 --q0 0.752 --nnls 6 --dlb 1,True
+701,493,40,acs,3,2.8987,6.3815,0.2091,23,0.4042,,,12,1, --acs --localsearch 3 --alpha 2.8987 --beta 6.3815 --rho  0.2091 --ants 23 --q0 0.4042 --nnls 12 --dlb 1,True
+702,493,40,acs,3,2.6995,6.7162,0.2101,46,0.7119,,,14,1, --acs --localsearch 3 --alpha 2.6995 --beta 6.7162 --rho  0.2101 --ants 46 --q0 0.7119 --nnls 14 --dlb 1,True
+703,661,36,ras,3,3.4881,2.2914,0.5576,39,,23,,30,1, --ras --localsearch 3 --alpha 3.4881 --beta 2.2914 --rho  0.5576 --ants 39 --rasranks 23 --nnls 30 --dlb 1,True
+704,493,40,acs,3,2.6361,6.5292,0.1394,26,0.5201,,,8,1, --acs --localsearch 3 --alpha 2.6361 --beta 6.5292 --rho  0.1394 --ants 26 --q0 0.5201 --nnls 8 --dlb 1,True
+705,648,35,acs,3,3.1602,6.1319,0.052,23,0.5409,,,15,1, --acs --localsearch 3 --alpha 3.1602 --beta 6.1319 --rho  0.052 --ants 23 --q0 0.5409 --nnls 15 --dlb 1,True
+706,648,35,acs,3,2.8705,5.1886,0.157,22,0.7155,,,14,1, --acs --localsearch 3 --alpha 2.8705 --beta 5.1886 --rho  0.157 --ants 22 --q0 0.7155 --nnls 14 --dlb 1,True
+707,493,40,acs,3,2.5858,6.5571,0.2577,28,0.473,,,7,1, --acs --localsearch 3 --alpha 2.5858 --beta 6.5571 --rho  0.2577 --ants 28 --q0 0.473 --nnls 7 --dlb 1,True
+708,661,36,ras,3,3.3755,3.05,0.5999,32,,14,,29,1, --ras --localsearch 3 --alpha 3.3755 --beta 3.05 --rho  0.5999 --ants 32 --rasranks 14 --nnls 29 --dlb 1,True
+709,648,35,acs,3,2.8104,5.7094,0.1026,23,0.7644,,,9,1, --acs --localsearch 3 --alpha 2.8104 --beta 5.7094 --rho  0.1026 --ants 23 --q0 0.7644 --nnls 9 --dlb 1,True
+710,493,40,acs,3,2.1972,5.5179,0.1896,38,0.5235,,,9,1, --acs --localsearch 3 --alpha 2.1972 --beta 5.5179 --rho  0.1896 --ants 38 --q0 0.5235 --nnls 9 --dlb 1,True
+711,588,41,acs,3,3.0551,6.6871,0.2864,16,0.595,,,17,1, --acs --localsearch 3 --alpha 3.0551 --beta 6.6871 --rho  0.2864 --ants 16 --q0 0.595 --nnls 17 --dlb 1,True
+712,588,41,acs,3,3.5739,6.4268,0.3396,13,0.7218,,,15,1, --acs --localsearch 3 --alpha 3.5739 --beta 6.4268 --rho  0.3396 --ants 13 --q0 0.7218 --nnls 15 --dlb 1,True
+713,495,39,acs,3,2.6423,6.3229,0.1001,21,0.7261,,,11,1, --acs --localsearch 3 --alpha 2.6423 --beta 6.3229 --rho  0.1001 --ants 21 --q0 0.7261 --nnls 11 --dlb 1,True
+714,493,40,acs,3,2.0283,6.3965,0.139,33,0.5179,,,10,1, --acs --localsearch 3 --alpha 2.0283 --beta 6.3965 --rho  0.139 --ants 33 --q0 0.5179 --nnls 10 --dlb 1,True
+715,648,35,acs,3,2.8701,5.1652,0.0227,20,0.7409,,,12,1, --acs --localsearch 3 --alpha 2.8701 --beta 5.1652 --rho  0.0227 --ants 20 --q0 0.7409 --nnls 12 --dlb 1,True
+716,495,39,acs,3,2.3758,6.0318,0.1881,35,0.7254,,,14,1, --acs --localsearch 3 --alpha 2.3758 --beta 6.0318 --rho  0.1881 --ants 35 --q0 0.7254 --nnls 14 --dlb 1,True
+717,631,22,acs,3,3.8889,5.146,0.4744,14,0.6429,,,8,1, --acs --localsearch 3 --alpha 3.8889 --beta 5.146 --rho  0.4744 --ants 14 --q0 0.6429 --nnls 8 --dlb 1,True

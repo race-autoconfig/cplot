@@ -1,0 +1,15 @@
+2025-10-16 22:23:37,614 - Using selector: EpollSelector
+2025-10-16 22:23:37,617 - Ensured asynchronous_race future
+2025-10-17 02:31:33,479 - asynchronous_race future is complete
+2025-10-17 02:31:33,480 - Requesting stop of execution
+2025-10-17 02:31:58,579 - Execution stopped
+2025-10-17 02:31:58,602 - do_test
+2025-10-17 02:31:58,602 - do_test: ensured future
+2025-10-17 02:31:58,603 - execute_test
+2025-10-17 02:31:58,603 - _add_experiments: called
+2025-10-17 02:32:06,780 - _add_experiments: finished
+2025-10-17 02:32:06,781 - execute_test: Before await
+2025-10-17 02:42:28,970 - do_test: future is complete
+2025-10-17 02:42:28,970 - finished
+2025-10-17 02:42:28,970 - do_test: requesting stop
+2025-10-17 02:42:28,971 - do_test: stopped

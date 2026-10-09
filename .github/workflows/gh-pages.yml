@@ -31,7 +31,7 @@ on:
     paths:
       - "docs/**"
       - "README.md"
-      - "craceplot/_vignettes/guide.ipynb"
+      # - "craceplot/vignettes/guide.ipynb"
   workflow_dispatch:
 
 permissions:
@@ -89,10 +89,15 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
+      - name: Install package
         if: steps.changes.outputs.changed == 'true'
         run: |
           pip install --upgrade pip
+          pip install .
+
+      - name: Install dependencies
+        if: steps.changes.outputs.changed == 'true'
+        run: |
           pip install -r docs/requirements.txt
 
       - name: Build docs
@@ -100,14 +105,14 @@ jobs:
         run: |
           jupyter-book build docs
 
-      - name: Convert guide notebook to HTML
-        run: |
-          jupyter nbconvert \
-            --to html \
-            --template lab \
-            --output guide.html \
-            --output-dir docs/_build/html \
-            craceplot/_vignettes/guide.ipynb
+      # - name: Convert guide notebook to HTML
+      #   run: |
+      #     jupyter nbconvert \
+      #       --to html \
+      #       --template lab \
+      #       --output guide.html \
+      #       --output-dir docs/_build/html \
+      #       craceplot/vignettes/guide.ipynb
 
       # - name: Add Google Verification HTML
       #   if: steps.changes.outputs.changed == 'true'

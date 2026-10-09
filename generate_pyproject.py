@@ -1,32 +1,6 @@
 #!/usr/bin/env python3
 import textwrap
 
-# === load description ===
-csd = {}
-with open("craceplot/_settings/_description.py") as f:
-    exec(f.read(), csd)
-
-# === extract ===
-package_name        = csd['package_name']
-authors             = csd['authors']
-maintainers         = csd['maintainers']
-maintainers_email   = csd['maintainers_email']
-contact             = csd['contact']
-contact_email       = csd['contact_email']
-long_description    = csd['long_description']
-description         = csd['description']
-url                 = csd['url']
-urls                = csd['urls']
-copyright           = csd['copyright']
-license             = csd['license']
-citiation           = csd['citiation']
-update_logs         = csd['update_logs']
-
-# === dependencies ===
-dependencies = [
-        "pandas>=1.0.5",
-    ]
-
 # === formats ===
 def format_people(lst1, lst2=None, lab1=False):
     """
@@ -78,6 +52,51 @@ def format_urls(urls):
     return "\n".join(out)
 
 
+def main():
+    # === write ===
+    with open("pyproject.toml", "w") as f:
+        f.write(textwrap.dedent(content).strip() + "\n")
+    print("pyproject.toml generated")
+
+
+
+# === load description ===
+csd = {}
+with open("craceplot/settings/description.py") as f:
+    exec(f.read(), csd)
+
+# === extract ===
+package_name        = csd['package_name']
+authors             = csd['authors']
+maintainers         = csd['maintainers']
+maintainers_email   = csd['maintainers_email']
+contact             = csd['contact']
+contact_email       = csd['contact_email']
+long_description    = csd['long_description']
+description         = csd['description']
+url                 = csd['url']
+urls                = csd['urls']
+copyright           = csd['copyright']
+license             = csd['license']
+citiation           = csd['citiation']
+update_logs         = csd['update_logs']
+
+# === dependencies ===
+dependencies = [
+        "crace>=0.1.0",
+        "matplotlib>=3.3.4",
+        "numpy>=1.19.5",
+        "pandas>=1.0.5",
+        "plotly>=5.0.0",
+        "scikit-learn>=0.24.2",
+        "scikit_posthocs>=0.6.7",
+        "scipy>=1.5.4",
+        "seaborn>=0.11.0",
+        "statannotations>=0.5.0",
+        "statsmodels>=0.12.2",
+    ]
+
+
 # === block ===
 authors_block = format_people(lst1=authors)
 maintainers_block = format_people(lst1=maintainers, lst2=maintainers_email, lab1=True)
@@ -104,8 +123,8 @@ authors = {authors_block}
 maintainers = {maintainers_block}
 readme = {{ file = "README.md", content-type = "text/markdown" }}
 
-license = "MIT"
-license-files = ["LICENSE.md"]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 classifiers = [
   "Intended Audience :: Developers",
@@ -131,7 +150,7 @@ dependencies = {deps_block}
 {urls_block}
 
 [project.scripts]
-craceplot = "craceplot._scripts:start_cplot"
+craceplot = "craceplot.scripts:start_cplot"
 
 [tool.setuptools]
 packages = {{ find = {{}} }}
@@ -139,9 +158,9 @@ include-package-data = true
 
 [tool.setuptools.package-data]
 craceplot = [
-  "_core/*",
-  "_plot/*",
-  "_inst/*",
+  "core/**",
+  "plot/**",
+  "inst/**",
 ]
 
 [tool.setuptools_scm]
@@ -150,12 +169,6 @@ write_to = "craceplot/_version.py"
 fallback_version = "{csd['_VERSION']}"
 
 """
-
-def main():
-    # === write ===
-    with open("pyproject.toml", "w") as f:
-        f.write(textwrap.dedent(content).strip() + "\n")
-    print("pyproject.toml generated")
 
 if __name__ == "__main__":
     main()
